@@ -25,10 +25,9 @@ paragraph explicitly requires a limited interpretation.
 
 Lead with the scientific interpretation, then connect it to concrete evidence
 and relevant literature. Build an evidence chain when the mechanism is not
-diagnosed by one indicator alone. Treat different mechanisms in the literature
-as background unless the author decision gate in the main skill is triggered;
-in that case, pause the affected interpretation and ask the author before
-writing the comparison. Compress routine caveats.
+diagnosed by one indicator alone. Handle another proposed mechanism through the
+[author decision rule](evidence-and-citations.md#author-decision-rule-for-competing-mechanisms).
+Compress routine caveats.
 
 ## Conclusions
 

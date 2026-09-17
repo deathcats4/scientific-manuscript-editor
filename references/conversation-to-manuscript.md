@@ -102,8 +102,9 @@ First answer the concern in the collaboration space using the available
 evidence. Then return to the selected manuscript function. Do not treat the
 act of explaining a concern as evidence that the concern belongs in the paper.
 If resolving it would require choosing between genuinely competing mechanisms,
-use the author decision gate in the main Skill and pause only the affected
-content.
+use the
+[author decision rule](evidence-and-citations.md#author-decision-rule-for-competing-mechanisms)
+and pause only the affected content.
 
 ## Final separation check
 

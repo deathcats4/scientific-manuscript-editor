@@ -25,17 +25,14 @@ Prefer a direct, evidence-linked statement over a sequence of assurances,
 imagined rebuttals, or generic warnings. Do not manufacture a stronger claim in
 order to rebut it. Preserve a limitation or negative result when it changes the
 meaning or scope of the central conclusion. A different model becomes a
-manuscript issue only through the author decision gate in the main skill; do not
-add it merely because a cited paper uses a different explanation.
+manuscript issue only through the
+[author decision rule](evidence-and-citations.md#author-decision-rule-for-competing-mechanisms).
 
-For any proposed caveat, apply the claim-first evidential discipline in
-[evidence-and-citations.md](evidence-and-citations.md): first make the claim
-itself accurate in subject, range, causality, and certainty. Keep a separate
-limitation only when that calibrated claim would still materially mislead the
-reader without it. At the same time, retain the inferential steps needed to show
-why the evidence supports the interpretation. Confidence comes from a complete
-argument with bounded claims, not from either unexplained leaps or repeated
-self-protection.
+For any proposed caveat, apply the
+[claim-first evidential discipline](evidence-and-citations.md#claim-first-evidential-discipline).
+At the same time, retain the inferential steps needed to show why the evidence
+supports the interpretation. Confidence comes from a complete argument with
+bounded claims, not from either unexplained leaps or repeated self-protection.
 
 ## English and Chinese–English transfer
 

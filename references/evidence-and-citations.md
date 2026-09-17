@@ -69,7 +69,7 @@ that it supports the specific statement. Otherwise use `support not verified`
 and tell the author what needs checking. Never create a citation, DOI, number,
 or mechanism from memory or a title alone.
 
-## Competing mechanisms and author control
+## Author decision rule for competing mechanisms
 
 The manuscript does not need to enumerate every mechanism that could exist in
 the field. A cited paper with a different mechanism is normally background,
@@ -77,9 +77,10 @@ parallel evidence, or a study of a different system. The task is to state the
 explanation supported by the current evidence, not to prove that it is the only
 possible explanation.
 
-Treat another mechanism as a competing interpretation only when it concerns the
-same core phenomenon under comparable conditions, can plausibly explain the
-supplied observations, and would change the central interpretation, causal
+Apply this rule whenever a source, reviewer comment, or project record raises
+another mechanism. Treat it as a competing interpretation only when it concerns
+the same core phenomenon under comparable conditions, can plausibly explain
+the supplied observations, and would change the central interpretation, causal
 claim, scope, or conclusion. This is an author decision, not an automatic
 rewriting decision. When that threshold may be met, pause the affected rewrite
 and ask the author whether and how the comparison should enter the manuscript.
@@ -93,4 +94,4 @@ For an important mechanism, use independent evidence types where available:
 group or system patterns, local or microscopic observations, time-series or
 tracer measurements, structural or process observations, and relevant context.
 Do not turn this check into a requirement to list alternative explanations. Only
-raise a competing mechanism through the author decision gate above.
+raise a competing mechanism through the author decision rule above.

@@ -97,40 +97,9 @@ passage lacks; do not average several prose styles into a generic voice.
 Keep source-specific claims and mechanisms separate. A source's reasoning move
 can be mapped only when the author's own evidence supports the corresponding
 step. If several sources offer incompatible scientific frameworks and choosing
-one would change the author's interpretation, use the author decision gate. A
-request to imitate their exposition alone does not trigger that gate.
-
-## Default treatment of different mechanisms
-
-A paper proposing a different mechanism is normally background, a parallel
-explanation, or a study of another system. Do not turn it into a rebuttal or a
-mechanism survey merely because it was read. The manuscript may state the
-explanation supported by its own evidence without proving that no other
-mechanism exists.
-
-## Author decision gate
-
-Pause the affected interpretation and ask the author before writing a comparison
-or changing the framework only if all three conditions appear to hold:
-
-1. The source addresses the same core phenomenon under genuinely comparable
-   objects and conditions.
-2. Its mechanism can plausibly account for the supplied observations.
-3. Choosing between the mechanisms would change the manuscript's central
-   interpretation, causal relationship, scope, or conclusion.
-
-When pausing, give the author four concrete items:
-
-- what the source claims;
-- what the manuscript currently claims;
-- why the two may be in real tension;
-- which sentence, mechanism, or scope decision would be affected.
-
-Ask whether the author wants the source treated as background, a parallel
-interpretation, or a substantive comparison. Until the author answers, do not
-add a rebuttal, select a mechanism, weaken the current explanation, or expand
-the discussion. Continue unrelated language edits that do not depend on this
-choice.
+one would change the author's interpretation, use the
+[author decision rule](evidence-and-citations.md#author-decision-rule-for-competing-mechanisms).
+A request to imitate their exposition alone does not trigger that rule.
 
 ## Completion rule
 

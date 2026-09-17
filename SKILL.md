@@ -40,7 +40,8 @@ Identify the operation and requested scope before editing:
 Load the relevant reference only when the route needs it:
 
 - Section-specific handling → [section-playbooks.md](references/section-playbooks.md)
-- Observation, interpretation, implication, claim strength, or citations →
+- Observation, interpretation, implication, claim strength, citations, or a
+  potentially competing mechanism →
   [evidence-and-citations.md](references/evidence-and-citations.md)
 - A user-supplied paper to read, cite, or borrow from →
   [reference-use.md](references/reference-use.md)
@@ -51,7 +52,7 @@ Load the relevant reference only when the route needs it:
   records → [context-reconstruction.md](references/context-reconstruction.md)
 - AI-like phrasing, defensive prose, English style, or Chinese–English transfer
   → [language-and-style.md](references/language-and-style.md)
-- Output format or an explicit “只给修改稿” request →
+- Output format, progressive author review, or an explicit “只给修改稿” request →
   [output-contracts.md](references/output-contracts.md)
 
 ## Working protocol
@@ -70,37 +71,46 @@ Load the relevant reference only when the route needs it:
    project history, reconstruct the clean current state with
    [context-reconstruction.md](references/context-reconstruction.md) before
    building the manuscript basis.
-3. **Complete the inference chain.** Before compressing, trace how each central
-   conclusion follows from the supplied material: observation or result →
-   immediate scientific meaning → necessary intermediate inference → mechanism
-   or interpretation → implication. Use only the links the paragraph actually
-   needs, but make every required link legible. When the user supplies a paper
-   as a model of reasoning or prose, preserve its useful rhetorical scaffold at
-   sentence and clause level rather than merely abstracting its general logic;
-   follow [reference-use.md](references/reference-use.md).
-4. **Draft to the scientific need.** Preserve sound text when the problem is
-   local and rewrite fully when structure or logic requires it. Match the
-   surrounding manuscript, intended expert reader, and requested source model.
-   When close imitation is requested, produce the structurally faithful draft
-   before applying any independent stylistic optimization.
-   Prefer direct sentences, but never use brevity as a reason to replace an
-   argument with shorthand. Edit amplitude and explanation density follow the
-   scientific task, not a default preference for minimal changes or short prose.
+3. **Build or preserve the inference chain according to the operation.** For
+   drafting, substantive rewriting, or logic repair, first trace how each
+   central conclusion follows from the supplied material: observation or result
+   → immediate scientific meaning → necessary intermediate inference →
+   mechanism or interpretation → implication. Use only the links the paragraph
+   actually needs, but make every required link legible. For language polishing
+   of scientifically settled text, preserve the author's existing reasoning and
+   repair its expression locally; do not reopen or expand the argument unless
+   the user asks for that work or a missing premise materially breaks it. When
+   the user supplies a paper as a model of reasoning or prose, preserve its
+   useful rhetorical scaffold at sentence and clause level rather than merely
+   abstracting its general logic; follow
+   [reference-use.md](references/reference-use.md).
+4. **Match edit amplitude to the operation.** When the author has settled the
+   scientific meaning and asks for polishing, make the minimum changes needed
+   for accuracy, clarity, flow, and the requested style. Preserve sound wording,
+   structure, emphasis, terminology, and citation placement; a local problem
+   receives a local repair. When drafting new prose or when the user authorizes
+   substantive rewriting, write to the scientific need and rewrite fully when
+   the argument or structure requires it. Match the surrounding manuscript,
+   intended expert reader, and requested source model. When close imitation is
+   requested, produce the structurally faithful draft before applying any
+   independent stylistic optimization. Prefer direct sentences, but never use
+   brevity as a reason to replace an argument with shorthand.
 5. **Make the evidence boundaries visible in the claim.** Put concrete objects,
    results, inferential links, and the author's judgment near each other. Keep
    observation, interpretation, and implication distinct, and set claim
    strength through subject, temporal and spatial range, causal language, and
    certainty. Add a separate limitation only when claim calibration cannot make
    the sentence accurate or omission would materially mislead the reader.
-   A different mechanism in a cited paper is normally background or a parallel
-   explanation, not a problem that the manuscript must rebut. When the user
-   supplies a paper to read or borrow from, first identify whether the requested
-   borrowing concerns facts, terminology, evidence, structure, wording,
+   When the user supplies a paper to read or borrow from, first identify whether
+   the requested borrowing concerns facts, terminology, evidence, structure, wording,
    argumentation pattern, mechanism, or a theoretical framework. If the user
    wants to learn how a source develops an inference, let that source set the
    needed reasoning granularity instead of collapsing the paragraph to the
    editor's default concise style. Follow the reference-use protocol before
-   incorporating it.
+   incorporating it. When another mechanism could alter the manuscript's active
+   interpretation, apply the single author decision rule in
+   [evidence-and-citations.md](references/evidence-and-citations.md) rather than
+   introducing a comparison automatically.
 6. **Keep the prose purposeful.** Prefer direct, specific sentences. Remove
    empty significance claims, mechanical transitions, repeated conclusions,
    and reader-facing explanations that add no information. Do not turn the
@@ -123,23 +133,6 @@ Load the relevant reference only when the route needs it:
    sample/object names, terminology, citations, figure/table references,
    formulas, causal strength, and newly introduced facts. Resolve or flag every
    material failure before delivery.
-
-## Author decision gate for competing mechanisms
-
-Default to writing the author's best-supported explanation directly. Do not
-introduce a comparison with another mechanism merely because a paper mentions
-one, because the mechanism has a different name, or because the data are not a
-complete proof.
-
-Pause and ask the author before rewriting the affected interpretation only when
-all of the following appear true: the other mechanism addresses the same core
-phenomenon under genuinely comparable conditions; it can plausibly account for
-the supplied observations; and choosing between the mechanisms would change the
-paper's central interpretation, causal claim, scope, or conclusion. Until the
-author decides, report the possible conflict and the concrete reason it matters;
-do not silently add a rebuttal, downgrade the author's explanation, or choose a
-mechanism on the author's behalf. Unrelated language edits may continue when
-they do not presuppose that decision.
 
 ## Integrity boundary
 
