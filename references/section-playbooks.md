@@ -24,9 +24,12 @@ paragraph explicitly requires a limited interpretation.
 ## Discussion
 
 Lead with the scientific interpretation, then connect it to concrete evidence
-and relevant literature. Build an evidence chain when the mechanism is not
-diagnosed by one indicator alone. Handle another proposed mechanism through the
-[author decision rule](evidence-and-citations.md#author-decision-rule-for-competing-mechanisms).
+and relevant literature. Introduce a figure or table where it supports that
+interpretation. Lead with the figure itself when its pattern or construction is
+the object being analyzed; otherwise keep the paragraph from becoming an
+expanded caption. Build an evidence chain when the mechanism is not diagnosed
+by one indicator alone. Handle another proposed mechanism through the [author
+decision rule](evidence-and-citations.md#author-decision-rule-for-competing-mechanisms).
 Compress routine caveats.
 
 ## Conclusions
