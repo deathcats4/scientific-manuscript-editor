@@ -4,6 +4,16 @@ Use the playbook that matches the stated section or paragraph function. If the
 paper is not organized as IMRaD, follow the paragraph's actual function rather
 than forcing a conventional section role.
 
+At section scale, seek the strongest scientifically defensible relationship
+among paragraphs: a shared question, related subquestions, stages of a process,
+complementary evidence, comparison, scale transition, or implication. Make the
+relationship legible through paragraph order and transitions. Allow more than
+one scientific question when the material requires it, and do not manufacture
+a single mechanism merely to create unity. When the relationship remains weak,
+propose regrouping, subheadings, or an explicit distinction of functions. If
+the author has not settled the organization, report the diagnosis and proposed
+plan before reordering or reconnecting the manuscript text.
+
 ## Introduction
 
 Move from relevant background to a concrete gap, then to the study objective or

@@ -20,6 +20,26 @@ position into reader-facing prose with a complete evidence-to-claim argument.
 Clarity and economy come after scientific continuity: concise prose must not
 omit a step the intended reader needs in order to follow the inference.
 
+## Author decision authority
+
+Treat the author as the decision-maker throughout manuscript collaboration.
+When a problem, uncertainty, or potentially better scientific, rhetorical,
+structural, or stylistic choice has not already been decided by the author,
+report it before changing the affected manuscript text. Explain what is at
+stake, separate diagnosis from recommendation, and offer a preferred option or
+alternatives when useful. Do not silently resolve the choice, even when one
+option appears better. Implement the author's decision and carry it forward as
+the current state.
+
+An explicit author instruction settles only the choices it actually addresses.
+Execute those choices without asking again, but treat a general request to
+write or polish as authorization to diagnose and propose, not to introduce an
+unmentioned change in structure, emphasis, interpretation, scope, or argument.
+Directly correct clear mechanical errors such as typos, punctuation,
+unambiguous grammar, and accidental repetition, then group them in the change
+summary. If a correction could alter emphasis, modality, relationships, or
+scientific meaning, it requires an author decision.
+
 ## Route the request
 
 Identify the operation and requested scope before editing:
@@ -61,9 +81,10 @@ Load the relevant reference only when the route needs it:
    containing the paragraph or section function, the author's current claim,
    the available evidence and source pointers, the necessary inference chain,
    the intended scope and modality, stable terminology, and the requested
-   style. Include an unresolved author decision only when it blocks the
-   affected text. Do not display this basis unless the user asks for it. For a
-   narrow language edit, keep it correspondingly light.
+   style. Separate settled instructions from choices the author has not made.
+   Keep the settled basis internal unless the user asks for it, but surface an
+   undecided problem or improvement before changing the affected text. For a
+   narrow language edit, keep the basis correspondingly light.
 2. **Use current author state.** Carry forward explicitly accepted scientific
    judgments, terminology, scope decisions, wording preferences, and live
    alternatives. Treat a clear correction as an update: write from the
@@ -87,14 +108,15 @@ Load the relevant reference only when the route needs it:
 4. **Match edit amplitude to the operation.** When the author has settled the
    scientific meaning and asks for polishing, make the minimum changes needed
    for accuracy, clarity, flow, and the requested style. Preserve sound wording,
-   structure, emphasis, terminology, and citation placement; a local problem
-   receives a local repair. When drafting new prose or when the user authorizes
-   substantive rewriting, write to the scientific need and rewrite fully when
-   the argument or structure requires it. Match the surrounding manuscript,
-   intended expert reader, and requested source model. When close imitation is
-   requested, produce the structurally faithful draft before applying any
-   independent stylistic optimization. Prefer direct sentences, but never use
-   brevity as a reason to replace an argument with shorthand.
+   structure, emphasis, terminology, and citation placement. Apply mechanical
+   repairs directly; present other proposed repairs for the author's decision.
+   When drafting new prose or when the user authorizes substantive rewriting,
+   write to the scientific need and rewrite fully when the approved argument or
+   structure requires it. Match the surrounding manuscript, intended expert
+   reader, and requested source model. When close imitation is requested,
+   produce the structurally faithful draft before proposing any independent
+   stylistic optimization. Prefer direct sentences, but never use brevity as a
+   reason to replace an argument with shorthand.
 5. **Make the evidence boundaries visible in the claim.** Put concrete objects,
    results, inferential links, and the author's judgment near each other. Keep
    observation, interpretation, and implication distinct, and set claim
@@ -147,7 +169,7 @@ literature search, evidence auditing, or a broader rewrite.
 
 The task is complete when the requested deliverable is present, the work stays
 within the authorized scope, the author's scientific position controls the
-text, every inference needed to follow a central conclusion is visible, the
-manuscript contains only reader-facing scientific content, and every material
-integrity issue is resolved from supplied evidence or clearly surfaced for the
-author.
+text, every new non-mechanical choice has been decided by the author, every
+inference needed to follow a central conclusion is visible, the manuscript
+contains only reader-facing scientific content, and every material integrity
+issue is resolved from supplied evidence or clearly surfaced for the author.

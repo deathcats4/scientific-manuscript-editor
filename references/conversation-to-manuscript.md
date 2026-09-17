@@ -74,6 +74,22 @@ author's correction is ambiguous about whether A has been rejected or retained,
 resolve that ambiguity in the collaboration space rather than encoding both
 positions defensively in the draft.
 
+## Correct without erasing
+
+Treat a proposed scientific correction as a diagnosis before deletion. Locate
+the problem in evidence, inference, scope, claim strength, mechanism, or
+placement, then distinguish the unsupported part from what remains supported
+and scientifically useful. Propose preserving, recalibrating, or repositioning
+the supported part where appropriate; do not equate correction with removing
+the entire explanatory dimension.
+
+Report the diagnosis and recommendation before revising the affected text. The
+author decides whether to retain, narrow, relocate, replace, or remove the
+content. Do not preserve unsupported material merely out of deference, but do
+not silently discard a scientifically meaningful part because it complicates
+the preferred revision. Once the author decides, write from that decision
+without carrying the negotiation into the manuscript.
+
 ## Common leakage patterns
 
 These are symptoms of a boundary error, not a checklist to reproduce in every

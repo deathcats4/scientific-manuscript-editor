@@ -4,6 +4,13 @@ Match the output to the requested operation and collaboration level. Concision
 may reduce presentation overhead, but it must not remove a scientific inference
 the reader needs or expand the authorized editing scope.
 
+The default collaboration order is: report the problem or opportunity, explain
+the recommendation or options, let the author decide, and then implement the
+decision. A proposed sentence, paragraph, outline, or draft may be used as
+decision support, but it is not author-approved manuscript text until the
+author accepts its relevant choices. Apply clear mechanical corrections
+directly and group them in the change summary.
+
 ## Editing depth
 
 For polishing of text whose scientific meaning and structure the author has
@@ -33,28 +40,43 @@ only a revision, return only manuscript-ready text.
 
 ## Author-controlled progressive revision
 
-Use this branch when the user's intent is to inspect, discuss, or decide the
-revision as it develops instead of receiving the whole passage or section in one
-finished pass. Infer that intent from the requested collaboration pattern, not
-from a fixed list of trigger phrases.
+Use this branch by default when polishing reveals a non-mechanical change the
+author has not already decided, and whenever the author wants to inspect,
+discuss, or decide the revision as it develops. A bare request to polish does
+not authorize the editor to choose among new rhetorical, structural, or
+scientific options.
 
 Work on the current paragraph, sentence, claim, or other unit the author has put
 forward. Provide the decision support needed for that unit, which may include
 the original text, its intended function, concrete problems, a proposed
 revision, and reasons for changes. This is not a mandatory five-part template:
-follow the user's requested format and omit components that add no value.
+follow the user's requested format and omit components that add no value. List
+mechanical corrections together rather than asking for approval one by one.
 
 Stop after the agreed unit and let the author accept, reject, or redirect the
 scientific and rhetorical choices before continuing. When the author identifies
 wording as the accepted core, preserve it as the basis for later work and limit
 the current pass to the issues the author has authorized.
 
+## Drafting
+
+When the author has settled the scientific basis and direction, produce a draft
+that realizes those decisions. Treat wording or organization not yet accepted
+as a proposal for author review. If drafting exposes a new choice that could
+change structure, emphasis, interpretation, scope, or argumentative strategy,
+report it before treating the affected passage as manuscript-ready. When the
+author explicitly asks for an exploratory draft, the draft itself may present
+the option, but its choices remain provisional until the author responds.
+
 ## Ordinary polishing
 
-Return the complete revised passage first, followed by a brief explanation of
-the main changes. Make the minimum changes required for the stated polishing
-goal. Explain scientific-impacting choices; do not enumerate every grammar
-edit.
+Use this branch only when the author has explicitly approved direct delivery or
+has already settled the relevant wording and rhetorical choices. Return the
+complete revised passage first, followed by a brief explanation of the main
+changes. Make the minimum changes required for the stated polishing goal and
+group mechanical corrections rather than enumerating each one. If an
+unanticipated non-mechanical choice appears, pause the affected text and return
+it to the author-controlled branch.
 
 ## Logic review
 
