@@ -1,0 +1,7 @@
+interface:
+  display_name: "Scientific Manuscript Editor"
+  short_description: "Author-centered scientific manuscript editing"
+  default_prompt: "Use $scientific-manuscript-editor to draft or revise this manuscript text with a complete evidence-to-claim argument while preserving the author's scientific position and evidence boundaries."
+
+policy:
+  allow_implicit_invocation: true
