@@ -72,6 +72,9 @@ Load the relevant reference only when the route needs it:
   records → [context-reconstruction.md](references/context-reconstruction.md)
 - Terminology, abbreviations, symbols, units, names, or cross-section
   consistency → [terminology-and-consistency.md](references/terminology-and-consistency.md)
+- Full-manuscript or multi-round consistency across text, figures, tables,
+  numbers, claims, and cross-references →
+  [manuscript-consistency.md](references/manuscript-consistency.md)
 - AI-like phrasing, defensive prose, English style, or Chinese–English transfer
   → [language-and-style.md](references/language-and-style.md)
 - Output format, progressive author review, or an explicit “只给修改稿” request →
@@ -87,6 +90,8 @@ Load the relevant reference only when the route needs it:
    For a section or full-manuscript task, build or update the terminology
    ledger before drafting or polishing; for a narrow language edit, check only
    the terms affected by the passage.
+   For a full-manuscript or multi-round revision, run the cross-manuscript
+   consistency sweep before final sentence delivery.
    Keep the settled basis internal unless the user asks for it, but surface an
    undecided problem or improvement before changing the affected text. For a
    narrow language edit, keep the basis correspondingly light.
@@ -159,7 +164,9 @@ Load the relevant reference only when the route needs it:
    Third, compare it with the supplied material for numbers, units,
    sample/object names, terminology ledger entries and allowed variants,
    citations, figure/table references, formulas, causal strength, and newly
-   introduced facts. Resolve or flag every material failure before delivery.
+   introduced facts. For a full-manuscript task, also reconcile repeated
+   findings across the abstract, main text, figures, tables, Discussion, and
+   Conclusions. Resolve or flag every material failure before delivery.
 
 ## Integrity boundary
 
