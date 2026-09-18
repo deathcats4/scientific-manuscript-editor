@@ -65,6 +65,8 @@ Load the relevant reference only when the route needs it:
   [evidence-and-citations.md](references/evidence-and-citations.md)
 - A user-supplied paper to read, cite, or borrow from →
   [reference-use.md](references/reference-use.md)
+- An explicit request to learn a reference's writing style or transferable
+  rhetorical features → [style-learning.md](references/style-learning.md)
 - Discussion of the author's ideas, doubts, contextual reasoning, or what the
   AI should do with that discussion →
   [conversation-to-manuscript.md](references/conversation-to-manuscript.md)
@@ -111,10 +113,14 @@ Load the relevant reference only when the route needs it:
    of scientifically settled text, preserve the author's existing reasoning and
    repair its expression locally; do not reopen or expand the argument unless
    the user asks for that work or a missing premise materially breaks it. When
-   the user supplies a paper as a model of reasoning or prose, preserve its
-   useful rhetorical scaffold at sentence and clause level rather than merely
-   abstracting its general logic; follow
-   [reference-use.md](references/reference-use.md).
+   the user explicitly asks to learn from a paper's reasoning or style, extract
+   transferable features before drafting and apply them selectively to the
+   author's material; follow [reference-use.md](references/reference-use.md)
+   and, for style-feature extraction, [style-learning.md](references/style-learning.md).
+   Preserve a sentence- or clause-level scaffold only in the explicit
+   structural-mapping mode. Ordinary reference use does not require matching
+   sentence count, order, connector placement, cadence, or a recognizable
+   source structure.
    For drafting, substantive rewriting, logic repair, and a Discussion passage
    that makes a scientific interpretation, run the evidence-opportunity scan in
    [evidence-and-citations.md](references/evidence-and-citations.md): inspect
@@ -135,9 +141,11 @@ Load the relevant reference only when the route needs it:
    write to the scientific need and rewrite fully when the approved argument or
    structure requires it. Match the surrounding manuscript, intended expert
    reader, and requested source model. When close imitation is requested,
-   produce the structurally faithful draft before proposing any independent
-   stylistic optimization. Prefer direct sentences, but never use brevity as a
-   reason to replace an argument with shorthand.
+   first distinguish an explicit structural-mapping exercise from a
+   manuscript-ready deliverable. Produce a mapping or teaching draft only for
+   the former; for the latter, use the approved source features to generate
+   original prose. Prefer direct sentences, but never use brevity as a reason
+   to replace an argument with shorthand.
 5. **Make the evidence boundaries visible in the claim.** Put concrete objects,
    results, inferential links, and the author's judgment near each other. Keep
    observation, interpretation, and implication distinct, and set claim
