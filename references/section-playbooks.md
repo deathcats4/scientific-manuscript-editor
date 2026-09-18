@@ -39,18 +39,32 @@ rather than through generic transition phrases.
 
 Move from relevant background to a concrete gap, then to the study objective or
 question. Keep the gap specific and avoid previewing results that belong later.
+Check that each background step earns its place, the literature gap is stated as
+a problem rather than a generic lack of studies, and the final objective or
+question follows naturally from that gap. Avoid presenting the study's results
+as established motivation.
 
 ## Methods
 
 Prioritize reproducibility: materials or samples, instruments, conditions,
 standards, calculations, software, and uncertainty. Prefer exactness over
 stylistic variation.
+Check that names and identifiers match the Results, that the analysis or
+calculation can be followed from inputs to reported quantities, and that
+conditions affecting interpretation are stated where the reader needs them.
+Keep procedural detail here when moving it to Results would make an observation
+look like a new method or interpretation.
 
 ## Results
 
 Lead with observations, values, distributions, differences, and figure/table
 features. Keep mechanism and broad significance for Discussion unless the
 paragraph explicitly requires a limited interpretation.
+Check that each central result has a visible source in the supplied data,
+figure, or table; that repeated values agree; and that the order helps the
+reader understand the result without importing Discussion-level mechanism.
+Retain a limited interpretation only when it is needed to identify what the
+result means locally.
 
 ## Discussion
 
@@ -67,3 +81,7 @@ Compress routine caveats.
 
 Retain the main findings, best-supported interpretation, and direct scientific
 implication. Do not introduce an idea that the body has not developed.
+Check that the conclusion preserves the study's actual scope and claim strength,
+does not silently omit a central finding, and does not turn a qualified
+interpretation into a universal statement. Keep implications at the level the
+body has earned.
