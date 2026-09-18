@@ -14,6 +14,27 @@ propose regrouping, subheadings, or an explicit distinction of functions. If
 the author has not settled the organization, report the diagnosis and proposed
 plan before reordering or reconnecting the manuscript text.
 
+## Paragraph architecture
+
+Before revising a paragraph, identify its job and its central judgment. Arrange
+the sentences so the reader can follow the needed movement from the judgment or
+question to the relevant observation, evidence, interpretation, and local
+consequence. Use only the stages the paragraph needs; a paragraph may begin
+with evidence when the evidence itself is the object being analyzed.
+
+Useful patterns include:
+
+- judgment → result or observation → interpretation → local takeaway;
+- question → relevant evidence → comparison or test → answer;
+- phenomenon → independent supporting evidence → process explanation;
+- established point → limitation or tension → study-specific resolution.
+
+These are options for diagnosis, not templates to impose. A transition earns a
+place by expressing a real relation such as contrast, continuation, cause,
+scale change, or implication. Close the paragraph when its function is complete,
+then make the next paragraph's role clear through the scientific relationship
+rather than through generic transition phrases.
+
 ## Introduction
 
 Move from relevant background to a concrete gap, then to the study objective or
