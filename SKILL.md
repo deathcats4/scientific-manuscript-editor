@@ -61,7 +61,7 @@ Load the relevant reference only when the route needs it:
 
 - Section-specific handling → [section-playbooks.md](references/section-playbooks.md)
 - Observation, interpretation, implication, claim strength, citations, or a
-  potentially competing mechanism →
+  potentially competing mechanism, or a possible unused source of support →
   [evidence-and-citations.md](references/evidence-and-citations.md)
 - A user-supplied paper to read, cite, or borrow from →
   [reference-use.md](references/reference-use.md)
@@ -115,6 +115,17 @@ Load the relevant reference only when the route needs it:
    useful rhetorical scaffold at sentence and clause level rather than merely
    abstracting its general logic; follow
    [reference-use.md](references/reference-use.md).
+   For drafting, substantive rewriting, logic repair, and a Discussion passage
+   that makes a scientific interpretation, run the evidence-opportunity scan in
+   [evidence-and-citations.md](references/evidence-and-citations.md): inspect
+   the supplied figures, tables, results, captions, and source pointers for
+   relevant support that the current passage has not yet used. Report each
+   candidate with its location, the claim it may support, and its strength
+   (direct, indirect, partial, needs analysis, or not support). Do not add the
+   candidate to the manuscript or upgrade the claim without the author's
+   decision. For ordinary language polishing, perform this scan only when the
+   wording changes a scientific interpretation, mechanism, causal relation, or
+   evidence-to-claim link; a purely mechanical edit remains local.
 4. **Match edit amplitude to the operation.** When the author has settled the
    scientific meaning and asks for polishing, make the minimum changes needed
    for accuracy, clarity, flow, and the requested style. Preserve sound wording,

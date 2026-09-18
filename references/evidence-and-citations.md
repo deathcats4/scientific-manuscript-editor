@@ -111,3 +111,43 @@ group or system patterns, local or microscopic observations, time-series or
 tracer measurements, structural or process observations, and relevant context.
 Do not turn this check into a requirement to list alternative explanations. Only
 raise a competing mechanism through the author decision rule above.
+
+## Evidence-opportunity scan
+
+An author may have supplied evidence that is relevant to a claim but has not
+yet connected it to the paragraph. For drafting, substantive rewriting, logic
+repair, and interpretation-bearing Discussion work, scan the supplied
+manuscript material before writing. Check the results, figures, tables,
+captions, supplementary displays when supplied, and source pointers that could
+bear on the active claim. The scan is a search for overlooked support, not a
+license to expand the claim.
+
+Classify each candidate:
+
+- **Direct support** — the display or result measures the claimed object or
+  relationship at the needed scope.
+- **Indirect support** — it supports an intermediate link in the inference
+  chain, but not the final interpretation by itself.
+- **Partial support** — it supports only part of the claim, a narrower scope,
+  or a weaker causal verb.
+- **Needs analysis** — the pattern may be relevant, but it has not been
+  analysed or verified in the supplied material.
+- **Not support** — it is background, a different object or condition, or too
+  weak to support the proposed statement.
+
+Report the candidate's location, the observation it contains, the claim or
+inference it may support, and the classification. For example:
+
+```text
+Potentially unused support:
+- Fig. 3b: alteration zoning; indirect support for fluid involvement in U
+  redistribution, but not by itself for a controlling mechanism.
+- Table 2: element-ratio shift; partial support for the stated trend.
+- Fig. 5: isotope pattern; needs analysis before it can enter the argument.
+```
+
+The author decides whether to incorporate a candidate and how strongly to state
+it. Do not silently add a new figure reference, reinterpret an existing result,
+promote an unanalysed pattern to evidence, or turn several correlated displays
+into a causal claim. If the relevant display or source is unavailable, report
+`support not verified` rather than inferring what it contains.
