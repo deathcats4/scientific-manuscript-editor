@@ -9,7 +9,9 @@ the recommendation or options, let the author decide, and then implement the
 decision. A proposed sentence, paragraph, outline, or draft may be used as
 decision support, but it is not author-approved manuscript text until the
 author accepts its relevant choices. Apply clear mechanical corrections
-directly and group them in the change summary.
+directly and group them in the change summary. For a section or full-manuscript
+task, report the terminology ledger or its unresolved conflicts before applying
+non-mechanical term changes.
 
 ## Editing depth
 

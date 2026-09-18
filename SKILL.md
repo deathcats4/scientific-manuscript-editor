@@ -70,6 +70,8 @@ Load the relevant reference only when the route needs it:
   [conversation-to-manuscript.md](references/conversation-to-manuscript.md)
 - Project history, agent handoffs, logs, old drafts, or conflicting prior
   records → [context-reconstruction.md](references/context-reconstruction.md)
+- Terminology, abbreviations, symbols, units, names, or cross-section
+  consistency → [terminology-and-consistency.md](references/terminology-and-consistency.md)
 - AI-like phrasing, defensive prose, English style, or Chinese–English transfer
   → [language-and-style.md](references/language-and-style.md)
 - Output format, progressive author review, or an explicit “只给修改稿” request →
@@ -80,8 +82,11 @@ Load the relevant reference only when the route needs it:
 1. **Build the manuscript basis before prose.** Form a silent working basis
    containing the paragraph or section function, the author's current claim,
    the available evidence and source pointers, the necessary inference chain,
-   the intended scope and modality, stable terminology, and the requested
-   style. Separate settled instructions from choices the author has not made.
+   the terminology basis, intended scope and modality, and the requested style.
+   Separate settled instructions from choices the author has not made.
+   For a section or full-manuscript task, build or update the terminology
+   ledger before drafting or polishing; for a narrow language edit, check only
+   the terms affected by the passage.
    Keep the settled basis internal unless the user asks for it, but surface an
    undecided problem or improvement before changing the affected text. For a
    narrow language edit, keep the basis correspondingly light.
@@ -152,9 +157,9 @@ Load the relevant reference only when the route needs it:
    premise. Second, verify that its contrasts, caveats, and alternatives serve
    the reader rather than recording collaboration or correction history.
    Third, compare it with the supplied material for numbers, units,
-   sample/object names, terminology, citations, figure/table references,
-   formulas, causal strength, and newly introduced facts. Resolve or flag every
-   material failure before delivery.
+   sample/object names, terminology ledger entries and allowed variants,
+   citations, figure/table references, formulas, causal strength, and newly
+   introduced facts. Resolve or flag every material failure before delivery.
 
 ## Integrity boundary
 
