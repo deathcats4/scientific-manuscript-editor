@@ -13,6 +13,25 @@ directly and group them in the change summary. For a section or full-manuscript
 task, report the terminology ledger or its unresolved conflicts before applying
 non-mechanical term changes.
 
+## Finding status
+
+Label a reported finding by what is known and what the author must decide:
+
+- **Mechanical correction**: an unambiguous typo, punctuation, grammar,
+  formatting, or confirmed terminology deviation that can be fixed directly.
+- **Confirmed issue**: supplied evidence shows that the text, display, source,
+  or reasoning is inconsistent or unsupported.
+- **Needs verification**: a possible issue whose resolution requires checking a
+  source, data, figure, table, or context that has not yet been inspected.
+- **Author decision**: more than one scientifically or rhetorically defensible
+  choice remains, and the author must select the direction.
+- **Recommendation**: an optional improvement that does not by itself show an
+  error.
+
+For every non-mechanical finding, state the evidence, the affected passage or
+choice, and the consequence of each plausible direction. Do not present a
+recommendation or possible risk as a confirmed error.
+
 ## Editing depth
 
 For polishing of text whose scientific meaning and structure the author has
