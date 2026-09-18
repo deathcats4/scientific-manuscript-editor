@@ -69,6 +69,22 @@ that it supports the specific statement. Otherwise use `support not verified`
 and tell the author what needs checking. Never create a citation, DOI, number,
 or mechanism from memory or a title alone.
 
+## Citation fit
+
+Check the fit between each important citation and the claim it follows. Identify
+whether the source is being used for background, a method, an observation, a
+mechanism, a comparison, or an interpretive aid. Confirm that the cited study's
+object, conditions, scale, time range, and evidence type match the statement's
+scope. A source can support a related fact without supporting the stronger
+interpretation attached to it.
+
+Keep the author's inference distinguishable from what the cited authors
+reported. Do not add a citation only to make a sentence sound authoritative,
+and do not use several citations as a substitute for explaining the evidence
+chain. If a citation appears mismatched, missing, or too weak for the claim,
+report the finding and the available options; do not silently replace the
+reference or weaken the claim without the author's decision.
+
 ## Author decision rule for competing mechanisms
 
 The manuscript does not need to enumerate every mechanism that could exist in
