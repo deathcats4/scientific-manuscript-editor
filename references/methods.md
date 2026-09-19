@@ -68,7 +68,7 @@ to add decorative detail.
 
 ## Completion check
 
-Every central reported output should have a recoverable acquisition,
-transformation, and analysis path, with no invented step and no missing
-condition that would materially change evaluation of the evidence.
-
+Every central reported output should be traceable through every applicable
+stage, including acquisition, transformation, and analysis where they occur,
+with no invented step and no missing condition that would materially change
+evaluation of the evidence.

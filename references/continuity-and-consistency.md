@@ -54,9 +54,14 @@ For the supplied manuscript scope, check in focused passes:
    compatible scope, modality, and causal strength.
 4. **Displays:** figure, table, equation, section, and supplementary references
    resolve and match their descriptions.
-5. **Scientific arc:** the Introduction's problem is addressed by the study;
-   Results support the Discussion; the Conclusion and Title do not outrun the
-   body.
+5. **Scientific arc:** the question, test, or capability promised by the
+   Introduction is implemented in Methods and answered by Results; Results
+   support the Discussion; the Conclusion and Title do not outrun the body.
+6. **Functional distribution:** a proposition, evidence chain, boundary, or
+   caveat is repeated only when another component needs it for its own
+   scientific function. Restate only what that component needs for correct
+   interpretation; consistency does not require copying the same argument or
+   qualification across Abstract, Results, Discussion, and Conclusion.
 
 Do not make one location agree with another by guessing which is correct.
 Correct an unambiguous editorial inconsistency when a source of truth is known.
@@ -73,6 +78,7 @@ materials available and expose only decisions or conflicts the author needs.
 ## Completion check
 
 No superseded mechanism or term has silently returned; repeated findings and
-identifiers agree across the supplied scope; every unresolved discrepancy is
-clearly located; and the current manuscript reflects the author's accepted
-scientific position rather than the history of reaching it.
+identifiers agree across the supplied scope without unnecessary argumentative
+replay; every unresolved discrepancy is clearly located; and the current
+manuscript reflects the author's accepted scientific position rather than the
+history of reaching it.
