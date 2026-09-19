@@ -52,6 +52,15 @@ prediction, mechanistic support, a framework, methodological context, or the
 source of a real tension. Keep the current study's evidence at the centre. A
 similar pattern in another system does not by itself prove the same mechanism.
 
+Establish that the compared objects, conditions, scales, and evidence types
+make the proposed relationship meaningful. When the author has not authorized
+that comparison, analogy, contrast, or rebuttal, present it first as a candidate
+relationship rather than silently making it part of the manuscript.
+
+Attribute a difference between studies to sampling, method, setting, scale, or
+another cause only when the evidence supports that attribution. Otherwise state
+the actual difference without inventing a conciliatory explanation.
+
 Raise a competing explanation only when it could materially account for the
 same evidence and change the paper's interpretation or conclusion. Otherwise,
 do not turn Discussion into a catalogue of possibilities.
@@ -75,8 +84,9 @@ to a field-wide claim without a justified scale bridge.
   genre convention seems to expect one.
 - Do not convert a possible explanation into a necessary proof and then rebut
   the stronger claim.
-- Do not end with generic significance or `further studies` language when a
-  specific scientific takeaway or unresolved test is available.
+- Close a paragraph on the interpretation, boundary, implication, or unresolved
+  test it actually establishes. A generic reminder that alternatives cannot be
+  excluded or that further work is needed is not a substitute for that function.
 
 ## Completion check
 

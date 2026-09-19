@@ -20,6 +20,22 @@ Do not perform every form of analysis merely because a paper is present. If the
 role would materially change the output and cannot be inferred, ask a focused
 question; otherwise use the narrowest role consistent with the request.
 
+## Separate access from manuscript use
+
+Supplying a reference authorizes inspection, not citation or an argumentative
+role. Reading for background, verification, understanding, or style does not by
+itself authorize the editor to compare, analogize, contrast, rebut, qualify, or
+contextualize the author's study through that source.
+
+The editor may identify a potentially useful relationship. Before adding a new
+relationship to manuscript-ready prose, tell the author what the proposed
+relationship is, why the objects and conditions are scientifically comparable,
+and how it would change the framing or interpretation. Commit it after the
+author accepts it. If the author has explicitly requested literature
+integration or comparison, select valid relationships within that scope without
+seeking approval for every citation. Direct support for an already settled
+manuscript statement may likewise be added when citation work is authorized.
+
 ## Keep source and author science separate
 
 The reference's observations, mechanisms, limitations, and conclusions remain
@@ -64,5 +80,5 @@ organization.
 
 A reference can suggest a mechanism or framework without authorizing its
 adoption. If using it would change the manuscript's mechanism, causal claim,
-evidence role, scope, or conclusion, present the option and its consequences
-before treating it as the paper's position.
+evidence role, research gap, novelty, scope, or conclusion, present the option
+and its consequences before treating it as the paper's position.

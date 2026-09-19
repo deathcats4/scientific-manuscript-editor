@@ -21,6 +21,11 @@ do not affect interpretation. It must not remove a qualifier that carries
 scientific meaning or strengthen `supports` into `demonstrates`, association
 into causation, or a possible mechanism into a confirmed one.
 
+State the contribution through the concrete change the study makes—what it
+identifies, distinguishes, constrains, connects, explains, or enables. Generic
+formulas such as providing some insight or a possible reference do not replace
+that scientific content.
+
 ## Abstract
 
 An Abstract should let a reader who has not seen the paper form a correct
@@ -69,4 +74,3 @@ Verify that:
 - the Conclusion introduces no new evidence or mechanism;
 - repeated numbers, objects, conditions, and claim strengths agree across all
   supplied components.
-

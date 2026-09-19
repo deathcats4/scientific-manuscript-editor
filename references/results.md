@@ -55,6 +55,9 @@ actual function.
   comparison is unclear.
 - Do not turn a p-value, model score, or threshold crossing into scientific
   importance or mechanism by itself.
+- Report a null or non-significant result within the sensitivity and uncertainty
+  of the analysis. Call it a trend or attribute non-detection to sample size,
+  power, variability, or method only when the analysis supports that account.
 - Do not force parallel findings into a single linear or causal story.
 - Do not hide a meaningful boundary because it complicates the headline.
 
@@ -63,4 +66,3 @@ actual function.
 The reader should be able to see what was established, which evidence supports
 it, under what conditions it applies, and why the order of findings is
 scientifically coherent.
-

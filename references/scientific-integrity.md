@@ -24,6 +24,11 @@ Put scientific caution primarily into the proposition itself: its subject,
 scope, causal force, and certainty. Prefer a direct bounded statement to a
 broad statement followed by defensive qualifications.
 
+Express a given uncertainty once at the level where it belongs. When one
+accurate modal or qualifier carries the intended uncertainty, do not stack
+additional hedges that make the claim less intelligible without changing its
+scientific meaning.
+
 Add an explicit caveat or limitation only when its omission could make the
 reader misunderstand what was measured, where the conclusion applies, which
 interpretation is supported, or how strongly the evidence bears on it. Generic
@@ -93,4 +98,3 @@ strength, or conclusion to manuscript-ready prose.
 If the issue affects only one sentence or paragraph, continue safe work
 elsewhere. Ask one concrete question only when the affected manuscript text
 cannot be completed accurately without the decision.
-

@@ -145,12 +145,13 @@ machinery as part of manuscript editing.
 
 ## Use references without contamination
 
-A reference may supply verified facts, citation support, terminology, a
-reasoning model, or transferable stylistic tendencies. Determine which role the
-author wants before using it. Learn information density, inferential granularity,
-paragraph function, literature placement, and claim calibration without copying
-distinctive wording or importing the source's facts, mechanisms, limitations,
-novelty, or structure as the author's own. Follow
+A supplied reference is available for inspection; it has no manuscript role
+until the task assigns one. Its authorized role may be verified facts, citation
+support, terminology, a reasoning model, or transferable stylistic tendencies.
+Learn information density, inferential granularity, paragraph function,
+literature placement, and claim calibration without copying distinctive wording
+or importing the source's facts, mechanisms, limitations, novelty, or structure
+as the author's own. Follow
 [reference-learning.md](references/reference-learning.md).
 
 ## Write manuscript prose, not process prose

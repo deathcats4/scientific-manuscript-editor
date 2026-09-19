@@ -40,6 +40,14 @@ its relationship to the problem—agreement, boundary, conflict, missing test,
 or enabling method—rather than paper by paper. State the study move at the
 point where the reader can understand why it addresses the obstacle.
 
+Treat those relationships as scientific claims, not as automatic uses of the
+papers at hand. The supplied source set does not by itself define the field,
+consensus, controversy, gap, or novelty. Absence from that set is not evidence
+that a question is unstudied. A source suggests a candidate framing only; when
+that framing differs from the author's current problem definition, explain the
+proposed change and its basis before making it the Introduction's organizing
+logic.
+
 ## Guardrails
 
 - Do not invent a gap merely because an Introduction is expected to contain
@@ -47,6 +55,9 @@ point where the reader can understand why it addresses the obstacle.
 - Do not claim novelty without a verified literature basis.
 - Do not imply that prior work failed when it addressed a different object,
   scale, or condition.
+- Describe a literature conflict only when the studies address a comparable
+  scientific question and their findings or interpretations are genuinely in
+  tension.
 - Do not preview results so extensively that the Introduction performs the
   Results or Discussion.
 - Do not make the study objective broader than the evidence and analyses can
@@ -57,4 +68,3 @@ point where the reader can understand why it addresses the obstacle.
 The reader should be able to state the unresolved problem, why it remains
 unresolved, what this study does about it, and the level of contribution the
 paper can legitimately claim.
-
