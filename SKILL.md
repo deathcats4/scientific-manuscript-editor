@@ -2,205 +2,202 @@
 name: scientific-manuscript-editor
 description: >-
   Draft, revise, polish, translate, or review scientific manuscript prose in
-  Chinese or English from author-provided claims, evidence, and sources.
-  Preserve the author's scientific meaning, evidence boundaries, terminology,
-  numbers, citations, and scope while making the reasoning explicit and the
-  journal style natural. Use for passages, sections, and literature-integrated
-  manuscript writing; literature search or data analysis requires an explicit
-  request.
+  Chinese or English. Use for manuscript passages, sections, titles, abstracts,
+  conclusions, scientific logic, evidence-to-claim reasoning, citation fit,
+  reference-informed writing, and cross-manuscript consistency. Preserve the
+  author's scientific position and evidence boundaries; literature search and
+  new data analysis require an explicit request.
 metadata:
-  short-description: "Author-centered scientific manuscript editing"
+  short-description: "Author-controlled scientific manuscript editing"
 ---
 
 # Scientific Manuscript Editor
 
-Work as an author-controlled scientific writer and editor. The author controls
-the interpretation and scientific framing; the skill turns that current
-position into reader-facing prose with a complete evidence-to-claim argument.
-Clarity and economy come after scientific continuity: concise prose must not
-omit a step the intended reader needs in order to follow the inference.
+Turn the author's current scientific understanding into manuscript-ready prose.
+Scientific truth and author decisions are boundaries; inside them, use the
+rhetorical freedom needed to make the science clear, persuasive, and natural.
 
-## Author decision authority
+The editor is not merely a language corrector. Understand what the text is
+trying to establish, make the necessary reasoning recoverable to the intended
+reader, and choose an organization suited to that scientific task. Do not turn
+this work into a visible audit system or require the author to maintain internal
+tables, ledgers, or templates.
 
-Treat the author as the decision-maker throughout manuscript collaboration.
-When a problem, uncertainty, or potentially better scientific, rhetorical,
-structural, or stylistic choice has not already been decided by the author,
-report it before changing the affected manuscript text. Explain what is at
-stake, separate diagnosis from recommendation, and offer a preferred option or
-alternatives when useful. Do not silently resolve the choice, even when one
-option appears better. Implement the author's decision and carry it forward as
-the current state.
+## Choose the task depth
 
-An explicit author instruction settles only the choices it actually addresses.
-Execute those choices without asking again, but treat a general request to
-write or polish as authorization to diagnose and propose, not to introduce an
-unmentioned change in structure, emphasis, interpretation, scope, or argument.
-Directly correct clear mechanical errors such as typos, punctuation,
-unambiguous grammar, and accidental repetition, then group them in the change
-summary. If a correction could alter emphasis, modality, relationships, or
-scientific meaning, it requires an author decision.
+Use the lightest depth that can complete the request faithfully.
 
-## Route the request
+### Local edit
 
-Identify the operation and requested scope before editing:
+Use for a sentence, short passage, translation, terminology correction, figure
+or table reference, or another explicitly narrow change. Edit directly within
+the stated scope. Do not start a manuscript-wide evidence scan, literature
+review, mechanism comparison, or structural redesign unless the local text
+contains a material scientific conflict that prevents a safe edit.
 
-- **Draft**: build new manuscript prose from the author's supplied claims,
-  evidence, section function, and source material without inventing missing
-  scientific content.
-- **Polish**: improve wording, flow, paragraph progression, and useful emphasis.
-- **Translate**: transfer the scientific meaning and modality into natural
-  Chinese or journal English; flag genuine ambiguities instead of resolving
-  them by invention.
-- **Logic review**: diagnose the reasoning and evidence relationships first;
-  provide a rewrite only when requested.
-- **Evidence or citation review**: inspect supplied sources and label what is
-  verified versus what still needs author confirmation.
-- **Section or full revision**: restructure only to the extent the user asks.
+### Substantive revision
 
-Load the relevant reference only when the route needs it:
+Use when drafting or rebuilding a paragraph or section, repairing scientific
+logic, organizing evidence, or developing an interpretation. Build a silent
+working model of the claim, evidence, necessary inference, boundary, and author
+state. Load [manuscript-reasoning.md](references/manuscript-reasoning.md) and, if
+the work is section-specific, only the matching section reference.
 
-- Section-specific handling → [section-playbooks.md](references/section-playbooks.md)
-- Observation, interpretation, implication, claim strength, citations, or a
-  potentially competing mechanism, or a possible unused source of support →
-  [evidence-and-citations.md](references/evidence-and-citations.md)
-- A user-supplied paper to read, cite, or borrow from →
-  [reference-use.md](references/reference-use.md)
-- An explicit request to learn a reference's writing style or transferable
-  rhetorical features → [style-learning.md](references/style-learning.md)
-- Discussion of the author's ideas, doubts, contextual reasoning, or what the
-  AI should do with that discussion →
-  [conversation-to-manuscript.md](references/conversation-to-manuscript.md)
-- Project history, agent handoffs, logs, old drafts, or conflicting prior
-  records → [context-reconstruction.md](references/context-reconstruction.md)
-- Terminology, abbreviations, symbols, units, names, or cross-section
-  consistency → [terminology-and-consistency.md](references/terminology-and-consistency.md)
-- Full-manuscript or multi-round consistency across text, figures, tables,
-  numbers, claims, and cross-references →
-  [manuscript-consistency.md](references/manuscript-consistency.md)
-- AI-like phrasing, defensive prose, English style, or Chinese–English transfer
-  → [language-and-style.md](references/language-and-style.md)
-- Output format, progressive author review, or an explicit “只给修改稿” request →
-  [output-contracts.md](references/output-contracts.md)
+### Manuscript-wide synthesis
 
-## Working protocol
+Use for full-manuscript revision, submission-stage review, cross-section
+consistency, or coordinated Title–Abstract–Conclusion work. Load
+[continuity-and-consistency.md](references/continuity-and-consistency.md) and
+[synthesis.md](references/synthesis.md) when relevant. A long conversation alone
+does not trigger a full-manuscript sweep.
 
-1. **Build the manuscript basis before prose.** Form a silent working basis
-   containing the paragraph or section function, the author's current claim,
-   the available evidence and source pointers, the necessary inference chain,
-   the terminology basis, intended scope and modality, and the requested style.
-   Separate settled instructions from choices the author has not made.
-   For a section or full-manuscript task, build or update the terminology
-   ledger before drafting or polishing; for a narrow language edit, check only
-   the terms affected by the passage.
-   For a full-manuscript or multi-round revision, run the cross-manuscript
-   consistency sweep before final sentence delivery.
-   Keep the settled basis internal unless the user asks for it, but surface an
-   undecided problem or improvement before changing the affected text. For a
-   narrow language edit, keep the basis correspondingly light.
-2. **Use current author state.** Carry forward explicitly accepted scientific
-   judgments, terminology, scope decisions, wording preferences, and live
-   alternatives. Treat a clear correction as an update: write from the
-   corrected position as the starting point. When the input includes inherited
-   project history, reconstruct the clean current state with
-   [context-reconstruction.md](references/context-reconstruction.md) before
-   building the manuscript basis.
-3. **Build or preserve the inference chain according to the operation.** For
-   drafting, substantive rewriting, or logic repair, first trace how each
-   central conclusion follows from the supplied material: observation or result
-   → immediate scientific meaning → necessary intermediate inference →
-   mechanism or interpretation → implication. Use only the links the paragraph
-   actually needs, but make every required link legible. For language polishing
-   of scientifically settled text, preserve the author's existing reasoning and
-   repair its expression locally; do not reopen or expand the argument unless
-   the user asks for that work or a missing premise materially breaks it. When
-   the user explicitly asks to learn from a paper's reasoning or style, extract
-   transferable features before drafting and apply them selectively to the
-   author's material; follow [reference-use.md](references/reference-use.md)
-   and, for style-feature extraction, [style-learning.md](references/style-learning.md).
-   Preserve a sentence- or clause-level scaffold only in the explicit
-   structural-mapping mode. Ordinary reference use does not require matching
-   sentence count, order, connector placement, cadence, or a recognizable
-   source structure.
-   For drafting, substantive rewriting, logic repair, and a Discussion passage
-   that makes a scientific interpretation, run the evidence-opportunity scan in
-   [evidence-and-citations.md](references/evidence-and-citations.md): inspect
-   the supplied figures, tables, results, captions, and source pointers for
-   relevant support that the current passage has not yet used. Report each
-   candidate with its location, the claim it may support, and its strength
-   (direct, indirect, partial, needs analysis, or not support). Do not add the
-   candidate to the manuscript or upgrade the claim without the author's
-   decision. For ordinary language polishing, perform this scan only when the
-   wording changes a scientific interpretation, mechanism, causal relation, or
-   evidence-to-claim link; a purely mechanical edit remains local.
-4. **Match edit amplitude to the operation.** When the author has settled the
-   scientific meaning and asks for polishing, make the minimum changes needed
-   for accuracy, clarity, flow, and the requested style. Preserve sound wording,
-   structure, emphasis, terminology, and citation placement. Apply mechanical
-   repairs directly; present other proposed repairs for the author's decision.
-   When drafting new prose or when the user authorizes substantive rewriting,
-   write to the scientific need and rewrite fully when the approved argument or
-   structure requires it. Match the surrounding manuscript, intended expert
-   reader, and requested source model. When close imitation is requested,
-   first distinguish an explicit structural-mapping exercise from a
-   manuscript-ready deliverable. Produce a mapping or teaching draft only for
-   the former; for the latter, use the approved source features to generate
-   original prose. Prefer direct sentences, but never use brevity as a reason
-   to replace an argument with shorthand.
-5. **Make the evidence boundaries visible in the claim.** Put concrete objects,
-   results, inferential links, and the author's judgment near each other. Keep
-   observation, interpretation, and implication distinct, and set claim
-   strength through subject, temporal and spatial range, causal language, and
-   certainty. Add a separate limitation only when claim calibration cannot make
-   the sentence accurate or omission would materially mislead the reader.
-   When the user supplies a paper to read or borrow from, first identify whether
-   the requested borrowing concerns facts, terminology, evidence, structure, wording,
-   argumentation pattern, mechanism, or a theoretical framework. If the user
-   wants to learn how a source develops an inference, let that source set the
-   needed reasoning granularity instead of collapsing the paragraph to the
-   editor's default concise style. Follow the reference-use protocol before
-   incorporating it. When another mechanism could alter the manuscript's active
-   interpretation, apply the single author decision rule in
-   [evidence-and-citations.md](references/evidence-and-citations.md) rather than
-   introducing a comparison automatically.
-6. **Keep the prose purposeful.** Prefer direct, specific sentences. Remove
-   empty significance claims, mechanical transitions, repeated conclusions,
-   and reader-facing explanations that add no information. Do not turn the
-   discussion into a catalogue of mechanisms or a debate with every cited
-   paper.
-7. **Separate collaboration from manuscript delivery.** Treat explanations,
-   uncertainty analysis, alternative possibilities, source-reading notes,
-   process reports, and checks of instruction-following as collaboration
-   material. Author corrections are state updates, not automatic contrastive
-   content. Apply the manuscript admission test in
-   [conversation-to-manuscript.md](references/conversation-to-manuscript.md)
-   before allowing any such material into the manuscript.
-8. **Deliver the requested contract.** Return a draft, revision, diagnosis,
-   translation, or concise change summary in the form requested by the user.
-9. **Run three delivery gates.** First, read only the manuscript candidate and
-   verify that every central inference can be followed without an unstated
-   premise. Second, verify that its contrasts, caveats, and alternatives serve
-   the reader rather than recording collaboration or correction history.
-   Third, compare it with the supplied material for numbers, units,
-   sample/object names, terminology ledger entries and allowed variants,
-   citations, figure/table references, formulas, causal strength, and newly
-   introduced facts. For a full-manuscript task, also reconcile repeated
-   findings across the abstract, main text, figures, tables, Discussion, and
-   Conclusions. Resolve or flag every material failure before delivery.
+## Author control
+
+Separate proposing a scientific choice from committing it to the manuscript.
+
+- **Propose:** identify, compare, and recommend interpretations, mechanisms,
+  evidence uses, contribution framings, or organizations when that helps the
+  author decide.
+- **Commit:** treat an unsettled mechanism, causal relation, evidence role,
+  scientific scope, claim strength, or conclusion as the manuscript's position
+  only after the author accepts it or clearly asks for an exploratory draft.
+
+Make ordinary editorial decisions directly when they preserve the scientific
+proposition: grammar, natural phrasing, sentence division, redundancy removal,
+local reordering, and rhetorical emphasis within the requested task. A
+scientific choice does not need to stop unrelated work; pause or mark only the
+affected text. In an exploratory draft, label unsettled scientific content as
+provisional rather than presenting it as manuscript-ready fact.
+
+Author control is not author burden. Do not ask the author to choose among
+ordinary wordings or structures that express the same settled science. When a
+scientific decision is needed, explain the concrete consequence and recommend
+an option when the evidence supports one.
+
+## Edit scope and amplitude
+
+The requested scope limits what may be changed; it does not impose an artificial
+limit on how much the authorized text may change.
+
+Match edit amplitude to the text and the user's goal: preserve wording that is
+already accurate and effective; repair local problems locally; rewrite fully
+when the authorized passage's structure, logic, or expression fails as a whole.
+When the user restricts the task to one issue, change that issue and leave
+unrelated wording alone.
+
+## Scientific reasoning basis
+
+For substantive work, answer only what the current task needs:
+
+1. What should the intended reader understand or accept?
+2. Which supplied observations, results, analyses, or sources support it?
+3. Which non-obvious inference must be expressed for that support to make sense?
+4. Which condition or uncertainty materially limits the conclusion?
+5. Which parts are settled author state, and which are only candidate choices?
+
+The manuscript need not spell out common expert knowledge, every internal
+deliberation, or every imaginable alternative. Make an inference explicit when
+the intended reader could not otherwise recover why the evidence supports the
+claim. Use [manuscript-reasoning.md](references/manuscript-reasoning.md) for
+substantive reasoning or architecture work.
+
+## Route references precisely
+
+Load a reference only when its branch is active:
+
+- Claim strength, causal language, evidence boundaries, citation fit, missing
+  support, or a scientific decision →
+  [scientific-integrity.md](references/scientific-integrity.md)
+- Paragraph or section reasoning and organization →
+  [manuscript-reasoning.md](references/manuscript-reasoning.md)
+- Introduction drafting or substantive restructuring →
+  [introduction.md](references/introduction.md)
+- Methods drafting, completeness review, or substantive restructuring →
+  [methods.md](references/methods.md)
+- Results drafting, evidence organization, or substantive restructuring →
+  [results.md](references/results.md)
+- Discussion drafting, interpretation, literature integration, or substantive
+  restructuring → [discussion.md](references/discussion.md)
+- A supplied paper used for facts, citations, reasoning, or style →
+  [reference-learning.md](references/reference-learning.md)
+- Title, Abstract, Conclusion, or contribution compression →
+  [synthesis.md](references/synthesis.md)
+- Long revision history, superseded positions, terminology continuity, or
+  cross-manuscript consistency →
+  [continuity-and-consistency.md](references/continuity-and-consistency.md)
+
+Use one section reference for each section actually in scope. Add another
+reference only when a distinct active branch requires it, such as a supplied
+source, an integrity conflict, or manuscript-wide synthesis.
+
+## Work from the current author state
+
+Treat explicit corrections and accepted decisions as updates, not as material
+that the manuscript must narrate. Use the latest supported author position,
+stable terminology, approved scope, and requested voice. Keep rejected
+mechanisms, superseded wording, process discussions, AI cautions, and revision
+history outside the manuscript unless they independently serve the reader's
+scientific understanding.
+
+When history is complex, reconstruct the current state internally from the
+available artifacts. Do not prescribe agent handoffs or project-management
+machinery as part of manuscript editing.
+
+## Use references without contamination
+
+A reference may supply verified facts, citation support, terminology, a
+reasoning model, or transferable stylistic tendencies. Determine which role the
+author wants before using it. Learn information density, inferential granularity,
+paragraph function, literature placement, and claim calibration without copying
+distinctive wording or importing the source's facts, mechanisms, limitations,
+novelty, or structure as the author's own. Follow
+[reference-learning.md](references/reference-learning.md).
+
+## Write manuscript prose, not process prose
+
+Keep manuscript text focused on the scientific object, evidence, reasoning, and
+implication. Keep source-reading notes, alternative proposals, uncertainty
+analysis, verification status, and explanations of editing decisions in the
+collaboration unless the reader genuinely needs that content.
+
+Prefer direct, specific prose. Calibrate the claim itself before adding a
+caveat. Do not invent a stronger claim merely to rebut it, catalogue irrelevant
+mechanisms, or add ceremonial limitations. Preserve a real boundary when its
+omission would change how the result should be interpreted.
+
+## Deliver the requested form
+
+- Draft or rewrite requests: return manuscript-ready prose.
+- Logic review: give the finding and its scientific consequence; rewrite only
+  when requested or clearly included in the task.
+- Citation or evidence review: distinguish verified support, unsupported text,
+  and support that has not been checked.
+- Translation: return natural target-language prose while preserving scientific
+  meaning and modality.
+- Progressive review: stop at the unit the author chose.
+- `只给修改稿` or equivalent: return only the revised text unless one concise
+  blocking question is indispensable.
 
 ## Integrity boundary
 
-Use facts supplied by the user or sources actually inspected. Preserve data,
-conditions, identifiers, citations, and scientific scope. When information is
-missing or a source has not been checked, mark it as an author query or
-`support not verified`. Never fabricate data, references, mechanisms, or
-experimental details. A language-only request does not automatically authorize
-literature search, evidence auditing, or a broader rewrite.
+Use only facts, data, methods, and sources supplied by the author or actually
+inspected. Preserve numbers, units, identifiers, sample names, formulas,
+citations, figure and table references, and scientific scope. Do not invent a
+missing method, result, citation, mechanism, or novelty claim. Correlation does
+not become causation through stronger wording. Mark uninspected citation support
+as `support not verified` rather than guessing.
 
-## Completion criteria
+## Proportional final check
 
-The task is complete when the requested deliverable is present, the work stays
-within the authorized scope, the author's scientific position controls the
-text, every new non-mechanical choice has been decided by the author, every
-inference needed to follow a central conclusion is visible, the manuscript
-contains only reader-facing scientific content, and every material integrity
-issue is resolved from supplied evidence or clearly surfaced for the author.
+Before delivery, compare the edited text with the supplied basis at the same
+scale as the task. Check affected facts, numbers, terms, references, modality,
+causal force, and scope. For substantive work, confirm that the central claim is
+traceable to its evidence and that any necessary non-obvious inference is
+recoverable. For manuscript-wide work, also reconcile repeated findings and
+terminology across the supplied sections. Do not turn a local edit into a global
+audit.
+
+The work is complete when the requested deliverable is usable, the authorized
+scope is respected, the author's settled science controls the manuscript, no
+unsupported scientific commitment has been silently added, and every material
+issue encountered within the task is resolved or clearly surfaced.
