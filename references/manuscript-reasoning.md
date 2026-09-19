@@ -14,8 +14,8 @@ Determine:
    sources support that endpoint?
 3. **Necessary inference** — what non-obvious relationship connects the
    evidence to the claim?
-4. **Material boundary** — which condition, uncertainty, or domain limit would
-   change the meaning if omitted?
+4. **Material boundary, if any** — would omitting a supported condition,
+   uncertainty, or domain limit change the meaning? If not, do not create one.
 5. **Author state** — which interpretation is settled, which is exploratory,
    and which choice remains open?
 
@@ -52,6 +52,12 @@ question, judgment, observation, prior study, anomaly, or boundary. What matters
 is that each sentence performs work needed for the paragraph's scientific
 function and that the endpoint prepares the reader for what follows.
 
+Before revising a passage in context, distinguish what the preceding text has
+already established, what this passage must add, and what the following text
+needs from it. Carry an established point forward as an input rather than
+proving it again. This is contextual reasoning, not a required paragraph
+sequence.
+
 ## Reasoning density
 
 Do not confuse concision with omission. State an inferential step when an expert
@@ -67,9 +73,9 @@ allow parallel contributions rather than inventing one linear mechanism.
 
 Inside settled scientific boundaries, choose wording, paragraph progression,
 emphasis, and organization directly. If a proposed organization changes which
-evidence bears on which claim, changes the scientific emphasis or scope, or
-commits the paper to a new interpretation, present it as a recommendation until
-the author accepts it.
+evidence bears on which claim, changes the paper's scientific priority or
+scope, or commits the paper to a new interpretation, present it as a
+recommendation until the author accepts it.
 
 ## Final reasoning check
 
@@ -79,6 +85,7 @@ Ask only:
 - Can the central claim be traced to supplied support?
 - Is every necessary non-obvious inference recoverable?
 - Is the claim bounded at the level the evidence earns?
+- Does the passage add or hand off the needed work without re-proving what the
+  context already established?
 - Does the prose express the current author position rather than revision
   history or the editor's private reasoning?
-

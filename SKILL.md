@@ -29,19 +29,26 @@ Use the lightest depth that can complete the request faithfully.
 
 ### Local edit
 
-Use for a sentence, short passage, translation, terminology correction, figure
-or table reference, or another explicitly narrow change. Edit directly within
-the stated scope. Do not start a manuscript-wide evidence scan, literature
-review, mechanism comparison, or structural redesign unless the local text
-contains a material scientific conflict that prevents a safe edit.
+Use when the requested change preserves the scientific proposition,
+evidence-to-claim relationship, and existing architecture. This often includes
+translation, terminology correction, figure or table references, and language
+editing of a sentence or short passage. Edit directly within the stated scope.
+Do not start a manuscript-wide evidence scan, literature review, mechanism
+comparison, or structural redesign unless the local text contains a material
+scientific conflict that prevents a safe edit.
+
+A narrow passage is not automatically a local edit. If completing the request
+requires rebuilding its reasoning, interpretation, evidence relationship, or
+structure, use substantive revision within that narrow scope.
 
 ### Substantive revision
 
-Use when drafting or rebuilding a paragraph or section, repairing scientific
-logic, organizing evidence, or developing an interpretation. Build a silent
-working model of the claim, evidence, necessary inference, boundary, and author
-state. Load [manuscript-reasoning.md](references/manuscript-reasoning.md) and, if
-the work is section-specific, only the matching section reference.
+Use when drafting or rebuilding reasoning at any length, repairing scientific
+logic, organizing evidence, developing an interpretation, or substantively
+restructuring a paragraph or section. Build a silent working model of the claim,
+evidence, necessary inference, boundary, and author state. Load
+[manuscript-reasoning.md](references/manuscript-reasoning.md) and, when the work
+is section-specific, the matching section-specific reference.
 
 ### Manuscript-wide synthesis
 
@@ -56,18 +63,19 @@ does not trigger a full-manuscript sweep.
 Separate proposing a scientific choice from committing it to the manuscript.
 
 - **Propose:** identify, compare, and recommend interpretations, mechanisms,
-  evidence uses, contribution framings, or organizations when that helps the
-  author decide.
+  new evidence-to-claim relationships, contribution framings, or organizations
+  when that helps the author decide.
 - **Commit:** treat an unsettled mechanism, causal relation, evidence role,
   scientific scope, claim strength, or conclusion as the manuscript's position
-  only after the author accepts it or clearly asks for an exploratory draft.
+  only after the author accepts it.
 
 Make ordinary editorial decisions directly when they preserve the scientific
 proposition: grammar, natural phrasing, sentence division, redundancy removal,
-local reordering, and rhetorical emphasis within the requested task. A
-scientific choice does not need to stop unrelated work; pause or mark only the
-affected text. In an exploratory draft, label unsettled scientific content as
-provisional rather than presenting it as manuscript-ready fact.
+local reordering, and rhetorical emphasis that does not change the paper's
+scientific priority. A scientific choice does not need to stop unrelated work;
+pause or mark only the affected text. An exploratory draft is a
+manuscript-shaped proposal, not a commitment: label unsettled scientific
+content as provisional rather than presenting it as the manuscript's position.
 
 Author control is not author burden. Do not ask the author to choose among
 ordinary wordings or structures that express the same settled science. When a
@@ -92,7 +100,8 @@ For substantive work, answer only what the current task needs:
 1. What should the intended reader understand or accept?
 2. Which supplied observations, results, analyses, or sources support it?
 3. Which non-obvious inference must be expressed for that support to make sense?
-4. Which condition or uncertainty materially limits the conclusion?
+4. Would omitting any supported condition or uncertainty materially change the
+   conclusion's meaning? If not, do not create one.
 5. Which parts are settled author state, and which are only candidate choices?
 
 The manuscript need not spell out common expert knowledge, every internal
@@ -106,18 +115,21 @@ substantive reasoning or architecture work.
 Load a reference only when its branch is active:
 
 - Claim strength, causal language, evidence boundaries, citation fit, missing
-  support, or a scientific decision →
+  support, or a choice that could change the manuscript's scientific position →
   [scientific-integrity.md](references/scientific-integrity.md)
 - Paragraph or section reasoning and organization →
   [manuscript-reasoning.md](references/manuscript-reasoning.md)
-- Introduction drafting or substantive restructuring →
+- Introduction drafting, diagnosis or review, or substantive restructuring →
   [introduction.md](references/introduction.md)
-- Methods drafting, completeness review, or substantive restructuring →
+- Methods drafting, diagnosis or completeness review, or substantive
+  restructuring →
   [methods.md](references/methods.md)
-- Results drafting, evidence organization, or substantive restructuring →
+- Results drafting, diagnosis or review, evidence organization, or substantive
+  restructuring →
   [results.md](references/results.md)
-- Discussion drafting, interpretation, literature integration, or substantive
-  restructuring → [discussion.md](references/discussion.md)
+- Discussion drafting, diagnosis or review, interpretation, literature
+  integration, or substantive restructuring →
+  [discussion.md](references/discussion.md)
 - A supplied paper used for facts, citations, reasoning, or style →
   [reference-learning.md](references/reference-learning.md)
 - Title, Abstract, Conclusion, or contribution compression →
@@ -132,6 +144,14 @@ source, an integrity conflict, or manuscript-wide synthesis.
 
 ## Work from the current author state
 
+Treat scientific propositions in text the author presents as the current
+manuscript for editing as the current working position within the requested
+scope. This default does not make them verified or irrevocable. Reopen their
+status when the author marks them as exploratory, requests re-evaluation, the
+supplied evidence materially conflicts, or their historical status cannot be
+recovered. Content previously proposed by an AI but not accepted by the author
+is not author state.
+
 Treat explicit corrections and accepted decisions as updates, not as material
 that the manuscript must narrate. Use the latest supported author position,
 stable terminology, approved scope, and requested voice. Keep rejected
@@ -145,9 +165,10 @@ machinery as part of manuscript editing.
 
 ## Use references without contamination
 
-A supplied reference is available for inspection; it has no manuscript role
-until the task assigns one. Its authorized role may be verified facts, citation
-support, terminology, a reasoning model, or transferable stylistic tendencies.
+A supplied reference is available for inspection. Its manuscript role must be
+explicitly assigned or unambiguously implied by the task; its presence alone
+assigns none. Its authorized role may be verified facts, citation support,
+terminology, a reasoning model, or transferable stylistic tendencies.
 Learn information density, inferential granularity, paragraph function,
 literature placement, and claim calibration without copying distinctive wording
 or importing the source's facts, mechanisms, limitations, novelty, or structure

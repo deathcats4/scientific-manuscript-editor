@@ -48,9 +48,9 @@ explains another.
 ## Synthesize without replay
 
 Before drafting a closing synthesis, mechanistic model, or conceptual model,
-recover the relevant conclusions already established in the preceding
-Discussion. At this stage, treat their completed evidence-to-interpretation
-chains as inputs to the synthesis. Restate each input only as fully as the new
+recover the current author-accepted conclusions that the preceding Discussion
+supports. At this stage, treat their completed evidence-to-interpretation chains
+as inputs to the synthesis. Restate each input only as fully as the new
 relationship requires.
 
 A previous finding or interpretation earns renewed space when it now connects
@@ -111,8 +111,8 @@ to a field-wide claim without a justified scale bridge.
 ## Completion check
 
 The central interpretation should be traceable to the actual results, the
-necessary inferential bridges should be recoverable, literature should have a
-clear argumentative role, and the final claim should remain within the scope
-earned by the evidence. A synthesis or model paragraph should make its new
-integrative work clear without re-running an earlier argument that has no new
-function there.
+necessary inferential bridges should be recoverable, any literature used should
+have a clear argumentative role, and the final claim should remain within the
+scope earned by the evidence. A synthesis or model paragraph should make its
+new integrative work clear without re-running an earlier argument that has no
+new function there.

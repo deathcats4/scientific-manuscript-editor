@@ -16,9 +16,10 @@ A reference may serve as:
 - an interpretive aid or competing framework;
 - an explicit teaching example for structural mapping.
 
-Do not perform every form of analysis merely because a paper is present. If the
-role would materially change the output and cannot be inferred, ask a focused
-question; otherwise use the narrowest role consistent with the request.
+Use only a role the request explicitly assigns or unambiguously implies. If
+several plausible roles would materially change the output, ask a focused
+question; otherwise use the narrowest implied role. Do not perform every form
+of analysis merely because a paper is present.
 
 ## Separate access from manuscript use
 
