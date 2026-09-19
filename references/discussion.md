@@ -45,6 +45,26 @@ types converge, explain what their combination establishes. When moving between
 scales, state the bridge rather than assuming that a pattern at one scale
 explains another.
 
+## Synthesize without replay
+
+Before drafting a closing synthesis, mechanistic model, or conceptual model,
+recover the relevant conclusions already established in the preceding
+Discussion. At this stage, treat their completed evidence-to-interpretation
+chains as inputs to the synthesis. Restate each input only as fully as the new
+relationship requires.
+
+A previous finding or interpretation earns renewed space when it now connects
+processes, orders stages, links scales, resolves a tension, defines a model
+boundary, or supports a new prediction. Reintroduce its evidence, reasoning, or
+citations only when they are needed to establish that new function or keep the
+compressed statement scientifically interpretable. Use the main space to show
+what the parts establish together that they did not establish separately.
+
+When the relevant preceding text is unavailable, use author-provided accepted
+conclusions. Ask for the necessary passage or conclusion only when its status or
+meaning cannot otherwise be recovered accurately; do not reconstruct a prior
+argument from assumptions.
+
 ## Integrate literature by function
 
 Use a prior study because it supplies agreement, contrast, a boundary, a prior
@@ -93,4 +113,6 @@ to a field-wide claim without a justified scale bridge.
 The central interpretation should be traceable to the actual results, the
 necessary inferential bridges should be recoverable, literature should have a
 clear argumentative role, and the final claim should remain within the scope
-earned by the evidence.
+earned by the evidence. A synthesis or model paragraph should make its new
+integrative work clear without re-running an earlier argument that has no new
+function there.
