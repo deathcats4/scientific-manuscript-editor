@@ -119,8 +119,6 @@ weakening or changing the science.
 
 ### Narrow user-requested overrides
 
-These are internal routing labels, not modes the user must learn:
-
 - For “只检查 AI 味儿” or “扫描 AI 腔”, run the AI-pattern check as a
   detection-only review; preserve the requested text and scope.
   Still inspect each candidate span's local function so that real qualifiers,
@@ -128,12 +126,11 @@ These are internal routing labels, not modes the user must learn:
   surface pattern. Report the result as an expression-pattern finding, not as
   evidence about authorship or scientific validity.
 - For a request limited to scientific logic, evidence, terminology, or claim
-  strength, run the scientific review as the sole active audit.
+  strength, focus the review on that scientific question.
 
 In ordinary requests, use the integrated review. A narrow grammar, terminology,
 translation, or figure-reference edit with no naturalness request remains a
-local edit; a global audit begins only when the request calls for it. Keep the
-routing internal unless the user asks for an audit or explanation.
+local edit; broaden the review only when the request calls for it.
 
 ## Author control
 
@@ -286,9 +283,8 @@ mechanisms, superseded wording, process discussions, AI cautions, and revision
 history outside the manuscript unless they independently serve the reader's
 scientific understanding.
 
-  When history is complex, reconstruct the current state internally from the
-  available artifacts. Keep manuscript editing focused on the text and its
-  science rather than on agent handoffs or project-management machinery.
+When history is complex, reconstruct the current state from the available
+artifacts and keep manuscript editing focused on the text and its science.
 
 ## Use references without contamination
 
@@ -309,10 +305,10 @@ implication. Keep source-reading notes, alternative proposals, uncertainty
 analysis, verification status, and explanations of editing decisions in the
 collaboration unless the reader genuinely needs that content.
 
-  Prefer direct, specific prose. Calibrate the claim itself before adding a
-  caveat. Keep the manuscript centered on supported mechanisms and meaningful
-  limitations; preserve a real boundary when its omission would change how the
-  result should be interpreted.
+Prefer direct, specific prose. Calibrate the claim itself before adding a
+caveat. Keep the manuscript centered on supported mechanisms and meaningful
+limitations; preserve a real boundary when its omission would change how the
+result should be interpreted.
 
 ## Deliver the requested form
 
@@ -341,12 +337,10 @@ user-facing Chinese, describe uninspected citation support as “支持尚未核
 
 ## Proportional final check
 
-Check each requested deliverable before returning it. Here, final means ready
-for this delivery, including a provisional draft or one paragraph in a
-progressive review; it does not mean the whole manuscript is finished. Perform
-the check after completing the requested edits, not after each word or sentence
-change. Combine applicable naturalness, reasoning, and style-source acceptance
-checks in this one pass rather than running duplicate audits.
+Check each requested deliverable once it is ready to return, including a
+provisional draft or one paragraph in a progressive review. Perform the check
+after completing the requested edits and combine the applicable naturalness,
+reasoning, and style-source checks in one proportional pass.
 
 | Requested work | Check before delivery |
 |---|---|
