@@ -2,7 +2,8 @@
 
 Use for long revision histories, superseded positions, terminology continuity,
 full-manuscript review, submission preparation, or coordinated changes across
-sections. Conversation length alone does not determine the scope.
+sections. Let the requested deliverable and manuscript dependencies determine
+the scope.
 
 ## Recover the current manuscript state
 
@@ -35,7 +36,7 @@ Maintain only the distinctions the manuscript actually needs:
 - preferred term and allowed variant;
 - abbreviation and where it is defined;
 - symbol, unit, capitalization, hyphenation, and naming convention;
-- scientifically distinct terms that must not be normalized into one another;
+- scientifically distinct terms that retain separate meanings;
 - prohibited or superseded wording when it could re-enter the draft.
 
 Repeat the correct scientific term when it preserves a needed distinction;
@@ -55,22 +56,22 @@ For the supplied manuscript scope, check in focused passes:
    resolve and match their descriptions.
 5. **Scientific arc:** the question, test, or capability promised by the
    Introduction is implemented in Methods and answered by Results; Results
-   support the Discussion; the Conclusion and Title do not outrun the body.
+   support the Discussion; the Conclusion and Title stay within the body's scope.
 6. **Functional distribution:** a proposition, evidence chain, boundary, or
    caveat is repeated only when another component needs it for its own
    scientific function. Restate only what that component needs for correct
-   interpretation; consistency does not require copying the same argument or
-   qualification across Abstract, Results, Discussion, and Conclusion.
+   interpretation; give each component its own necessary level of argument and
+   qualification rather than copying the same wording across the manuscript.
 
 Use a known source of truth to correct an editorial inconsistency. Surface a
 factual conflict or scientific choice when the source of truth remains open.
 
 ## Scope of continuity
 
-This skill maintains manuscript evolution, not research-project management. It
-does not prescribe experiment tracking, data management, schedules, team roles,
-agent handoffs, or project packets. Recover current state internally from the
-materials available and expose only decisions or conflicts the author needs.
+This skill maintains manuscript evolution. Keep experiment tracking, data
+management, schedules, team roles, agent handoffs, and project packets in their
+respective workflows. Recover current state internally from the materials
+available and expose only decisions or conflicts the author needs.
 
 ## Completion check
 

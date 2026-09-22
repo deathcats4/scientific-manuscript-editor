@@ -30,7 +30,7 @@ Then organize around the relationship actually present—for example:
 - convergence of different measurements or scales;
 - process or temporal progression;
 - robustness, heterogeneity, and domain boundaries;
-- several parallel questions that do not form one causal chain.
+- several parallel questions that each have their own evidence chain.
 
 These are possible movements, not mandatory templates.
 

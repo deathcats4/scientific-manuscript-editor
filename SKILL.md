@@ -45,9 +45,9 @@ Keep the review at the requested scope. Expand it to manuscript-wide evidence,
 literature, mechanism, or structural review only when the local text contains a
 material scientific conflict that prevents a safe edit.
 
-A narrow passage is not automatically a local edit. If completing the request
+A narrow passage can still need substantive revision when completing the request
 requires rebuilding its reasoning, interpretation, evidence relationship, or
-structure, use substantive revision within that narrow scope.
+structure; keep that revision within the requested scope.
 
 ### Substantive revision
 
@@ -92,7 +92,7 @@ Use for full-manuscript revision, submission-stage review, cross-section
 consistency, or coordinated Title–Abstract–Conclusion work. Load
 [continuity-and-consistency.md](references/continuity-and-consistency.md) and
 [synthesis.md](references/synthesis.md) when relevant. A long conversation alone
-does not trigger a full-manuscript sweep.
+does not determine the review depth; the requested deliverable does.
 
 ## Integrated review and internal checks
 
@@ -100,7 +100,7 @@ The user-facing default is one integrated review. For substantive drafting,
 substantive rewriting, or an explicit request for naturalness or AI-style
 review, run the naturalness, AI-pattern, and scientific-quality checks together.
 Ordinary sentence-level polishing stays a local edit unless the user asks for
-broader improvement. Users do not need to choose an internal check.
+broader improvement. Select the internal check automatically from the request.
 
 For the internal AI-pattern check, load
 [academic-protection.md](references/academic-protection.md) and
@@ -133,20 +133,19 @@ weakening or changing the science.
 
 These are internal routing labels, not modes the user must learn:
 
-- If the user explicitly says “只检查 AI 味儿” or “扫描 AI 腔”, run the
-  AI-pattern check without rewriting or performing a full scientific review.
-  Still inspect each candidate span's local function so that real qualifiers,
-  contrasts, parallel evidence, and reasoning links are not mistaken for a
-  surface pattern. Report the result as an expression-pattern finding, not as
-  evidence about authorship or scientific validity.
-- If the user explicitly asks for scientific logic, evidence, terminology, or
-  claim strength only, run the scientific review without adding an AI-pattern
-  audit.
+ - For “只检查 AI 味儿” or “扫描 AI 腔”, run the AI-pattern check as a
+   detection-only review; preserve the requested text and scope.
+   Still inspect each candidate span's local function so that real qualifiers,
+   contrasts, parallel evidence, and reasoning links are not mistaken for a
+   surface pattern. Report the result as an expression-pattern finding, not as
+   evidence about authorship or scientific validity.
+ - For a request limited to scientific logic, evidence, terminology, or claim
+   strength, run the scientific review as the sole active audit.
 
 In ordinary requests, use the integrated review. A narrow grammar, terminology,
 translation, or figure-reference edit with no naturalness request remains a
-local edit and does not silently trigger a global audit. Keep the routing
-internal unless the user asks for an audit or explanation.
+local edit; a global audit begins only when the request calls for it. Keep the
+routing internal unless the user asks for an audit or explanation.
 
 ## Author control
 
@@ -161,11 +160,11 @@ Separate proposing a scientific choice from committing it to the manuscript.
 
 Make ordinary editorial decisions directly when they preserve the scientific
 proposition: grammar, natural phrasing, sentence division, redundancy removal,
-local reordering, and rhetorical emphasis that does not change the paper's
-scientific priority. A scientific choice does not need to stop unrelated work;
-pause or mark only the affected text. An exploratory draft is a
-manuscript-shaped proposal, not a commitment: label unsettled scientific
-content as provisional rather than presenting it as the manuscript's position.
+local reordering, and rhetorical emphasis that preserves the paper's scientific
+priority. Unrelated work may continue while a scientific choice is paused or
+marked in the affected text. An exploratory draft is a manuscript-shaped
+proposal; label unsettled scientific content as provisional until the author
+accepts it as the manuscript's position.
 
 Author control is not author burden. Choose ordinary wording and structure
 directly when they express the same settled science. When a scientific decision
@@ -223,8 +222,8 @@ a style source.
 
 ## Edit scope and amplitude
 
-The requested scope limits what may be changed; it does not impose an artificial
-limit on how much the authorized text may change.
+The requested scope identifies what may be changed, while the text's actual
+problem determines how much the authorized passage should change.
 
 Match edit amplitude to the text and the user's goal: preserve wording that is
 already accurate and effective; repair local problems locally; rewrite fully
@@ -293,11 +292,11 @@ source, an integrity conflict, or manuscript-wide synthesis.
 
 Treat scientific propositions in text the author presents as the current
 manuscript for editing as the current working position within the requested
-scope. This default does not make them verified or irrevocable. Reopen their
-status when the author marks them as exploratory, requests re-evaluation, the
-supplied evidence materially conflicts, or their historical status cannot be
-recovered. Content previously proposed by an AI but not accepted by the author
-is not author state.
+scope. Mark their verification and revision status separately. Reopen them when
+the author marks them as exploratory, requests re-evaluation, the supplied
+evidence materially conflicts, or their historical status cannot be recovered.
+Content becomes author state through the author's acceptance, rather than through
+an earlier AI proposal.
 
 Treat explicit corrections and accepted decisions as updates, not as material
 that the manuscript must narrate. Use the latest supported author position,

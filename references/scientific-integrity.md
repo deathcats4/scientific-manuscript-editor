@@ -11,12 +11,13 @@ scientific position.
 - Preserve numbers, units, conditions, identifiers, terminology meaning,
   formulas, citations, and figure or table references.
 - Keep observation, interpretation, and implication distinguishable.
-- Do not convert association, co-location, model fit, temporal order, or a
-  proxy into causation or mechanism without the necessary support.
-- Do not broaden a claim beyond the sampled object, population, condition,
-  spatial or temporal scale, or evidence type that supports it.
-- Do not present a plausible missing method, source, mechanism, or novelty claim
-  as fact.
+- Represent association, co-location, model fit, temporal order, and proxy
+  evidence at the level they support; state causation or mechanism when the
+  necessary support is present.
+- Keep each claim within the sampled object, population, condition, spatial or
+  temporal scale, and evidence type that support it.
+- Present methods, sources, mechanisms, and novelty claims as facts only when
+  they are supplied or inspected.
 
 ## Calibrate the claim first
 
@@ -25,9 +26,8 @@ scope, causal force, and certainty. Prefer a direct bounded statement to a
 broad statement followed by defensive qualifications.
 
 Express a given uncertainty once at the level where it belongs. When one
-accurate modal or qualifier carries the intended uncertainty, do not stack
-additional hedges that make the claim less intelligible without changing its
-scientific meaning.
+accurate modal or qualifier carries the intended uncertainty, let it carry that
+meaning without stacking additional hedges that reduce intelligibility.
 
 Add an explicit caveat or limitation only when its omission could make the
 reader misunderstand what was measured, where the conclusion applies, which
@@ -35,10 +35,9 @@ interpretation is supported, or how strongly the evidence bears on it. Generic
 truths such as imperfect data, finite samples, or unexcluded possibilities do
 not automatically belong in the manuscript.
 
-Do not manufacture a stronger proposition in order to rebut it. If the author
-states that an observation is a possible explanation, do not rewrite the issue
-as whether the observation necessarily proves the outcome and then add a
-warning that it does not.
+Calibrate the proposition that the author actually made. If an observation is
+stated as a possible explanation, keep that modal relationship instead of
+recasting it as a claim of necessary proof followed by a warning.
 
 ## Inferential support
 
@@ -52,8 +51,8 @@ could not otherwise recover it, especially when:
 - an association is used to discuss causation or mechanism;
 - a proxy or model output stands for another scientific object.
 
-Do not expose the editor's entire internal chain. Include only reasoning the
-reader needs.
+Expose the reasoning the reader needs and keep the editor's remaining internal
+chain in the collaboration.
 
 ## Citation discipline
 
@@ -71,21 +70,20 @@ For an important citation, check:
 - whether the citation supports the sentence's full strength rather than a
   related but narrower fact.
 
-Do not add a plausible citation from memory, use citation count as argumentative
-weight, or let a citation substitute for explaining how the current study's
-evidence supports its own interpretation.
+Use inspected citations for support, treat citation count as descriptive rather
+than argumentative weight, and explain how the current study's evidence supports
+its own interpretation.
 
 ## Alternatives and competing explanations
 
-Do not enumerate every mechanism that could exist. An alternative becomes
-material when it addresses the same phenomenon under comparable conditions,
-can plausibly account for the supplied observations, and would change the
-central interpretation, causal claim, scope, or conclusion.
+Discuss alternatives that address the same phenomenon under comparable
+conditions, can plausibly account for the supplied observations, and would
+change the central interpretation, causal claim, scope, or conclusion.
 
 When that threshold is met, explain the evidence and consequence, recommend a
 course when possible, and let the author decide what becomes the manuscript's
-position. Before that decision, do not insert a rebuttal, invent an exclusion,
-or weaken the active explanation by reflex.
+position. Keep the active explanation intact until that scientific decision is
+made.
 
 ## Editorial action versus scientific commitment
 

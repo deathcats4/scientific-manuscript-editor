@@ -27,9 +27,9 @@ argument within the author's supplied material.
 | Repeated mini-essay structure | Each paragraph restarts the same premise and ends with the same abstract takeaway | Remove duplicated work or reorganize around real relationships. Parallel studies and procedures may legitimately remain parallel. |
 | Artificial opposition | A negative half invents a position solely to make the positive claim sound stronger | Retain supported claims and state the real relation. A genuine exclusion, comparison, or additive `not only X but also Y` carries content. |
 | Defensive repetition | Several caveats repeat one already calibrated boundary or rebut an unclaimed stronger proposition | State the existing boundary at its proper location. Preserve limitations that change interpretation. |
-| Formulaic rhythm | Repeated openings, triads, fragments, or sentence shapes add padding or obscure emphasis | Let information and reasoning determine sentence boundaries. Keep necessary list items; do not turn three findings into two to avoid a triad. |
+| Formulaic rhythm | Repeated openings, triads, fragments, or sentence shapes add padding or obscure emphasis | Let information and reasoning determine sentence boundaries. Keep necessary list items, including three findings when the parallel structure carries information. |
 | Empty transitions or restatement | A connective, heading echo, or summary repeats without advancing understanding | Remove the empty part while keeping the logical relation and any needed inferential step. |
-| Inflated or vague evaluation | Praise substitutes for a supported result, comparison, or contribution | Use specifics already supplied. If removing it changes the author's claim, flag or follow author-control rules; do not invent supporting detail. |
+| Inflated or vague evaluation | Praise substitutes for a supported result, comparison, or contribution | Use specifics already supplied. When removal would change the author's claim, flag it or follow author-control rules; supporting detail comes from the supplied basis. |
 | Chat or editing residue | Text speaks to the user about drafting rather than to the manuscript reader about the subject | Remove only the process text. Protect quotations, research data, methodological explanations, and substantive clauses sharing the sentence. |
 
 Paragraph interchangeability, uniform length, and repeated closers are prompts
@@ -66,15 +66,15 @@ surface variety.
   they carry the intended scholarly relation and keep formal prose formal.
 
 For mixed-language prose, apply each check to its local language and protect
-embedded terminology, formulas, and citations. These language notes do not
-override the manuscript's terminology or the authorized style source.
+embedded terminology, formulas, and citations. These language notes remain
+subordinate to the manuscript's terminology and the authorized style source.
 
 ## Review and delivery
 
 For a detection-only request, report the exact span, its observable defect, and a
 repair direction. Separate clear findings from uncertain context. State when the
-supplied scope contains no actionable defect, and return findings without a
-rewrite unless the author requests one.
+supplied scope contains no actionable defect; reserve rewriting for an explicit
+author request.
 
 For integrated revision, use the entrypoint's combined workflow and proportional
 final check. This is the naturalness component of that check. Repair established

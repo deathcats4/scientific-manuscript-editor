@@ -42,13 +42,13 @@ Establish these fields internally:
 | Local edit | Approved prose immediately around the target | Calibrate a term or expression when needed | Context and continuity; expression only after explicit request |
 | New paragraph or section | Surrounding approved manuscript; an author-designated reference set when requested | Benchmark for the requested section and venue | Continuity and content; expression only after explicit request |
 | Substantive rewrite | Current manuscript's accepted organization and surrounding voice; selected references when requested | Benchmark for the requested section and venue | Continuity and content; expression only after explicit request |
-| Manuscript-wide coordination | Current manuscript continuity, with section-specific reference sets | Reconcile section-appropriate tendencies; never average all sections | Current accepted wording and terminology; expression only after explicit request |
+| Manuscript-wide coordination | Current manuscript continuity, with section-specific reference sets | Reconcile section-appropriate tendencies; keep each section's rhetorical work distinct | Current accepted wording and terminology; expression only after explicit request |
 | No style source supplied | Neutral, direct, field-appropriate prose | Use no reference corpus | Treat an untrusted draft as content and context, not a voice sample |
 
 The surrounding approved manuscript is both a continuity constraint and the
 default style basis for newly drafted material. A reference style supplements
-that voice when the author selects it; its presence alone does not replace the
-established local expression.
+that voice when the author selects it; the established local expression remains
+the anchor for the document.
 
 ## Select and separate references
 

@@ -28,8 +28,8 @@ Determine whether the section mainly needs to:
 - revise a model or framework;
 - establish a justified implication.
 
-More than one task may be present, but do not manufacture a single mechanism or
-controversy merely to create unity.
+More than one task may be present. Let the actual material determine whether the
+section has one mechanism, several linked interpretations, or parallel tasks.
 
 ## Build the interpretation
 
@@ -61,16 +61,17 @@ compressed statement scientifically interpretable. Use the main space to show
 what the parts establish together that they did not establish separately.
 
 When the relevant preceding text is unavailable, use author-provided accepted
-conclusions. Ask for the necessary passage or conclusion only when its status or
-meaning cannot otherwise be recovered accurately; do not reconstruct a prior
-argument from assumptions.
+conclusions. Ask for the necessary passage or conclusion when its status or
+meaning remains unresolved; reconstruct prior arguments from supplied evidence
+and accepted decisions.
 
 ## Integrate literature by function
 
 Use a prior study because it supplies agreement, contrast, a boundary, a prior
 prediction, mechanistic support, a framework, methodological context, or the
 source of a real tension. Keep the current study's evidence at the centre. A
-similar pattern in another system does not by itself prove the same mechanism.
+similar pattern in another system supports the same mechanism only when the
+objects, conditions, scales, and evidence types make that relationship valid.
 
 Establish that the compared objects, conditions, scales, and evidence types
 make the proposed relationship meaningful. When the author has not authorized
@@ -81,9 +82,9 @@ Attribute a difference between studies to sampling, method, setting, scale, or
 another cause only when the evidence supports that attribution. Otherwise state
 the actual difference without inventing a conciliatory explanation.
 
-Raise a competing explanation only when it could materially account for the
-same evidence and change the paper's interpretation or conclusion. Otherwise,
-do not turn Discussion into a catalogue of possibilities.
+Raise a competing explanation when it could materially account for the same
+evidence and change the paper's interpretation or conclusion. Keep the Discussion
+centered on explanations that meet that threshold.
 
 ## Boundaries and implications
 
@@ -92,8 +93,8 @@ finding about when an effect or mechanism holds, weakens, changes, or fails; it
 need not be a ceremonial paragraph at the end.
 
 An implication should state concretely what understanding, model, prediction,
-method, application, or interpretation changes. Do not jump from a local result
-to a field-wide claim without a justified scale bridge.
+method, application, or interpretation changes. Build a justified scale bridge
+before extending a local result to a field-wide claim.
 
 ## Guardrails
 

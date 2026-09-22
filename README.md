@@ -87,7 +87,7 @@
 - [manuscript-reasoning.md](references/manuscript-reasoning.md)：跨章节的段落推理和结构；
 - [scientific-integrity.md](references/scientific-integrity.md)：主张强度、因果边界和引文支持；
 - [synthesis.md](references/synthesis.md)：标题、摘要、结论和贡献压缩；
-- [continuity-and-consistency.md](references/continuity-and-consistency.md)：长文档、跨章节和历史版本中的当前作者状态。
+- [continuity-and-consistency.md](references/continuity-and-consistency.md)：长文档、跨章节和多轮决策中的当前作者状态。
 
 ## 交付形式
 

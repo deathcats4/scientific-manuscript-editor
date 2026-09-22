@@ -36,8 +36,9 @@ These are diagnostic roles, not required headings.
 Choose the organization that makes the procedure easiest to reconstruct. It may
 follow a workflow, study design, data lifecycle, experimental system, scientific
 question, model, sampling-to-inference chain, multiple evidence streams, shared
-protocol with variants, or another dependency present in the work. Do not use
-laboratory chronology merely because that is how the work happened.
+protocol with variants, or another dependency present in the work. Let scientific
+dependency lead the order; use laboratory chronology when it clarifies that
+dependency.
 
 Consequential methodological information is a hard constraint; prose order is
 not. Compress shared procedures, use cross-references where they preserve
@@ -46,14 +47,14 @@ interpretation.
 
 ## Missing information
 
-Never fill a gap with a plausible default. Sample size, replicate count,
-instrument setting, exposure condition, software version, statistical test,
-random seed, inclusion rule, threshold, calibration, ethics information, or a
-design rationale must come from the supplied record.
+Fill methodological details from the supplied record. Sample size, replicate
+count, instrument setting, exposure condition, software version, statistical
+test, random seed, inclusion rule, threshold, calibration, ethics information,
+and design rationale each need an explicit source.
 
 Ask for or mark missing information when it is necessary for validity,
-reproduction, comparison, or accurate interpretation. Do not interrupt merely
-to add decorative detail.
+reproduction, comparison, or accurate interpretation. Keep decorative detail out
+of the workflow so the method remains inspectable.
 
 ## Guardrails
 

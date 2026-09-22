@@ -7,7 +7,7 @@ parts of the body.
 
 ## Shared compression principle
 
-Preserve the smallest scientific model that allows the reader to understand the
+Preserve the core scientific model that allows the reader to understand the
 contribution accurately:
 
 - the problem or motivation that defines the work;
@@ -17,19 +17,20 @@ contribution accurately:
 - any condition or boundary that changes its meaning.
 
 Compression may remove secondary detail, repeated context, and procedures that
-do not affect interpretation. It must not remove a qualifier that carries
-scientific meaning or strengthen `supports` into `demonstrates`, association
-into causation, or a possible mechanism into a confirmed one.
+sit outside interpretation. Retain every qualifier that carries scientific
+meaning, and keep `supports`, association, and possible mechanisms at the level
+earned by the body rather than strengthening them into `demonstrates`, causation,
+or confirmation.
 
 State the contribution through the concrete change the study makes—what it
 identifies, distinguishes, constrains, connects, explains, or enables. Generic
-formulas such as providing some insight or a possible reference do not replace
-that scientific content.
+formulas such as providing some insight or a possible reference leave the
+scientific content unspecified; state the concrete change directly.
 
 ## Abstract
 
 An Abstract should let a reader who has not seen the paper form a correct
-minimal model of the study: why the question matters, what was done, what was
+core model of the study: why the question matters, what was done, what was
 found, and why the result changes understanding.
 
 Choose emphasis from the actual contribution. A discovery-centred Abstract may
@@ -48,9 +49,9 @@ A Conclusion answers: after considering the complete argument, what should the
 reader now understand? It may synthesize findings, state a supported mechanism
 or model, define a boundary, refine theory, or express a justified application.
 
-Do not repeat the Abstract, reopen the Discussion, introduce new evidence, or
-add generic future work. Preserve the level of certainty and scope established
-in the body.
+Keep the Conclusion focused on synthesis: carry forward the established
+certainty and scope, while leaving new evidence, a reopened Discussion, and
+generic future work outside this component.
 
 ## Title
 
@@ -59,18 +60,18 @@ contribution. Emphasize the scientific object and the contribution that the
 paper actually earns: discovery, mechanism, framework, capability, method, or
 resource.
 
-Do not use causal, universal, or novelty language stronger than the body. Keep
-a defining condition when removing it would materially broaden the claim.
-Avoid vague importance claims, method lists without scientific meaning, and
-jargon that hides the contribution.
+Use causal, universal, and novelty language at the level established by the body.
+Keep a defining condition when removing it would materially broaden the claim.
+Replace vague importance claims, method lists without scientific meaning, and
+jargon that hides the contribution with concrete scientific content.
 
 ## Cross-component check
 
 Verify that:
 
-- the Title does not exceed the Abstract or body;
+- the Title stays within the scope of the Abstract and body;
 - the Abstract's key findings appear in Results;
 - its interpretation is developed in Discussion;
-- the Conclusion introduces no new evidence or mechanism;
+- the Conclusion carries forward established evidence and mechanisms;
 - repeated numbers, objects, conditions, and claim strengths agree across all
   supplied components.
