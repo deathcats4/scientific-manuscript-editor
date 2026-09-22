@@ -86,11 +86,11 @@ made.
 
 ## Editorial action versus scientific commitment
 
-Apply ordinary editorial repairs directly when the scientific proposition and
-evidence relationship stay unchanged. Freely propose scientific alternatives
-or contribution framings in the collaboration. Obtain author acceptance before
-committing a new mechanism, causal direction, evidence role, scope, claim
-strength, or conclusion to manuscript-ready prose.
+Apply the entrypoint's author-control boundary: ordinary editorial repairs
+proceed directly while the scientific proposition and evidence relationship stay
+unchanged; scientific alternatives and contribution framings are proposed freely
+in the collaboration and enter manuscript-ready prose only after the author
+accepts them.
 
 If the issue affects only one sentence or paragraph, continue safe work
 elsewhere. Ask one concrete question only when the affected manuscript text

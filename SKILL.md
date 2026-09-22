@@ -61,30 +61,18 @@ is section-specific, the matching section-specific reference.
 ### Drafting and review at section scale
 
 When drafting or rewriting more than one paragraph, or inserting one paragraph
-into an existing section, apply the same reasoning before writing and before
-delivery. First establish the section's active
-question and intended endpoint, then determine what each paragraph inherits,
-adds, and hands off. Draft the paragraphs as a connected sequence rather than
-as independent mini-essays that are joined afterward. Let each paragraph's
-function determine its movement; vary topic sentences, explanation depth, and
-level of abstraction when the argument calls for it.
-
-Before delivery, reread the affected sequence with available section context,
-within the scope defined by the proportional final check below. Check for abrupt
-topic changes, repeated premises, interchangeable paragraphs, and repeated
-summary or significance endings. Repair the underlying order or inference when
-the scientific relationship is real; use transition words to make an existing
-relationship visible rather than to create one. Preserve justified parallel
-evidence, procedures, and questions when they share a clear section-level
-purpose.
-
-When the supplied material leaves the section endpoint or the relationship
-between two moves unresolved, surface that gap instead of disguising it with
-manuscript-ready prose. Ask one concrete question or mark the proposed
-organization as provisional, and identify the missing evidence or decision.
-When repairing an affected draft, work in this order: section purpose and
+into an existing section, first establish the section's active question and
+intended endpoint, then determine what each paragraph inherits, adds, and hands
+off. Draft the paragraphs as a connected sequence rather than as independent
+mini-essays joined afterward, and let each paragraph's function determine its
+movement. Before delivery, reread the affected sequence within the scope of the
+proportional final check. Repair gaps in scientific order—section purpose and
 order, paragraph function and handoff, evidence-to-inference bridge, then
-sentence-level fluency.
+sentence-level fluency—and surface a missing endpoint or relationship instead of
+disguising it with fluent prose.
+[manuscript-reasoning.md](references/manuscript-reasoning.md) carries the full
+section-scale procedure, including the recurrence checks and the
+cumulative-progress test.
 
 ### Manuscript-wide synthesis
 
@@ -189,32 +177,24 @@ style reference for local wording, rhythm, and terminology. A supplied older
 draft contributes terminology, study context, and continuity; use its phrasing
 or rhythm only when the author explicitly asks for that.
 
-The number of references is a heuristic, not a requirement: a local edit may
-need none or one relevant excerpt; a section-level style benchmark may use
-  roughly three to eight references from the same section and venue. More sources
-  add value only when they serve the active task. Keep unrelated sources separate
-  instead of averaging them into a generic voice. A reference's provenance
-  describes its source, not human authorship; learn scholarly conventions rather
-  than treating "humanity" as a detectable property.
+When an older draft is present, its expression preference is unstated, and that
+choice would materially affect the result, ask the single plain-language
+older-draft question defined in the style-source contract below; otherwise use
+the current approved manuscript and continue.
 
-If an older draft would materially change the result and the author has not
-specified its role, ask once in plain language: "旧稿只用于保持术语和内容连续性，还是也参考它的表达方式？"
-When that choice would not materially affect the result, use the current
-approved manuscript and continue.
-
-When the user has not requested a manuscript-only output, disclose the active
-style basis in one plain-language sentence: say whether the output follows the
+Disclose the active style basis in one plain-language sentence unless the user
+requested a manuscript-only output: say whether the output follows the
 surrounding manuscript, a selected reference set, a neutral field register, or
-an explicitly authorized older draft. State whether an older draft was used only
-for terminology and context or also for expression.
-  Describe the active style basis in ordinary user-facing language rather than
-  exposing internal provenance labels.
-An explicit author request to use an older draft as a style sample authorizes
-that use, while scientific facts, evidence, terminology, and claim strength
-remain governed by the manuscript and its sources.
+an explicitly authorized older draft, and whether an older draft was used only
+for terminology and context or also for expression. Use ordinary user-facing
+language rather than internal provenance labels. An explicit author request to
+use an older draft as a style sample authorizes that use, while scientific
+facts, evidence, terminology, and claim strength remain governed by the
+manuscript and its sources.
 
-For the full source-priority matrix, reference selection rules, transferable
-style features, author disclosure, and acceptance gate, load
+For the full source-priority matrix, reference selection rules and counts, the
+verbatim older-draft question, transferable style features, author disclosure,
+and the acceptance gate, load
 [style-source-contract.md](references/style-source-contract.md) whenever the
 task involves new drafting, substantive rewriting, manuscript-wide style
 coordination, or a supplied paper or older draft that the author asks to use as

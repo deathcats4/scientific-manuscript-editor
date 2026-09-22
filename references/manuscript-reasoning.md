@@ -108,9 +108,9 @@ connects.
 ## Author-approved science, editorial freedom
 
 Inside settled scientific boundaries, choose wording, paragraph progression,
-emphasis, and organization directly. If a proposed organization changes which
-evidence bears on which claim, changes the paper's scientific priority or
-scope, or commits the paper to a new interpretation, present it as a
+emphasis, and organization directly. A proposed organization that changes which
+evidence bears on which claim, or that shifts scientific priority, scope, or
+interpretation, follows the entrypoint's author-control rules: present it as a
 recommendation until the author accepts it.
 
 ## Final reasoning check

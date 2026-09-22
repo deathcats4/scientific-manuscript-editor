@@ -4,3 +4,4 @@
 2026-09-22 — meta: agent change-recording protocol — repo AGENTS.md, save.sh (changelog+commit+deploy), commit-msg hook
 2026-09-22 — skill: clarify current-manuscript style routing and positive guardrails — reduce iteration residue and preserve evidence boundaries
 2026-09-22 — skill: restore hard-prohibition register where boundaries need it — methods plausible-default ban, integrity hard boundaries and memory citations, synthesis minimality and conclusion check, continuity term normalization; fix author-state caveat, list indent, discussion duplication
+2026-09-22 — skill: deduplicate cross-file rules — older-draft question and reference-count range live only in style-source-contract, section-scale procedure owned by manuscript-reasoning, author-control restatements defer to entrypoint

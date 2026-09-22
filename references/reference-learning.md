@@ -23,38 +23,20 @@ question; otherwise keep the analysis to that role.
 ## Prioritize the style source explicitly
 
 For new drafting and substantive rewriting, the surrounding approved manuscript
-is the default style basis when the new text must fit an existing document. An
-author-selected reference set becomes a benchmark for information density,
-inferential granularity, paragraph movement, and claim calibration when the
-author asks to learn from it. With no manuscript context or selected reference,
-use neutral field-appropriate prose.
-
-For the task-specific priority matrix, reference roles, transferable features,
-author disclosure, and final acceptance checks, load
-[style-source-contract.md](style-source-contract.md). Treat that contract as
-an internal decision record rather than user-facing process terminology.
-
-For a local edit, the approved prose surrounding the requested passage is the
-primary continuity reference. Literature may calibrate terminology or resolve a
-specific expression, but it does not replace the document's existing voice
-unless the author requests a style transformation.
-
-An older draft contributes terminology, study context, and continuity. Its
-phrasing or rhythm enters the style basis only after an explicit author request.
-When that choice would materially change the output, ask once in plain language:
-"旧稿只用于保持术语和内容连续性，还是也参考它的表达方式？" Otherwise use
-the current approved manuscript and continue.
-
-Reference counts are working ranges: one excerpt may support a local expression;
-roughly three to eight same-section, same-venue references can support a
-section-level benchmark. Keep separate benchmarks for sections with different
-rhetorical work. Use each source to learn accepted scholarly practice rather
-than to construct a synthetic voice or a detector-facing definition of human
-writing.
-
-When style provenance is uncertain, follow the author's explicit request. In its
+is the default style basis when the new text must fit an existing document; an
+author-selected reference set becomes the style benchmark when the author asks
+to learn from it. For a local edit, the approved prose surrounding the requested
+passage remains the primary continuity reference: literature may calibrate
+terminology or resolve a specific expression, but it does not replace the
+document's existing voice unless the author requests a style transformation.
+When style provenance is uncertain, follow the author's explicit request; in its
 absence, keep the source outside the style anchor and describe that choice in
 ordinary language.
+
+For the task-specific priority matrix, the older-draft question and defaults,
+reference counts, transferable features, author disclosure, and final acceptance
+checks, load [style-source-contract.md](style-source-contract.md) and treat it
+as an internal decision record rather than user-facing process terminology.
 
 ## Separate access from manuscript use
 
@@ -115,6 +97,7 @@ author-appropriate organization.
 ## Scientific choices remain visible
 
 A reference can suggest a mechanism or framework without authorizing its
-adoption. If using it would change the manuscript's mechanism, causal claim,
-evidence role, research gap, novelty, scope, or conclusion, present the option
-and its consequences before treating it as the paper's position.
+adoption. A choice that would change the manuscript's mechanism, causal claim,
+evidence role, research gap, novelty, scope, or conclusion follows the
+entrypoint's author-control rules: propose it with its consequences and commit
+it only after the author accepts.
