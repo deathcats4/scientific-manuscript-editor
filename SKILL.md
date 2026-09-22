@@ -50,6 +50,23 @@ evidence, necessary inference, boundary, and author state. Load
 [manuscript-reasoning.md](references/manuscript-reasoning.md) and, when the work
 is section-specific, the matching section-specific reference.
 
+### Drafting and review at section scale
+
+When drafting or rewriting more than one paragraph, apply the same reasoning
+before writing and before delivery. First establish the section's active
+question and intended endpoint, then determine what each paragraph inherits,
+adds, and hands off. Draft the paragraphs as a connected sequence rather than
+as independent mini-essays that are joined afterward. Do not make every
+paragraph follow the same topic-sentence, explanation, and abstract-elevation
+pattern.
+
+Before delivery, reread the whole affected section as a unit. Check for abrupt
+topic changes, repeated premises, interchangeable paragraphs, and repeated
+summary or significance endings. Repair the underlying order or inference when
+the scientific relationship is real; do not manufacture a causal link with
+transition words. Preserve justified parallel evidence, procedures, and
+questions when they share a clear section-level purpose.
+
 ### Manuscript-wide synthesis
 
 Use for full-manuscript revision, submission-stage review, cross-section

@@ -69,6 +69,27 @@ When several evidence streams matter jointly, explain what their convergence
 adds and what each stream can establish. When they answer parallel questions,
 allow parallel contributions rather than inventing one linear mechanism.
 
+## Section-scale drafting and review
+
+This check applies when generating, substantially rewriting, or reviewing a
+passage; it is not a language-polishing step added only at the end. Before
+writing multiple paragraphs, hold a compact internal model of the section's
+question, endpoint, and paragraph movement. For each paragraph, know what the
+preceding context has established, what new work the paragraph performs, and
+why the next paragraph can follow from it. Use a real relationship present in
+the science—progression, comparison, convergence, discrimination, scale,
+process, boundary, anomaly, or justified parallelism—to determine the order.
+
+During review, read the paragraphs together rather than checking them only one
+at a time. Look for abrupt topic changes, repeated premises, paragraphs that
+could be exchanged without changing the argument, and recurring
+"summary–elevation" endings. These are diagnostic signals, not automatic
+violations: parallel methods, results, or evidence streams may legitimately
+retain parallel structure. If the relationship is real, make the inherited
+premise and new inference explicit; if it is absent, regroup, separate, or
+flag the scope rather than adding ornamental transitions or an unsupported
+mechanism.
+
 ## Author-approved science, editorial freedom
 
 Inside settled scientific boundaries, choose wording, paragraph progression,
