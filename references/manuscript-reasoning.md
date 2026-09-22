@@ -71,9 +71,10 @@ allow parallel contributions rather than inventing one linear mechanism.
 
 ## Section-scale drafting and review
 
-This check applies when generating, substantially rewriting, reviewing a
-passage, or inserting a paragraph into an existing section; it is not a
-language-polishing step added only at the end. Before writing multiple
+This check applies when generating, substantially rewriting, or reviewing a
+paragraph or section for reasoning or organization, and when inserting a
+paragraph into an existing section; it is not a language-polishing step added
+only at the end. Before writing multiple
 paragraphs, or a paragraph whose placement changes the surrounding argument,
 hold a compact internal model of the section's question, endpoint, and
 paragraph movement. For each paragraph, know what the

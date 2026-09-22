@@ -6,3 +6,4 @@
 2026-09-22 — skill: restore hard-prohibition register where boundaries need it — methods plausible-default ban, integrity hard boundaries and memory citations, synthesis minimality and conclusion check, continuity term normalization; fix author-state caveat, list indent, discussion duplication
 2026-09-22 — skill: deduplicate cross-file rules — older-draft question and reference-count range live only in style-source-contract, section-scale procedure owned by manuscript-reasoning, author-control restatements defer to entrypoint
 2026-09-22 — style-source: align disclosure with manuscript-only output — explain provenance only when material or requested
+2026-09-22 — reasoning: narrow section-scale review trigger — keep sentence polishing local
