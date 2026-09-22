@@ -70,8 +70,7 @@ and accepted decisions.
 Use a prior study because it supplies agreement, contrast, a boundary, a prior
 prediction, mechanistic support, a framework, methodological context, or the
 source of a real tension. Keep the current study's evidence at the centre. A
-similar pattern in another system supports the same mechanism only when the
-objects, conditions, scales, and evidence types make that relationship valid.
+similar pattern in another system does not by itself prove the same mechanism.
 
 Establish that the compared objects, conditions, scales, and evidence types
 make the proposed relationship meaningful. When the author has not authorized

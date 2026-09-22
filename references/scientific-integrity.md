@@ -11,13 +11,12 @@ scientific position.
 - Preserve numbers, units, conditions, identifiers, terminology meaning,
   formulas, citations, and figure or table references.
 - Keep observation, interpretation, and implication distinguishable.
-- Represent association, co-location, model fit, temporal order, and proxy
-  evidence at the level they support; state causation or mechanism when the
-  necessary support is present.
-- Keep each claim within the sampled object, population, condition, spatial or
-  temporal scale, and evidence type that support it.
-- Present methods, sources, mechanisms, and novelty claims as facts only when
-  they are supplied or inspected.
+- Do not convert association, co-location, model fit, temporal order, or a
+  proxy into causation or mechanism without the necessary support.
+- Do not broaden a claim beyond the sampled object, population, condition,
+  spatial or temporal scale, or evidence type that supports it.
+- Do not present a plausible missing method, source, mechanism, or novelty claim
+  as fact.
 
 ## Calibrate the claim first
 
@@ -70,9 +69,9 @@ For an important citation, check:
 - whether the citation supports the sentence's full strength rather than a
   related but narrower fact.
 
-Use inspected citations for support, treat citation count as descriptive rather
-than argumentative weight, and explain how the current study's evidence supports
-its own interpretation.
+Do not add a plausible citation from memory, use citation count as argumentative
+weight, or let a citation substitute for explaining how the current study's
+evidence supports its own interpretation.
 
 ## Alternatives and competing explanations
 

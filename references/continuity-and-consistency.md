@@ -36,7 +36,7 @@ Maintain only the distinctions the manuscript actually needs:
 - preferred term and allowed variant;
 - abbreviation and where it is defined;
 - symbol, unit, capitalization, hyphenation, and naming convention;
-- scientifically distinct terms that retain separate meanings;
+- scientifically distinct terms that must not be normalized into one another;
 - prohibited or superseded wording when it could re-enter the draft.
 
 Repeat the correct scientific term when it preserves a needed distinction;

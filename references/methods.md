@@ -47,10 +47,10 @@ interpretation.
 
 ## Missing information
 
-Fill methodological details from the supplied record. Sample size, replicate
-count, instrument setting, exposure condition, software version, statistical
-test, random seed, inclusion rule, threshold, calibration, ethics information,
-and design rationale each need an explicit source.
+Never fill a gap with a plausible default. Sample size, replicate count,
+instrument setting, exposure condition, software version, statistical test,
+random seed, inclusion rule, threshold, calibration, ethics information, or a
+design rationale must come from the supplied record.
 
 Ask for or mark missing information when it is necessary for validity,
 reproduction, comparison, or accurate interpretation. Keep decorative detail out

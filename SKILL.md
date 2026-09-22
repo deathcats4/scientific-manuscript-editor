@@ -133,14 +133,14 @@ weakening or changing the science.
 
 These are internal routing labels, not modes the user must learn:
 
- - For “只检查 AI 味儿” or “扫描 AI 腔”, run the AI-pattern check as a
-   detection-only review; preserve the requested text and scope.
-   Still inspect each candidate span's local function so that real qualifiers,
-   contrasts, parallel evidence, and reasoning links are not mistaken for a
-   surface pattern. Report the result as an expression-pattern finding, not as
-   evidence about authorship or scientific validity.
- - For a request limited to scientific logic, evidence, terminology, or claim
-   strength, run the scientific review as the sole active audit.
+- For “只检查 AI 味儿” or “扫描 AI 腔”, run the AI-pattern check as a
+  detection-only review; preserve the requested text and scope.
+  Still inspect each candidate span's local function so that real qualifiers,
+  contrasts, parallel evidence, and reasoning links are not mistaken for a
+  surface pattern. Report the result as an expression-pattern finding, not as
+  evidence about authorship or scientific validity.
+- For a request limited to scientific logic, evidence, terminology, or claim
+  strength, run the scientific review as the sole active audit.
 
 In ordinary requests, use the integrated review. A narrow grammar, terminology,
 translation, or figure-reference edit with no naturalness request remains a
@@ -292,11 +292,11 @@ source, an integrity conflict, or manuscript-wide synthesis.
 
 Treat scientific propositions in text the author presents as the current
 manuscript for editing as the current working position within the requested
-scope. Mark their verification and revision status separately. Reopen them when
-the author marks them as exploratory, requests re-evaluation, the supplied
-evidence materially conflicts, or their historical status cannot be recovered.
-Content becomes author state through the author's acceptance, rather than through
-an earlier AI proposal.
+scope. This default does not make them verified or irrevocable. Reopen their
+status when the author marks them as exploratory, requests re-evaluation, the
+supplied evidence materially conflicts, or their historical status cannot be
+recovered. Content previously proposed by an AI but not accepted by the author
+is not author state.
 
 Treat explicit corrections and accepted decisions as updates, not as material
 that the manuscript must narrate. Use the latest supported author position,

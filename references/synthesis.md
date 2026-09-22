@@ -7,7 +7,7 @@ parts of the body.
 
 ## Shared compression principle
 
-Preserve the core scientific model that allows the reader to understand the
+Preserve the smallest scientific model that allows the reader to understand the
 contribution accurately:
 
 - the problem or motivation that defines the work;
@@ -17,10 +17,9 @@ contribution accurately:
 - any condition or boundary that changes its meaning.
 
 Compression may remove secondary detail, repeated context, and procedures that
-sit outside interpretation. Retain every qualifier that carries scientific
-meaning, and keep `supports`, association, and possible mechanisms at the level
-earned by the body rather than strengthening them into `demonstrates`, causation,
-or confirmation.
+do not affect interpretation. It must not remove a qualifier that carries
+scientific meaning or strengthen `supports` into `demonstrates`, association
+into causation, or a possible mechanism into a confirmed one.
 
 State the contribution through the concrete change the study makes—what it
 identifies, distinguishes, constrains, connects, explains, or enables. Generic
@@ -30,7 +29,7 @@ scientific content unspecified; state the concrete change directly.
 ## Abstract
 
 An Abstract should let a reader who has not seen the paper form a correct
-core model of the study: why the question matters, what was done, what was
+minimal model of the study: why the question matters, what was done, what was
 found, and why the result changes understanding.
 
 Choose emphasis from the actual contribution. A discovery-centred Abstract may
@@ -72,6 +71,6 @@ Verify that:
 - the Title stays within the scope of the Abstract and body;
 - the Abstract's key findings appear in Results;
 - its interpretation is developed in Discussion;
-- the Conclusion carries forward established evidence and mechanisms;
+- the Conclusion introduces no new evidence or mechanism;
 - repeated numbers, objects, conditions, and claim strengths agree across all
   supplied components.
