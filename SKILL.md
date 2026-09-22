@@ -216,8 +216,8 @@ For substantive work, answer only what the current task needs:
 1. What should the intended reader understand or accept?
 2. Which supplied observations, results, analyses, or sources support it?
 3. Which non-obvious inference must be expressed for that support to make sense?
-  4. Which supported condition or uncertainty materially changes the conclusion's
-     meaning and therefore belongs in the prose?
+4. Which supported condition or uncertainty materially changes the conclusion's
+   meaning and therefore belongs in the prose?
 5. Which parts are settled author state, and which are only candidate choices?
 
 The manuscript need not spell out common expert knowledge, every internal
@@ -329,9 +329,9 @@ result should be interpreted.
 
 Use only facts, data, methods, and sources supplied by the author or actually
 inspected. Preserve numbers, units, identifiers, sample names, formulas,
-  citations, figure and table references, and scientific scope. Keep missing support
-  visible as a gap and fill it only with inspected evidence. Keep association
-  distinct from causation. In
+citations, figure and table references, and scientific scope. Keep missing support
+visible as a gap and fill it only with inspected evidence. Keep association
+distinct from causation. In
 user-facing Chinese, describe uninspected citation support as “支持尚未核实”; use
 `support not verified` only as an internal status.
 
