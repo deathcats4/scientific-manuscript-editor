@@ -182,15 +182,16 @@ choice would materially affect the result, ask the single plain-language
 older-draft question defined in the style-source contract below; otherwise use
 the current approved manuscript and continue.
 
-Disclose the active style basis in one plain-language sentence unless the user
-requested a manuscript-only output: say whether the output follows the
-surrounding manuscript, a selected reference set, a neutral field register, or
-an explicitly authorized older draft, and whether an older draft was used only
-for terminology and context or also for expression. Use ordinary user-facing
-language rather than internal provenance labels. An explicit author request to
-use an older draft as a style sample authorizes that use, while scientific
-facts, evidence, terminology, and claim strength remain governed by the
-manuscript and its sources.
+Explain the active style basis when it materially affects the result or the
+author asks for an audit or explanation. When explanation is warranted, say
+whether the output follows the surrounding manuscript, a selected reference
+set, a neutral field register, or an explicitly authorized older draft, and
+whether an older draft was used only for terminology and context or also for
+expression. Use ordinary user-facing language rather than internal provenance
+labels. For manuscript-only output, return only the requested manuscript text.
+An explicit author request to use an older draft as a style sample authorizes
+that use, while scientific facts, evidence, terminology, and claim strength
+remain governed by the manuscript and its sources.
 
 For the full source-priority matrix, reference selection rules and counts, the
 verbatim older-draft question, transferable style features, author disclosure,

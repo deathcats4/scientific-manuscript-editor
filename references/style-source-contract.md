@@ -5,8 +5,9 @@ style coordination, or a task where the author selects a paper or older draft
 as a style source. A local edit needs it when the author requests style beyond
 the surrounding manuscript.
 
-Keep the contract as an internal decision record. Share a plain-language
-summary only when the author asks for an audit or explanation.
+Keep the contract as an internal decision record. Explain the active style basis
+when it materially affects the result or the author asks for an audit or
+explanation; do not append that explanation to manuscript-only output.
 
 ## Build the contract before writing
 
