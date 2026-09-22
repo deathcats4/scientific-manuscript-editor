@@ -67,6 +67,14 @@ the scientific relationship is real; do not manufacture a causal link with
 transition words. Preserve justified parallel evidence, procedures, and
 questions when they share a clear section-level purpose.
 
+If the supplied material does not establish the section endpoint or the
+relationship between two moves, do not smooth over the gap in manuscript-ready
+prose. Ask one concrete question or mark the proposed organization as
+provisional, and identify the missing evidence or decision. When repairing an
+affected draft, work in this order: section purpose and order, paragraph
+function and handoff, evidence-to-inference bridge, then sentence-level
+fluency.
+
 ### Manuscript-wide synthesis
 
 Use for full-manuscript revision, submission-stage review, cross-section
@@ -151,8 +159,9 @@ Load a reference only when its branch is active:
   [reference-learning.md](references/reference-learning.md)
 - Title, Abstract, Conclusion, or contribution compression →
   [synthesis.md](references/synthesis.md)
-- Long revision history, superseded positions, terminology continuity, or
-  cross-manuscript consistency →
+- A new section inserted into an existing manuscript, work spanning two or
+  more sections, long revision history, superseded positions, terminology
+  continuity, or cross-manuscript consistency →
   [continuity-and-consistency.md](references/continuity-and-consistency.md)
 
 Use one section reference for each section actually in scope. Add another

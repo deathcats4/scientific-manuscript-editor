@@ -90,6 +90,19 @@ premise and new inference explicit; if it is absent, regroup, separate, or
 flag the scope rather than adding ornamental transitions or an unsupported
 mechanism.
 
+Use a cumulative-progress test: after each paragraph, what can the reader now
+understand, compare, rule out, or connect that was not available before it?
+If the answer is only a restatement, the paragraph needs a different function,
+combination with another paragraph, or removal. If the supplied material cannot
+support the intended handoff or endpoint, stop connective drafting and ask one
+concrete question or label the proposed structure provisional. Do not turn an
+unresolved scientific relationship into fluent prose.
+
+Repair in this order: section purpose and order, paragraph function and
+handoff, evidence-to-inference bridge, then sentence-level fluency. A smooth
+sentence cannot compensate for a missing relationship between the claims it
+connects.
+
 ## Author-approved science, editorial freedom
 
 Inside settled scientific boundaries, choose wording, paragraph progression,
