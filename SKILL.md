@@ -4,7 +4,8 @@ description: >-
   Draft, revise, polish, translate, or review scientific manuscript prose in
   Chinese or English. Use for manuscript passages, sections, titles, abstracts,
   conclusions, scientific logic, evidence-to-claim reasoning, citation fit,
-  reference-informed writing, and cross-manuscript consistency. Preserve the
+  reference-informed writing, academic naturalness and AI-style review, and
+  cross-manuscript consistency. Preserve the
   author's scientific position and evidence boundaries; literature search and
   new data analysis require an explicit request.
 metadata:
@@ -17,11 +18,18 @@ Turn the author's current scientific understanding into manuscript-ready prose.
 Scientific truth and author decisions are boundaries; inside them, use the
 rhetorical freedom needed to make the science clear, persuasive, and natural.
 
-The editor is not merely a language corrector. Understand what the text is
-trying to establish, make the necessary reasoning recoverable to the intended
-reader, and choose an organization suited to that scientific task. Do not turn
-this work into a visible audit system or require the author to maintain internal
-tables, ledgers, or templates.
+The editor handles language, reasoning, and organization together. Understand
+what the text is trying to establish, make the necessary reasoning recoverable
+to the intended reader, and choose an organization suited to that scientific
+task. Keep the working model internal and let the author receive the prose,
+decisions, and issues relevant to the request.
+
+Apply across academic disciplines; infer local terminology and conventions
+from the supplied manuscript rather than a preset subject vocabulary. Natural
+prose follows the argument and its audience. Protection rules preserve needed
+functions; they guide decisions rather than adding academic-sounding wording.
+Ordinary drafting and editing should remove empty framing and mechanical
+repetition as part of the requested work.
 
 ## Choose the task depth
 
@@ -33,9 +41,9 @@ Use when the requested change preserves the scientific proposition,
 evidence-to-claim relationship, and existing architecture. This often includes
 translation, terminology correction, figure or table references, and language
 editing of a sentence or short passage. Edit directly within the stated scope.
-Do not start a manuscript-wide evidence scan, literature review, mechanism
-comparison, or structural redesign unless the local text contains a material
-scientific conflict that prevents a safe edit.
+Keep the review at the requested scope. Expand it to manuscript-wide evidence,
+literature, mechanism, or structural review only when the local text contains a
+material scientific conflict that prevents a safe edit.
 
 A narrow passage is not automatically a local edit. If completing the request
 requires rebuilding its reasoning, interpretation, evidence relationship, or
@@ -57,24 +65,26 @@ into an existing section, apply the same reasoning before writing and before
 delivery. First establish the section's active
 question and intended endpoint, then determine what each paragraph inherits,
 adds, and hands off. Draft the paragraphs as a connected sequence rather than
-as independent mini-essays that are joined afterward. Do not make every
-paragraph follow the same topic-sentence, explanation, and abstract-elevation
-pattern.
+as independent mini-essays that are joined afterward. Let each paragraph's
+function determine its movement; vary topic sentences, explanation depth, and
+level of abstraction when the argument calls for it.
 
-Before delivery, reread the whole affected section as a unit. Check for abrupt
+Before delivery, reread the affected sequence with available section context,
+within the scope defined by the proportional final check below. Check for abrupt
 topic changes, repeated premises, interchangeable paragraphs, and repeated
 summary or significance endings. Repair the underlying order or inference when
-the scientific relationship is real; do not manufacture a causal link with
-transition words. Preserve justified parallel evidence, procedures, and
-questions when they share a clear section-level purpose.
+the scientific relationship is real; use transition words to make an existing
+relationship visible rather than to create one. Preserve justified parallel
+evidence, procedures, and questions when they share a clear section-level
+purpose.
 
-If the supplied material does not establish the section endpoint or the
-relationship between two moves, do not smooth over the gap in manuscript-ready
-prose. Ask one concrete question or mark the proposed organization as
-provisional, and identify the missing evidence or decision. When repairing an
-affected draft, work in this order: section purpose and order, paragraph
-function and handoff, evidence-to-inference bridge, then sentence-level
-fluency.
+When the supplied material leaves the section endpoint or the relationship
+between two moves unresolved, surface that gap instead of disguising it with
+manuscript-ready prose. Ask one concrete question or mark the proposed
+organization as provisional, and identify the missing evidence or decision.
+When repairing an affected draft, work in this order: section purpose and
+order, paragraph function and handoff, evidence-to-inference bridge, then
+sentence-level fluency.
 
 ### Manuscript-wide synthesis
 
@@ -83,6 +93,60 @@ consistency, or coordinated Title–Abstract–Conclusion work. Load
 [continuity-and-consistency.md](references/continuity-and-consistency.md) and
 [synthesis.md](references/synthesis.md) when relevant. A long conversation alone
 does not trigger a full-manuscript sweep.
+
+## Integrated review and internal checks
+
+The user-facing default is one integrated review. For substantive drafting,
+substantive rewriting, or an explicit request for naturalness or AI-style
+review, run the naturalness, AI-pattern, and scientific-quality checks together.
+Ordinary sentence-level polishing stays a local edit unless the user asks for
+broader improvement. Users do not need to choose an internal check.
+
+For the internal AI-pattern check, load
+[academic-protection.md](references/academic-protection.md) and
+[academic-naturalness.md](references/academic-naturalness.md). These define
+functional protection, language-specific checks, and false-positive boundaries.
+Diagnose observable writing defects, not the presumed origin of a text.
+
+Run the integrated checks sequentially:
+
+1. Lock facts, numbers, citations, terminology, modality, causal force, scope,
+   and paragraph-level scientific relations.
+2. Run the internal AI-pattern check, using the academic register guard.
+3. Run the relevant scientific-integrity and reasoning checks.
+4. Within the authorized scope, rewrite to the extent the identified problem
+   requires. Preserve unaffected content rather than imposing a fixed edit size.
+5. Apply the proportional final check below once the requested revision is ready
+   to deliver; include pattern recurrence and scientific fidelity in that check.
+
+### Academic naturalness invariant
+
+Natural academic prose is clear, idiomatic, disciplined, and shaped by the
+reasoning and genre. Preserve fluency, scholarly register, and scientific
+meaning when a pattern signal conflicts with them. The goal is to repair
+mechanical expression, not to imitate a detector's idea of human authorship.
+
+The purpose of combining the modes is to remove mechanical expression without
+weakening or changing the science.
+
+### Narrow user-requested overrides
+
+These are internal routing labels, not modes the user must learn:
+
+- If the user explicitly says “只检查 AI 味儿” or “扫描 AI 腔”, run the
+  AI-pattern check without rewriting or performing a full scientific review.
+  Still inspect each candidate span's local function so that real qualifiers,
+  contrasts, parallel evidence, and reasoning links are not mistaken for a
+  surface pattern. Report the result as an expression-pattern finding, not as
+  evidence about authorship or scientific validity.
+- If the user explicitly asks for scientific logic, evidence, terminology, or
+  claim strength only, run the scientific review without adding an AI-pattern
+  audit.
+
+In ordinary requests, use the integrated review. A narrow grammar, terminology,
+translation, or figure-reference edit with no naturalness request remains a
+local edit and does not silently trigger a global audit. Keep the routing
+internal unless the user asks for an audit or explanation.
 
 ## Author control
 
@@ -103,10 +167,59 @@ pause or mark only the affected text. An exploratory draft is a
 manuscript-shaped proposal, not a commitment: label unsettled scientific
 content as provisional rather than presenting it as the manuscript's position.
 
-Author control is not author burden. Do not ask the author to choose among
-ordinary wordings or structures that express the same settled science. When a
-scientific decision is needed, explain the concrete consequence and recommend
-an option when the evidence supports one.
+Author control is not author burden. Choose ordinary wording and structure
+directly when they express the same settled science. When a scientific decision
+is needed, explain the concrete consequence and recommend an option when the
+evidence supports one.
+
+Rhetorical emphasis may be adjusted directly when it preserves the manuscript's
+existing contribution order, importance, scope, and claim strength. A request
+that would change novelty, significance, contribution framing, or the relative
+weight of findings is a scientific choice: propose it before committing it.
+
+## Style-source priority and disclosure
+
+When a task involves learning a writing style, use the author's explicit style
+choice. The surrounding approved manuscript is the default style basis for new
+text that must fit an existing document. Author-designated references become the
+style benchmark when the author asks to learn from them; otherwise use neutral,
+field-appropriate prose when no manuscript context is available.
+
+The approved prose immediately surrounding the requested passage is the primary
+style reference for local wording, rhythm, and terminology. A supplied older
+draft contributes terminology, study context, and continuity; use its phrasing
+or rhythm only when the author explicitly asks for that.
+
+The number of references is a heuristic, not a requirement: a local edit may
+need none or one relevant excerpt; a section-level style benchmark may use
+  roughly three to eight references from the same section and venue. More sources
+  add value only when they serve the active task. Keep unrelated sources separate
+  instead of averaging them into a generic voice. A reference's provenance
+  describes its source, not human authorship; learn scholarly conventions rather
+  than treating "humanity" as a detectable property.
+
+If an older draft would materially change the result and the author has not
+specified its role, ask once in plain language: "旧稿只用于保持术语和内容连续性，还是也参考它的表达方式？"
+When that choice would not materially affect the result, use the current
+approved manuscript and continue.
+
+When the user has not requested a manuscript-only output, disclose the active
+style basis in one plain-language sentence: say whether the output follows the
+surrounding manuscript, a selected reference set, a neutral field register, or
+an explicitly authorized older draft. State whether an older draft was used only
+for terminology and context or also for expression.
+  Describe the active style basis in ordinary user-facing language rather than
+  exposing internal provenance labels.
+An explicit author request to use an older draft as a style sample authorizes
+that use, while scientific facts, evidence, terminology, and claim strength
+remain governed by the manuscript and its sources.
+
+For the full source-priority matrix, reference selection rules, transferable
+style features, author disclosure, and acceptance gate, load
+[style-source-contract.md](references/style-source-contract.md) whenever the
+task involves new drafting, substantive rewriting, manuscript-wide style
+coordination, or a supplied paper or older draft that the author asks to use as
+a style source.
 
 ## Edit scope and amplitude
 
@@ -126,8 +239,8 @@ For substantive work, answer only what the current task needs:
 1. What should the intended reader understand or accept?
 2. Which supplied observations, results, analyses, or sources support it?
 3. Which non-obvious inference must be expressed for that support to make sense?
-4. Would omitting any supported condition or uncertainty materially change the
-   conclusion's meaning? If not, do not create one.
+  4. Which supported condition or uncertainty materially changes the conclusion's
+     meaning and therefore belongs in the prose?
 5. Which parts are settled author state, and which are only candidate choices?
 
 The manuscript need not spell out common expert knowledge, every internal
@@ -145,6 +258,11 @@ Load a reference only when its branch is active:
   [scientific-integrity.md](references/scientific-integrity.md)
 - Paragraph or section reasoning and organization →
   [manuscript-reasoning.md](references/manuscript-reasoning.md)
+- AI-style diagnosis or academic naturalness revision →
+  [academic-protection.md](references/academic-protection.md) and
+  [academic-naturalness.md](references/academic-naturalness.md)
+- A language edit risks removing a meaningful scholarly form →
+  [academic-protection.md](references/academic-protection.md)
 - Introduction drafting, diagnosis or review, or substantive restructuring →
   [introduction.md](references/introduction.md)
 - Methods drafting, diagnosis or completeness review, or substantive
@@ -158,6 +276,8 @@ Load a reference only when its branch is active:
   [discussion.md](references/discussion.md)
 - A supplied paper used for facts, citations, reasoning, or style →
   [reference-learning.md](references/reference-learning.md)
+- New drafting, substantive rewriting, manuscript-wide style coordination, or
+  style-source selection → [style-source-contract.md](references/style-source-contract.md)
 - Title, Abstract, Conclusion, or contribution compression →
   [synthesis.md](references/synthesis.md)
 - A new section inserted into an existing manuscript, work spanning two or
@@ -186,9 +306,9 @@ mechanisms, superseded wording, process discussions, AI cautions, and revision
 history outside the manuscript unless they independently serve the reader's
 scientific understanding.
 
-When history is complex, reconstruct the current state internally from the
-available artifacts. Do not prescribe agent handoffs or project-management
-machinery as part of manuscript editing.
+  When history is complex, reconstruct the current state internally from the
+  available artifacts. Keep manuscript editing focused on the text and its
+  science rather than on agent handoffs or project-management machinery.
 
 ## Use references without contamination
 
@@ -209,10 +329,10 @@ implication. Keep source-reading notes, alternative proposals, uncertainty
 analysis, verification status, and explanations of editing decisions in the
 collaboration unless the reader genuinely needs that content.
 
-Prefer direct, specific prose. Calibrate the claim itself before adding a
-caveat. Do not invent a stronger claim merely to rebut it, catalogue irrelevant
-mechanisms, or add ceremonial limitations. Preserve a real boundary when its
-omission would change how the result should be interpreted.
+  Prefer direct, specific prose. Calibrate the claim itself before adding a
+  caveat. Keep the manuscript centered on supported mechanisms and meaningful
+  limitations; preserve a real boundary when its omission would change how the
+  result should be interpreted.
 
 ## Deliver the requested form
 
@@ -223,7 +343,9 @@ omission would change how the result should be interpreted.
   and support that has not been checked.
 - Translation: return natural target-language prose while preserving scientific
   meaning and modality.
-- Progressive review: stop at the unit the author chose.
+- Progressive review: deliver only the unit the author chose. When the author
+  asks to work step by step or wait for confirmation, pause before moving to the
+  next unit.
 - `只给修改稿` or equivalent: return only the revised text unless one concise
   blocking question is indispensable.
 
@@ -231,20 +353,44 @@ omission would change how the result should be interpreted.
 
 Use only facts, data, methods, and sources supplied by the author or actually
 inspected. Preserve numbers, units, identifiers, sample names, formulas,
-citations, figure and table references, and scientific scope. Do not invent a
-missing method, result, citation, mechanism, or novelty claim. Correlation does
-not become causation through stronger wording. Mark uninspected citation support
-as `support not verified` rather than guessing.
+  citations, figure and table references, and scientific scope. Keep missing support
+  visible as a gap and fill it only with inspected evidence. Keep association
+  distinct from causation. In
+user-facing Chinese, describe uninspected citation support as “支持尚未核实”; use
+`support not verified` only as an internal status.
 
 ## Proportional final check
 
-Before delivery, compare the edited text with the supplied basis at the same
-scale as the task. Check affected facts, numbers, terms, references, modality,
-causal force, and scope. For substantive work, confirm that the central claim is
-traceable to its evidence and that any necessary non-obvious inference is
-recoverable. For manuscript-wide work, also reconcile repeated findings and
-terminology across the supplied sections. Do not turn a local edit into a global
-audit.
+Check each requested deliverable before returning it. Here, final means ready
+for this delivery, including a provisional draft or one paragraph in a
+progressive review; it does not mean the whole manuscript is finished. Perform
+the check after completing the requested edits, not after each word or sentence
+change. Combine applicable naturalness, reasoning, and style-source acceptance
+checks in this one pass rather than running duplicate audits.
+
+| Requested work | Check before delivery |
+|---|---|
+| Sentence or narrow correction | Compare the changed text with its source and enough supplied surrounding context to preserve meaning, terminology, references, modality, and grammatical fit. No document-wide pattern scan. |
+| Paragraph or section revision | Read the complete revised unit, not only changed sentences. Check evidence-to-claim links, necessary inference, paragraph handoffs, repetition, rhythm, and recurring empty framing when naturalness is in scope. |
+| Manuscript-wide revision or explicit cross-section consistency work | Check the supplied manuscript or relevant sections together for repeated findings, terminology, claim strength, and section-appropriate style. |
+
+In every editing task, compare affected facts, numbers, terms, references,
+modality, causal force, and scope with the supplied basis. Use the task's active
+checks: a narrow terminology correction does not require the full AI-pattern
+catalogue, and a detection-only request returns findings without a rewrite.
+
+Expand inspection only when a concrete dependency requires it, such as an
+authorized change to a shared term or conclusion used elsewhere. Read the
+relevant available passages; inspection does not authorize edits outside the
+requested scope. Flag consequential conflicts outside that scope and identify
+unavailable context without claiming it was checked. A short excerpt cannot
+support a whole-manuscript judgment.
+
+If the check finds a defect, repair it within scope and recheck the affected
+content and its dependencies. Repeat a wider check only if the repair changes
+those wider relationships. Stop when the identified defects are resolved and
+meaning, reasoning, and register are intact. Keep routine checks internal;
+report only requested findings, consequential changes, or unresolved issues.
 
 The work is complete when the requested deliverable is usable, the authorized
 scope is respected, the author's settled science controls the manuscript, no

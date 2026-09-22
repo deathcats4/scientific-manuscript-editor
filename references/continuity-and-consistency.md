@@ -2,8 +2,7 @@
 
 Use for long revision histories, superseded positions, terminology continuity,
 full-manuscript review, submission preparation, or coordinated changes across
-sections. Do not use it merely because the conversation has lasted several
-turns.
+sections. Conversation length alone does not determine the scope.
 
 ## Recover the current manuscript state
 
@@ -39,8 +38,8 @@ Maintain only the distinctions the manuscript actually needs:
 - scientifically distinct terms that must not be normalized into one another;
 - prohibited or superseded wording when it could re-enter the draft.
 
-Do not force decorative synonym variety. Repetition of the correct scientific
-term is preferable to a variant that changes meaning.
+Repeat the correct scientific term when it preserves a needed distinction;
+decorative synonym variety is secondary to meaning.
 
 ## Cross-manuscript consistency
 
@@ -63,10 +62,8 @@ For the supplied manuscript scope, check in focused passes:
    interpretation; consistency does not require copying the same argument or
    qualification across Abstract, Results, Discussion, and Conclusion.
 
-Do not make one location agree with another by guessing which is correct.
-Correct an unambiguous editorial inconsistency when a source of truth is known.
-Surface an unresolved factual conflict or scientific choice before changing the
-affected claim.
+Use a known source of truth to correct an editorial inconsistency. Surface a
+factual conflict or scientific choice when the source of truth remains open.
 
 ## Scope of continuity
 

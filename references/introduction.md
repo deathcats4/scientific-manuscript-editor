@@ -50,18 +50,14 @@ logic.
 
 ## Guardrails
 
-- Do not invent a gap merely because an Introduction is expected to contain
-  one.
-- Do not claim novelty without a verified literature basis.
-- Do not imply that prior work failed when it addressed a different object,
-  scale, or condition.
-- Describe a literature conflict only when the studies address a comparable
-  scientific question and their findings or interpretations are genuinely in
-  tension.
-- Do not preview results so extensively that the Introduction performs the
-  Results or Discussion.
-- Do not make the study objective broader than the evidence and analyses can
-  answer.
+- State a gap when the supplied literature and study design establish a concrete
+  unresolved problem.
+- Ground novelty language in a verified literature basis.
+- Describe prior work at its actual object, scale, and condition.
+- Describe a literature conflict when comparable studies address the same
+  question and their findings or interpretations are genuinely in tension.
+- Reserve detailed findings for Results and interpretation for Discussion.
+- Set the study objective at the scale the evidence and analyses can answer.
 
 ## Completion check
 

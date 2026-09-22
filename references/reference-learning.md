@@ -16,17 +16,52 @@ A reference may serve as:
 - an interpretive aid or competing framework;
 - an explicit teaching example for structural mapping.
 
-Use only a role the request explicitly assigns or unambiguously implies. If
-several plausible roles would materially change the output, ask a focused
-question; otherwise use the narrowest implied role. Do not perform every form
-of analysis merely because a paper is present.
+Assign the reference the narrowest role that the request states or clearly
+implies. When several roles would materially change the output, ask one focused
+question; otherwise keep the analysis to that role.
+
+## Prioritize the style source explicitly
+
+For new drafting and substantive rewriting, the surrounding approved manuscript
+is the default style basis when the new text must fit an existing document. An
+author-selected reference set becomes a benchmark for information density,
+inferential granularity, paragraph movement, and claim calibration when the
+author asks to learn from it. With no manuscript context or selected reference,
+use neutral field-appropriate prose.
+
+For the task-specific priority matrix, reference roles, transferable features,
+author disclosure, and final acceptance checks, load
+[style-source-contract.md](style-source-contract.md). Treat that contract as
+an internal decision record rather than user-facing process terminology.
+
+For a local edit, the approved prose surrounding the requested passage is the
+primary continuity reference. Literature may calibrate terminology or resolve a
+specific expression, but it does not replace the document's existing voice
+unless the author requests a style transformation.
+
+An older draft contributes terminology, study context, and continuity. Its
+phrasing or rhythm enters the style basis only after an explicit author request.
+When that choice would materially change the output, ask once in plain language:
+"旧稿只用于保持术语和内容连续性，还是也参考它的表达方式？" Otherwise use
+the current approved manuscript and continue.
+
+Reference counts are working ranges: one excerpt may support a local expression;
+roughly three to eight same-section, same-venue references can support a
+section-level benchmark. Keep separate benchmarks for sections with different
+rhetorical work. Use each source to learn accepted scholarly practice rather
+than to construct a synthetic voice or a detector-facing definition of human
+writing.
+
+When style provenance is uncertain, follow the author's explicit request. In its
+absence, keep the source outside the style anchor and describe that choice in
+ordinary language.
 
 ## Separate access from manuscript use
 
-Supplying a reference authorizes inspection, not citation or an argumentative
-role. Reading for background, verification, understanding, or style does not by
-itself authorize the editor to compare, analogize, contrast, rebut, qualify, or
-contextualize the author's study through that source.
+Supplying a reference authorizes inspection. Citation, comparison, analogy,
+contrast, rebuttal, qualification, or contextualization enters the manuscript
+when the request assigns that role or the author accepts the proposed
+relationship.
 
 The editor may identify a potentially useful relationship. Before adding a new
 relationship to manuscript-ready prose, tell the author what the proposed
@@ -53,9 +88,10 @@ inform:
 - how claim strength matches support;
 - how a paragraph closes or moves to the next question.
 
-Do not automatically transfer source-specific facts, mechanisms, conditions,
-limitations, novelty claims, distinctive wording, sentence count, connector
-placement, cadence, or a recognizable structural skeleton.
+Keep source-specific facts, mechanisms, conditions, limitations, novelty claims,
+distinctive wording, sentence count, connector placement, cadence, and
+recognizable structural skeletons with the source. Transfer only the abstract
+tendency authorized by the requested role.
 
 ## Use the source faithfully
 
@@ -71,11 +107,10 @@ another for Discussion reasoning.
 
 ## Structural mapping is exceptional
 
-Map sentence or clause functions only when the author explicitly asks for a
-side-by-side analysis, teaching exercise, or structure-mapped draft. Keep that
-map separate from manuscript-ready prose. A final draft should retain useful
-reasoning features while using original language and an author-appropriate
-organization.
+Use sentence- or clause-level mapping for a side-by-side analysis, teaching
+exercise, or structure-mapped draft. Keep the map separate from manuscript-ready
+prose; retain the useful reasoning features in original language and an
+author-appropriate organization.
 
 ## Scientific choices remain visible
 

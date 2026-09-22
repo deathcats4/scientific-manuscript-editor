@@ -49,17 +49,16 @@ actual function.
 
 ## Guardrails
 
-- Do not give every result equal weight.
-- Do not leave evidence orphaned without a scientific role.
-- Do not end a subsection with a claim whose supporting observation or
-  comparison is unclear.
-- Do not turn a p-value, model score, or threshold crossing into scientific
-  importance or mechanism by itself.
-- Report a null or non-significant result within the sensitivity and uncertainty
-  of the analysis. Call it a trend or attribute non-detection to sample size,
-  power, variability, or method only when the analysis supports that account.
-- Do not force parallel findings into a single linear or causal story.
-- Do not hide a meaningful boundary because it complicates the headline.
+- Give each result the weight its evidence and role require.
+- Link every important observation to a scientific role.
+- End each subsection with a claim whose supporting observation or comparison is
+  visible.
+- Interpret p-values, model scores, and threshold crossings through the full
+  evidence rather than treating them as importance or mechanism by themselves.
+- Report null and non-significant results with the sensitivity and uncertainty of
+  the analysis; attribute non-detection only when the analysis supports it.
+- Keep parallel findings parallel when they answer distinct questions.
+- Keep meaningful boundaries visible even when they qualify the headline.
 
 ## Completion check
 

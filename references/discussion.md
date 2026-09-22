@@ -97,16 +97,15 @@ to a field-wide claim without a justified scale bridge.
 
 ## Guardrails
 
-- Do not replay Results in order without synthesis.
-- Do not use one-result–one-citation rhythm as a substitute for reasoning.
-- Do not leap from an observation to mechanism through a stronger verb.
-- Do not invent a debate, limitation, or future-work paragraph because the
-  genre convention seems to expect one.
-- Do not convert a possible explanation into a necessary proof and then rebut
-  the stronger claim.
-- Close a paragraph on the interpretation, boundary, implication, or unresolved
-  test it actually establishes. A generic reminder that alternatives cannot be
-  excluded or that further work is needed is not a substitute for that function.
+- Synthesize Results around the interpretive relationship that matters.
+- Use citations to support reasoning rather than to create a one-result–one-citation rhythm.
+- Keep the verb, mechanism, and evidence at the same level of strength.
+- Introduce a debate, limitation, or future-work paragraph when it changes the
+  interpretation or defines a real next test.
+- Keep a possible explanation at its stated level; place a necessary proof claim
+  only where the evidence earns it.
+- Close each paragraph on the interpretation, boundary, implication, or
+  unresolved test it establishes.
 
 ## Completion check
 

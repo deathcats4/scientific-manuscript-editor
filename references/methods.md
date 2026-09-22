@@ -57,13 +57,13 @@ to add decorative detail.
 
 ## Guardrails
 
-- Do not turn Methods into an equipment catalogue, parameter dump, or generic
-  checklist.
-- Do not hide a consequential transformation, selection rule, assumption, or
-  default.
-- Do not present a retrospective analytical choice as prespecified.
-- Do not move substantive outcomes into Methods unless a small outcome is
-  needed to explain a downstream methodological branch.
+- Organize Methods around inspectability and scientific dependency rather than
+  an equipment catalogue, parameter dump, or generic checklist.
+- Make each consequential transformation, selection rule, assumption, and
+  default visible.
+- Mark retrospective analytical choices with their actual status.
+- Keep substantive outcomes in Results; include a small outcome only when it
+  explains a downstream methodological branch.
 - Keep identifiers, units, and method citations consistent with the manuscript.
 
 ## Completion check

@@ -15,13 +15,13 @@ Determine:
 3. **Necessary inference** — what non-obvious relationship connects the
    evidence to the claim?
 4. **Material boundary, if any** — would omitting a supported condition,
-   uncertainty, or domain limit change the meaning? If not, do not create one.
+   uncertainty, or domain limit change the meaning? Add it when that condition
+   materially affects interpretation.
 5. **Author state** — which interpretation is settled, which is exploratory,
    and which choice remains open?
 
-Use only the elements the task needs. Some papers have one central claim;
-others make several connected contributions. Do not force false unity merely
-to make the narrative look simple.
+Use the elements the task needs. A paper may have one central claim or several
+connected contributions; let the material determine its unity.
 
 ## Diagnose the real writing problem
 
@@ -60,10 +60,10 @@ sequence.
 
 ## Reasoning density
 
-Do not confuse concision with omission. State an inferential step when an expert
-reader could not reliably supply it from disciplinary knowledge and the
-available context. Omit internal deliberation, obvious background, and
-alternatives that do not materially affect the active claim.
+Concision keeps the necessary inferential step visible when an expert reader
+could not reliably supply it from disciplinary knowledge and context. Keep
+internal deliberation, obvious background, and immaterial alternatives out of
+the manuscript.
 
 When several evidence streams matter jointly, explain what their convergence
 adds and what each stream can establish. When they answer parallel questions,
@@ -94,11 +94,11 @@ mechanism.
 
 Use a cumulative-progress test: after each paragraph, what can the reader now
 understand, compare, rule out, or connect that was not available before it?
-If the answer is only a restatement, the paragraph needs a different function,
-combination with another paragraph, or removal. If the supplied material cannot
-support the intended handoff or endpoint, stop connective drafting and ask one
-concrete question or label the proposed structure provisional. Do not turn an
-unresolved scientific relationship into fluent prose.
+When a paragraph only restates its context, give it a different function,
+combine it with a related paragraph, or remove it. When the supplied material
+cannot support the intended handoff or endpoint, pause connective drafting, ask
+one concrete question, or label the proposed structure provisional. Keep an
+unresolved scientific relationship visible rather than smoothing it into prose.
 
 Repair in this order: section purpose and order, paragraph function and
 handoff, evidence-to-inference bridge, then sentence-level fluency. A smooth
