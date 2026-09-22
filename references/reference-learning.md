@@ -34,9 +34,10 @@ absence, keep the source outside the style anchor and describe that choice in
 ordinary language.
 
 For the task-specific priority matrix, the older-draft question and defaults,
-reference counts, transferable features, author disclosure, and final acceptance
-checks, load [style-source-contract.md](style-source-contract.md) and treat it
-as an internal decision record rather than user-facing process terminology.
+reference selection, transferable features, author disclosure, and final
+acceptance checks, load [style-source-contract.md](style-source-contract.md) and
+treat it as an internal decision record rather than user-facing process
+terminology.
 
 ## Separate access from manuscript use
 

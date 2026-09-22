@@ -9,3 +9,4 @@
 2026-09-22 — reasoning: narrow section-scale review trigger — keep sentence polishing local
 2026-09-22 — skill: remove workflow and developer residue — keep runtime instructions focused on manuscript decisions
 2026-09-22 — meta: tighten scoped review and continuity wording — preserve scientific routing without project-management residue
+2026-09-22 — style-source: remove reference-count heuristic — choose sources by task need

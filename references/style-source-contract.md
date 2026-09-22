@@ -55,9 +55,10 @@ the anchor for the document.
 
 - The author designates the style role of a supplied paper. When the role is
   ambiguous, ask one focused question before using it as an anchor.
-- A local expression may use one relevant excerpt. A section-level benchmark
-  may use roughly three to eight references from the same field, venue, and
-  section. This is a working range, not a requirement or a quality score.
+- Select references according to the active task and source role. Keep local
+  expression work focused; add section-level sources only when each contributes
+  a relevant tendency from the same field, venue, or section. Quantity is not a
+  target or a quality score.
 - Keep separate profiles for Introduction, Results, Discussion, Methods, and
   other rhetorical jobs; each section keeps its own voice.
 - Learn accepted scholarly conventions from published sources. Publication

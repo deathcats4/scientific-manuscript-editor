@@ -190,9 +190,9 @@ An explicit author request to use an older draft as a style sample authorizes
 that use, while scientific facts, evidence, terminology, and claim strength
 remain governed by the manuscript and its sources.
 
-For the full source-priority matrix, reference selection rules and counts, the
-verbatim older-draft question, transferable style features, author disclosure,
-and the acceptance gate, load
+For the full source-priority matrix, reference selection, the verbatim
+older-draft question, transferable style features, author disclosure, and the
+acceptance gate, load
 [style-source-contract.md](references/style-source-contract.md) whenever the
 task involves new drafting, substantive rewriting, manuscript-wide style
 coordination, or a supplied paper or older draft that the author asks to use as
