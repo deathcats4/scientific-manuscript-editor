@@ -52,8 +52,9 @@ is section-specific, the matching section-specific reference.
 
 ### Drafting and review at section scale
 
-When drafting or rewriting more than one paragraph, apply the same reasoning
-before writing and before delivery. First establish the section's active
+When drafting or rewriting more than one paragraph, or inserting one paragraph
+into an existing section, apply the same reasoning before writing and before
+delivery. First establish the section's active
 question and intended endpoint, then determine what each paragraph inherits,
 adds, and hands off. Draft the paragraphs as a connected sequence rather than
 as independent mini-essays that are joined afterward. Do not make every

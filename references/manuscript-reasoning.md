@@ -71,10 +71,12 @@ allow parallel contributions rather than inventing one linear mechanism.
 
 ## Section-scale drafting and review
 
-This check applies when generating, substantially rewriting, or reviewing a
-passage; it is not a language-polishing step added only at the end. Before
-writing multiple paragraphs, hold a compact internal model of the section's
-question, endpoint, and paragraph movement. For each paragraph, know what the
+This check applies when generating, substantially rewriting, reviewing a
+passage, or inserting a paragraph into an existing section; it is not a
+language-polishing step added only at the end. Before writing multiple
+paragraphs, or a paragraph whose placement changes the surrounding argument,
+hold a compact internal model of the section's question, endpoint, and
+paragraph movement. For each paragraph, know what the
 preceding context has established, what new work the paragraph performs, and
 why the next paragraph can follow from it. Use a real relationship present in
 the science—progression, comparison, convergence, discrimination, scale,
