@@ -1,0 +1,16 @@
+#!/bin/sh
+# Reject generic commit messages so every skill change stays self-describing.
+msg="$(tr -d '\r' < "$1" | sed '/^#/d' | grep -v '^$' | head -n 1)"
+
+if [ "${#msg}" -lt 12 ]; then
+  echo "commit message too thin — say what changed and why (>= 12 chars): '$msg'" >&2
+  exit 1
+fi
+
+case "$(echo "$msg" | tr '[:upper:]' '[:lower:]')" in
+  update|updates|fix|fixes|fixed|changes|change|modified|minor|minorchanges|minorfixes|cleanup|misc|tweak|tweaks|wip|test|修改|更新|调整|完善|优化)
+    echo "generic commit message rejected — describe the actual change: '$msg'" >&2
+    exit 1
+    ;;
+esac
+exit 0
