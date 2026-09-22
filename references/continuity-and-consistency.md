@@ -68,10 +68,9 @@ factual conflict or scientific choice when the source of truth remains open.
 
 ## Scope of continuity
 
-This skill maintains manuscript evolution. Keep experiment tracking, data
-management, schedules, team roles, agent handoffs, and project packets in their
-respective workflows. Recover current state internally from the materials
-available and expose only decisions or conflicts the author needs.
+Use this reference for manuscript evolution and cross-section state. Reconstruct
+the current state from the available manuscript, data, and source materials, and
+surface only decisions or conflicts that affect the requested text.
 
 ## Completion check
 

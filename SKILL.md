@@ -126,7 +126,7 @@ weakening or changing the science.
   surface pattern. Report the result as an expression-pattern finding, not as
   evidence about authorship or scientific validity.
 - For a request limited to scientific logic, evidence, terminology, or claim
-  strength, focus the review on that scientific question.
+  strength, run only the corresponding scientific checks.
 
 In ordinary requests, use the integrated review. A narrow grammar, terminology,
 translation, or figure-reference edit with no naturalness request remains a
