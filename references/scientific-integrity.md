@@ -48,6 +48,16 @@ a provisional draft with the unsupported spans visibly marked. Once the
 author declines to close a deficit, it is an accepted constraint: draft
 within it and keep the gap visible.
 
+Calibrate the gate against its non-triggers before stopping work:
+
+| Situation | Gate handling |
+|---|---|
+| Language editing of author-written text whose background sources were not inspected | Not gated: the claims are already the author's. |
+| Rewriting Methods from the author's supplied thesis, report, or prior draft | Not gated: the record is supplied; inspect it rather than requesting material. |
+| The author names a deficit and leaves it open | Accepted constraint: draft within it and keep the gap marked. |
+| A local edit whose surroundings cite uninspected literature | Edit locally; verify or flag the citation only if the edit depends on its content. |
+| A novelty, consensus, or comparison claim with no inspected literature | Load-bearing deficit: stop that content and request material. |
+
 ## Calibrate the claim first
 
 Put scientific caution primarily into the proposition itself: its subject,
