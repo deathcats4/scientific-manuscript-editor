@@ -232,6 +232,23 @@ when the authorized passage's structure, logic, or expression fails as a whole.
 When the user restricts the task to one issue, change that issue and leave
 unrelated wording alone.
 
+## Preserve the carrier and its markup
+
+Manuscript text arrives in a carrier—LaTeX, Word, Markdown, or another
+format—and the edit must survive inside it. Change the prose, not the format:
+keep citation commands and keys, cross-reference labels, math environments,
+macros, field codes, and tracked changes working as they were, and return
+the text in the carrier it arrived in. Do not silently delete author
+comments, TODO markers, or highlighted spans; they are author state and often
+mark open decisions. Flag markup that blocks the requested change instead of
+working around it, and keep the document usable by its own tool chain: LaTeX
+that compiled should still compile, and Word structures should not be
+flattened into plain text.
+
+Converting between formats, cleaning comments, or accepting tracked changes
+is a separate markup operation: run it only when requested, and confirm the
+scope when it destroys author state such as unresolved comments.
+
 ## Scientific reasoning basis
 
 For substantive work, answer only what the current task needs:

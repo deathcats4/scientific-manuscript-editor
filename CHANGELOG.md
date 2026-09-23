@@ -13,3 +13,4 @@
 2026-09-22 — skill: normalize Markdown continuation indentation — keep lists and paragraphs readable
 2026-09-23 — integrity: add material sufficiency gate — stop substantive writing on load-bearing evidence deficits (uninspected literature or comparisons, memory citations, unsupplied figures/tables/data, author-only rationale) and request material or a marked provisional draft; section references defer to the gate — fluent prose must not substitute for missing basis
 2026-09-23 — readme: restore motivation and defensive-writing scenario sections — keep the public-facing rationale visible in README after the index-style rewrite
+2026-09-23 — skill: add format-carrier preservation — keep LaTeX/Word/Markdown markup, citation commands, tracked changes, and author comments intact through prose edits; format conversion and comment cleanup run only when requested
