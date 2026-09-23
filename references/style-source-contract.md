@@ -103,7 +103,7 @@ manuscript and continue.
 
 Before delivery, check in this order:
 
-1. **Meaning** — preserve numbers, terminology, citations, modality, causal force,
+1. **Meaning** — numbers, terminology, citations, modality, causal force,
    scope, and accepted scientific decisions are preserved.
 2. **Continuity** — fit the surrounding manuscript and keep superseded terms or
    mechanisms out of the current text.
