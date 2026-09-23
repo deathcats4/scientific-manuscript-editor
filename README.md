@@ -153,7 +153,6 @@
 - [manuscript-reasoning.md](references/manuscript-reasoning.md)：跨章节的段落推理和结构；
 - [scientific-integrity.md](references/scientific-integrity.md)：主张强度、因果边界和引文支持；
 - [synthesis.md](references/synthesis.md)：标题、摘要、结论和贡献压缩；
-- [rebuttal.md](references/rebuttal.md)：审稿意见回复、修改说明和投稿信；
 - [continuity-and-consistency.md](references/continuity-and-consistency.md)：长文档、跨章节和多轮决策中的当前作者状态。
 
 ## 交付形式
@@ -163,7 +162,6 @@
 - 引文或证据审查：区分已核实支持、缺少支持和支持尚未核实；
 - 翻译：返回自然的目标语言，并保持科学含义与模态；
 - 逐段协作：只交付作者当前选择的单元，确认后再继续下一单元；
-- 审稿回复或投稿信：返回逐条响应或信件文本；科学立场的让步与坚持由作者确认；
 - “只给修改稿”：只返回修改后的文本，除非存在一个必须回答的阻塞问题。
 
 每次交付前按任务范围检查修改单元的科学关系、术语、数字、引文、语体和自然度。缺少的上下文会明确标注检查边界。
