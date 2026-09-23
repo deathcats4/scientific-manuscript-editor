@@ -210,6 +210,22 @@ git clone https://github.com/deathcats4/scientific-manuscript-editor.git ~/.code
 
 安装后重新启动 Codex，或重新加载技能列表。
 
+### ZCode
+
+PowerShell：
+
+```powershell
+git clone https://github.com/deathcats4/scientific-manuscript-editor.git "$env:USERPROFILE\.zcode\skills\scientific-manuscript-editor"
+```
+
+macOS 或 Linux：
+
+```bash
+git clone https://github.com/deathcats4/scientific-manuscript-editor.git ~/.zcode/skills/scientific-manuscript-editor
+```
+
+安装后重新启动 ZCode，或重新加载技能列表。
+
 ### 其他支持技能规范的智能体
 
-将仓库放入该工具规定的技能目录，并确保 `SKILL.md` 位于技能根目录。
+将仓库放入该工具规定的技能目录，并确保 `SKILL.md` 位于技能根目录。仓库内的 `scripts/save.sh` 在每次提交后会把已提交状态同步部署到 `~/.agents/skills/`、`~/.codex/skills/` 和 `~/.zcode/skills/`（目录存在即更新）。
