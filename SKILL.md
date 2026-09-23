@@ -3,7 +3,8 @@ name: scientific-manuscript-editor
 description: >-
   Draft, revise, polish, translate, or review scientific manuscript prose in
   Chinese or English. Use for manuscript passages, sections, titles, abstracts,
-  conclusions, scientific logic, evidence-to-claim reasoning, citation fit,
+  conclusions, reviewer responses, rebuttal letters, cover letters,
+  scientific logic, evidence-to-claim reasoning, citation fit,
   reference-informed writing, academic naturalness and AI-style review, and
   cross-manuscript consistency. Preserve the
   author's scientific position and evidence boundaries; stop for missing
@@ -298,6 +299,8 @@ Load a reference only when its branch is active:
   style-source selection → [style-source-contract.md](references/style-source-contract.md)
 - Title, Abstract, Conclusion, or contribution compression →
   [synthesis.md](references/synthesis.md)
+- Reviewer responses, decision-letter replies, revision summaries, or cover
+  letters → [rebuttal.md](references/rebuttal.md)
 - A new section inserted into an existing manuscript, work spanning two or
   more sections, long revision history, superseded positions, terminology
   continuity, or cross-manuscript consistency →
