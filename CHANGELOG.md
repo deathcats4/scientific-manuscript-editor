@@ -20,3 +20,4 @@
 2026-09-23 — style-source: fix duplicated verb in the meaning check — collapse "preserve … are preserved" into one predicate so the acceptance gate reads as intended
 2026-09-23 — meta: stamp skill version 1.1.0 — make deployed-copy drift visible in the loaded frontmatter; the pre-change state is the implicit 1.0.0 baseline and this batch adds the carrier, rebuttal, caption, and gate-calibration rules
 2026-09-23 — readme: add ZCode install section and name all deploy targets — save.sh syncs committed state to ~/.agents, ~/.codex, and ~/.zcode skill directories, so installation docs now match the deploy script
+2026-09-23 — meta: harden save.sh — drop the always-true basename guard around deploy and roll back the appended changelog line when the commit hook rejects, so a failed save leaves the tree as it was found

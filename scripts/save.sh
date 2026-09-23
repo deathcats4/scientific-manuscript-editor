@@ -30,13 +30,19 @@ fi
 printf '%s — %s\n' "$(date +%F)" "$msg" >> CHANGELOG.md
 
 git add -A
-git commit -m "$msg"
+if ! git commit -m "$msg"; then
+  # a hook-rejected commit must not leave the appended changelog line behind;
+  # staged edits stay staged, only our changelog entry is rolled back
+  git restore --source=HEAD --staged --worktree -- CHANGELOG.md
+  echo 'commit rejected; changelog entry rolled back, edits left staged' >&2
+  exit 1
+fi
 
 # deploy the committed state (never uncommitted work) to installed copies
 for dest in "$HOME/.agents/skills/scientific-manuscript-editor" \
             "$HOME/.codex/skills/scientific-manuscript-editor" \
             "$HOME/.zcode/skills/scientific-manuscript-editor"; do
-  if [[ "$(basename "$dest")" == "scientific-manuscript-editor" && -d "$dest" ]]; then
+  if [[ -d "$dest" ]]; then
     rm -rf "$dest"
     mkdir -p "$dest"
     git archive HEAD | tar -x -C "$dest"
