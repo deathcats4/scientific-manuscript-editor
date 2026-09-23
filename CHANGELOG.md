@@ -18,3 +18,4 @@
 2026-09-23 — section-refs: add figure and table caption rules to results — captions make a display self-contained and must agree with the display, Results text, and Methods record; caption writing follows the material sufficiency gate when the display is unsupplied
 2026-09-23 — integrity: add material-sufficiency non-trigger examples — contrast gate triggers with supplied-record rewrites, accepted constraints, and local edits near uninspected citations so the gate does not expand local work into material requests
 2026-09-23 — style-source: fix duplicated verb in the meaning check — collapse "preserve … are preserved" into one predicate so the acceptance gate reads as intended
+2026-09-23 — meta: stamp skill version 1.1.0 — make deployed-copy drift visible in the loaded frontmatter; the pre-change state is the implicit 1.0.0 baseline and this batch adds the carrier, rebuttal, caption, and gate-calibration rules
