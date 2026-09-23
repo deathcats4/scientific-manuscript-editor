@@ -47,6 +47,19 @@ mechanism, theory, literature positioning, and field-level implications for
 Discussion. In a combined Results and Discussion section, follow the passage's
 actual function.
 
+## Figure and table captions
+
+A caption makes its display self-contained: what is shown, for which objects
+or conditions, in which units, and what the reader should observe. Define
+symbols, abbreviations, and statistical notation used in the display, and
+keep them consistent with the manuscript's conventions. State the observation
+at the strength the display supports; interpret beyond it only where the
+venue's caption conventions allow, and keep that interpretation clearly
+bounded. Numbers, sample identifiers, and condition statements in a caption
+must agree with the display, the Results text, and the Methods record; when
+the display itself was not supplied, apply the entrypoint's material
+sufficiency gate before writing its caption.
+
 ## Guardrails
 
 - Give each result the weight its evidence and role require.
