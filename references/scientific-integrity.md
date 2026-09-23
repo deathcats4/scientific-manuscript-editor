@@ -18,6 +18,36 @@ scientific position.
 - Do not present a plausible missing method, source, mechanism, or novelty claim
   as fact.
 
+## Material sufficiency
+
+Apply the entrypoint's material sufficiency gate before committing prose
+whose scientific weight rests on material that may not exist in the supplied
+basis. A deficit is load-bearing when silently filling it would change what
+the reader accepts as established. Typical load-bearing deficits:
+
+- research status, consensus, controversy, gap, or novelty claims without
+  inspected literature—absence from the supplied source set is not evidence
+  that a question is unstudied;
+- a comparison whose prior study—object, conditions, or findings—has not
+  been inspected;
+- a citation the editor would supply from memory rather than from an
+  inspected source;
+- trends, values, or relationships attributed to figures, tables, or
+  datasets that were not supplied or inspected;
+- method, sample, instrument, or analysis detail absent from the supplied
+  record;
+- study rationale, field context, or limitations that exist only in the
+  author's knowledge;
+- a load-bearing fact on which supplied materials disagree.
+
+Resolve none of these with memory, priors, or generic filler. Make one
+concrete request naming the missing material and its role, bundling the
+deficits that block the same deliverable, and offer the author the choice of
+supplying the material, authorizing retrieval or new analysis, or accepting
+a provisional draft with the unsupported spans visibly marked. Once the
+author declines to close a deficit, it is an accepted constraint: draft
+within it and keep the gap visible.
+
 ## Calibrate the claim first
 
 Put scientific caution primarily into the proposition itself: its subject,
@@ -94,4 +124,5 @@ accepts them.
 
 If the issue affects only one sentence or paragraph, continue safe work
 elsewhere. Ask one concrete question only when the affected manuscript text
-cannot be completed accurately without the decision.
+cannot be completed accurately without the decision or without material the
+sufficiency gate names.

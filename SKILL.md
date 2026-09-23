@@ -6,8 +6,9 @@ description: >-
   conclusions, scientific logic, evidence-to-claim reasoning, citation fit,
   reference-informed writing, academic naturalness and AI-style review, and
   cross-manuscript consistency. Preserve the
-  author's scientific position and evidence boundaries; literature search and
-  new data analysis require an explicit request.
+  author's scientific position and evidence boundaries; stop for missing
+  material when the supplied basis cannot carry the requested content;
+  literature search and new data analysis require an explicit request.
 metadata:
   short-description: "Author-controlled scientific manuscript editing"
 ---
@@ -81,6 +82,28 @@ consistency, or coordinated Title–Abstract–Conclusion work. Load
 [continuity-and-consistency.md](references/continuity-and-consistency.md) and
 [synthesis.md](references/synthesis.md) when relevant. A long conversation alone
 does not determine the review depth; the requested deliverable does.
+
+## Material sufficiency gate
+
+Substantive drafting, restructuring, or evidence-dependent review runs on
+the supplied basis alone: the manuscript text the author presents, materials
+the author supplies, and sources actually inspected. Before committing such
+work, check that everything its scientific function depends on exists in
+that basis. A deficit is load-bearing when silently filling it would change
+what the reader accepts as established. Ordinary language editing of the
+author's existing text is not gated: its claims are already the author's.
+
+When a load-bearing deficit exists, stop the affected content instead of
+writing from memory, priors, or plausible defaults. Tell the author what is
+missing and why it matters, and offer the resolutions: the author supplies
+the material, authorizes literature retrieval or new analysis, or accepts a
+provisional draft with the unsupported spans visibly marked. Bundle related
+deficits into one concrete request and continue unrelated safe work while it
+is open. A deficit the author knows about and leaves open is an accepted
+constraint: draft the best text it permits and keep the gap marked—never
+silently substitute a plausible completion. For the deficit catalogue and
+request handling, see the material sufficiency section of
+[scientific-integrity.md](references/scientific-integrity.md).
 
 ## Integrated review and internal checks
 
@@ -231,7 +254,8 @@ substantive reasoning or architecture work.
 Load a reference only when its branch is active:
 
 - Claim strength, causal language, evidence boundaries, citation fit, missing
-  support, or a choice that could change the manuscript's scientific position →
+  support or material sufficiency, or a choice that could change the
+  manuscript's scientific position →
   [scientific-integrity.md](references/scientific-integrity.md)
 - Paragraph or section reasoning and organization →
   [manuscript-reasoning.md](references/manuscript-reasoning.md)

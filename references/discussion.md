@@ -97,6 +97,9 @@ before extending a local result to a field-wide claim.
 
 ## Guardrails
 
+- Apply the entrypoint's material sufficiency gate before writing:
+  comparisons need inspected prior studies, and figure- or table-grounded
+  interpretation needs that evidence supplied.
 - Synthesize Results around the interpretive relationship that matters.
 - Use citations to support reasoning rather than to create a one-result–one-citation rhythm.
 - Keep the verb, mechanism, and evidence at the same level of strength.

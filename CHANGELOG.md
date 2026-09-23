@@ -11,3 +11,4 @@
 2026-09-22 — meta: tighten scoped review and continuity wording — preserve scientific routing without project-management residue
 2026-09-22 — style-source: remove reference-count heuristic — choose sources by task need
 2026-09-22 — skill: normalize Markdown continuation indentation — keep lists and paragraphs readable
+2026-09-23 — integrity: add material sufficiency gate — stop substantive writing on load-bearing evidence deficits (uninspected literature or comparisons, memory citations, unsupplied figures/tables/data, author-only rationale) and request material or a marked provisional draft; section references defer to the gate — fluent prose must not substitute for missing basis

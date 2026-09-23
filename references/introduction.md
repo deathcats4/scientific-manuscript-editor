@@ -50,6 +50,10 @@ logic.
 
 ## Guardrails
 
+- Apply the entrypoint's material sufficiency gate before drafting status,
+  consensus, gap, or novelty content: the research landscape comes from
+  inspected literature or the author's stated position, never from inference
+  out of the manuscript alone.
 - State a gap when the supplied literature and study design establish a concrete
   unresolved problem.
 - Ground novelty language in a verified literature basis.

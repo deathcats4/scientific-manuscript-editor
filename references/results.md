@@ -50,6 +50,9 @@ actual function.
 ## Guardrails
 
 - Give each result the weight its evidence and role require.
+- Report only evidence present in the supplied record; when a finding
+  depends on figures, tables, or data not supplied, apply the entrypoint's
+  material sufficiency gate before writing it.
 - Link every important observation to a scientific role.
 - End each subsection with a claim whose supporting observation or comparison is
   visible.
