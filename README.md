@@ -148,7 +148,7 @@
 
 - [introduction.md](references/introduction.md)：研究背景、缺口、问题和目标；
 - [methods.md](references/methods.md)：可复现的方法依赖关系与参数完整性；
-- [results.md](references/results.md)：围绕证据关系组织发现；
+- [results.md](references/results.md)：围绕证据关系组织发现；图注/表注作为可独立阅读的展示说明书来写；
 - [discussion.md](references/discussion.md)：解释、比较、机制和结论边界；
 - [manuscript-reasoning.md](references/manuscript-reasoning.md)：跨章节的段落推理和结构；
 - [scientific-integrity.md](references/scientific-integrity.md)：主张强度、因果边界和引文支持；

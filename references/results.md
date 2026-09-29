@@ -47,6 +47,66 @@ mechanism, theory, literature positioning, and field-level implications for
 Discussion. In a combined Results and Discussion section, follow the passage's
 actual function.
 
+## Figure and table captions
+
+A caption makes a display independently readable: a reader who sees only
+the figure or table can identify what is shown, understand the notation,
+and decode the quantitative conventions without the Results text. It is
+an instruction sheet for the display, not a miniature Results section.
+
+Build the caption in this order:
+
+1. One descriptive sentence stating what the display contains—object,
+   setting, comparison, display type—showing what is depicted, not what
+   it establishes. Default to a descriptive title unless the journal or
+   manuscript consistently uses declarative ones.
+2. Definitions in reading order. For figures, define every panel shown,
+   usually one clause each: subject, condition or comparison, and the
+   quantity or image represented. For tables, state the dataset,
+   principal variables or comparisons, and any units or conventions not
+   already clear from column headings and footnotes. Define the
+   non-obvious symbols, colors, line styles, abbreviations, arrows,
+   annotations, and scale bars; do not repeat labels that are already
+   unambiguous.
+3. Only the methodological or data-source information required to
+   interpret the display; procedures stay in Methods.
+
+For quantitative displays, define what the numbers need, following the
+journal's or manuscript's convention for placement: the summary measure
+and how uncertainty or error is expressed; what n, a replicate, or a
+sample count refers to, with its unit—an undefined n = X is not written
+when the unit is known; and, where statistical annotations appear, the
+test, the comparison each marker refers to, and the P-value convention.
+For a representative example (image, trace, spectrum, map, specimen),
+state the population of experiments or samples it represents when that
+is known.
+
+Keep the caption descriptive rather than argumentative:
+
+- Do not narrate findings or repeat the Results text.
+- No conclusions, mechanisms, or claims of importance beyond what a
+  definition needs.
+- No rhetorical connectives or emphasis (notably, remarkably,
+  "consistent with"); definitions need no transitions.
+
+Length follows informational need: the fewest sentences that define the
+display completely, often one clause or sentence per panel. A
+journal-specified limit overrides. When a caption keeps growing, remove
+interpretation and procedural detail first, never the definitions the
+display needs to be read.
+
+Keep the title and caption in the manuscript text, not baked into the
+artwork, unless the journal specifies otherwise.
+
+Caption details—panel letters, symbols, values, conditions—must match
+the supplied display and agree with the Results and Methods records;
+never invent display details. When the display or its source is not
+supplied, apply the entrypoint's material sufficiency gate before
+writing.
+
+Follow the journal's or the manuscript's established caption style when
+either is available; explicit journal requirements take precedence.
+
 ## Guardrails
 
 - Give each result the weight its evidence and role require.

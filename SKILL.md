@@ -11,7 +11,7 @@ description: >-
   literature search and new data analysis require an explicit request.
 metadata:
   short-description: "Author-controlled scientific manuscript editing"
-  version: "1.1.0"
+  version: "1.2.0"
 ---
 
 # Scientific Manuscript Editor
@@ -287,8 +287,8 @@ Load a reference only when its branch is active:
 - Methods drafting, diagnosis or completeness review, or substantive
   restructuring →
   [methods.md](references/methods.md)
-- Results drafting, diagnosis or review, evidence organization, or substantive
-  restructuring →
+- Results drafting, diagnosis or review, evidence organization, figure or
+  table caption writing or review, or substantive restructuring →
   [results.md](references/results.md)
 - Discussion drafting, diagnosis or review, interpretation, literature
   integration, or substantive restructuring →
