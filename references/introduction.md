@@ -28,6 +28,27 @@ Then decide what the intended reader already knows, what must be established
 before the study move makes sense, and what the Introduction should leave the
 reader expecting from the paper.
 
+## Build the throughline without announcing it
+
+Treat the reader's final understanding of the problem and study move as an
+internal design target, not a sentence-by-sentence reporting requirement. The
+Introduction should feel as though the question becomes narrower and more
+necessary because of the evidence and relationships just presented. Make each
+paragraph inherit a live condition from the previous one—an object, contrast,
+uncertainty, boundary, or unresolved timing—and develop that condition before
+handing it forward.
+
+Do not force every paragraph to state its function, repeat the research gap, or
+end with a purpose marker. In Chinese, phrases such as “因此，有必要……”,
+“这为本研究提供了依据”, and “基于此，本研究……” are useful only when they
+express a real inference that the preceding content does not already carry. If
+the background, unresolved relation, and chosen approach already form a
+recoverable progression, remove the extra announcement or fold its concrete
+content into the sentence that advances the argument. A final study-move
+statement may still be appropriate when it names the exact unresolved object
+and the response supplied by the paper; it should be the consequence of the
+preceding prose, not a label placed on top of it.
+
 ## Organize for this problem
 
 Use the scientific movement that best fits. A broad-to-specific or CARS-like
@@ -37,8 +58,9 @@ direct specialist opening, or a hybrid. These are examples, not slots.
 
 Use only background needed to establish the question. Organize literature by
 its relationship to the problem—agreement, boundary, conflict, missing test,
-or enabling method—rather than paper by paper. State the study move at the
-point where the reader can understand why it addresses the obstacle.
+or enabling method—rather than paper by paper. Introduce the study move when
+the reader can understand why it addresses the obstacle, but do not insert a
+standalone purpose announcement merely to mark the end of a template.
 
 Treat those relationships as scientific claims, not as automatic uses of the
 papers at hand. The supplied source set does not by itself define the field,
@@ -65,6 +87,10 @@ logic.
 
 ## Completion check
 
-The reader should be able to state the unresolved problem, why it remains
+The reader should be able to reconstruct the unresolved problem, why it remains
 unresolved, what this study does about it, and the level of contribution the
-paper can legitimately claim.
+paper can legitimately claim by following the progression of the prose. This
+understanding need not come from repeated explicit labels such as “gap”,
+“purpose”, or “significance”. Check that the throughline is carried by real
+scientific relations and that any explicit study-move sentence adds information
+rather than merely announcing the endpoint.

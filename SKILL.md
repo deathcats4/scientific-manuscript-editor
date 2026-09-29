@@ -11,7 +11,7 @@ description: >-
   literature search and new data analysis require an explicit request.
 metadata:
   short-description: "Author-controlled scientific manuscript editing"
-  version: "1.2.0"
+  version: "1.3.0"
 ---
 
 # Scientific Manuscript Editor
@@ -75,6 +75,17 @@ disguising it with fluent prose.
 [manuscript-reasoning.md](references/manuscript-reasoning.md) carries the full
 section-scale procedure, including the recurrence checks and the
 cumulative-progress test.
+
+Keep the section's architecture internal while drafting. A throughline is a
+real relationship among successive claims, not a requirement that every
+paragraph announce its purpose, repeat the gap, or end with a signpost such as
+“因此，本研究……”. Let each paragraph inherit a live condition from the
+previous one and narrow, complicate, or resolve it through its own content. Use
+an explicit study-move sentence only when it adds a concrete scientific
+relation—such as the exact unresolved object and the analysis that addresses
+it—and when the surrounding prose calls for that orientation. Do not add a
+purpose, significance, or transition sentence merely to make an internal
+checklist visible.
 
 ### Manuscript-wide synthesis
 
@@ -347,6 +358,12 @@ implication. Keep source-reading notes, alternative proposals, uncertainty
 analysis, verification status, and explanations of editing decisions in the
 collaboration unless the reader genuinely needs that content.
 
+The reader endpoint and paragraph map are internal drafting tools. Do not turn
+them into process-shaped sentences in the manuscript. When the argument already
+makes the study's necessity recoverable, prefer the natural progression over an
+additional summary–purpose announcement; when it does not, repair the missing
+scientific relation rather than hiding it behind a formulaic connector.
+
 Prefer direct, specific prose. Calibrate the claim itself before adding a
 caveat. Keep the manuscript centered on supported mechanisms and meaningful
 limitations; preserve a real boundary when its omission would change how the
@@ -387,7 +404,7 @@ reasoning, and style-source checks in one proportional pass.
 | Requested work | Check before delivery |
 |---|---|
 | Sentence or narrow correction | Compare the changed text with its source and enough supplied surrounding context to preserve meaning, terminology, references, modality, and grammatical fit. No document-wide pattern scan. |
-| Paragraph or section revision | Read the complete revised unit, not only changed sentences. Check evidence-to-claim links, necessary inference, paragraph handoffs, repetition, rhythm, and recurring empty framing when naturalness is in scope. |
+| Paragraph or section revision | Read the complete revised unit, not only changed sentences. Check evidence-to-claim links, necessary inference, paragraph handoffs, repetition, rhythm, recurring empty framing, and whether an explicit purpose or gap sentence is content-bearing rather than checklist residue. |
 | Manuscript-wide revision or explicit cross-section consistency work | Check the supplied manuscript or relevant sections together for repeated findings, terminology, claim strength, and section-appropriate style. |
 
 In every editing task, compare affected facts, numbers, terms, references,

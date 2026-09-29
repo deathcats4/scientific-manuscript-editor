@@ -24,6 +24,7 @@ argument within the author's supplied material.
 | Candidate | Actual problem to establish | Repair and false-positive boundary |
 |---|---|---|
 | Generic opening or significance ending | The sentence could attach to unrelated studies without adding a relevant claim | State existing substantive content directly. Keep a supported contribution, scope statement, or section orientation. |
+| Forced teleology or purpose announcement | The prose inserts a gap, objective, or “therefore” sentence only to satisfy an editorial plan, repeats what the preceding content already implies, or jumps from background to study without a content-bearing bridge | Remove or recast the announcement and repair the actual handoff. Keep an explicit study move when it names a concrete unresolved object and the response; do not infer a defect solely from `因此`、`基于此`、`this study`, or similar wording. |
 | Repeated mini-essay structure | Each paragraph restarts the same premise and ends with the same abstract takeaway | Remove duplicated work or reorganize around real relationships. Parallel studies and procedures may legitimately remain parallel. |
 | Artificial opposition | A negative half invents a position solely to make the positive claim sound stronger | Retain supported claims and state the real relation. A genuine exclusion, comparison, or additive `not only X but also Y` carries content. |
 | Defensive repetition | Several caveats repeat one already calibrated boundary or rebut an unclaimed stronger proposition | State the existing boundary at its proper location. Preserve limitations that change interpretation. |
@@ -61,6 +62,10 @@ surface variety.
   scope, and reference attachment.
 - Review repeated `此外`、`然而`、`因此` against the actual logical relation.
   A necessary connection remains valid even if the same word appears nearby.
+- In introductions, inspect purpose and gap markers such as `因此，有必要……`,
+  `这为本研究提供了依据`, and `基于此，本研究……` for actual content. Do not
+  add or remove them by rule: retain a marker that expresses a necessary
+  inference, but remove or fold in one that merely exposes the drafting plan.
 - Keep established scholarly terms and morphology. Shorten `进行分析` to `分析`
   when it improves the sentence; retain `形成`, `构建`, `性`, and `化` when
   they carry the intended scholarly relation and keep formal prose formal.
@@ -68,6 +73,14 @@ surface variety.
 For mixed-language prose, apply each check to its local language and protect
 embedded terminology, formulas, and citations. These language notes remain
 subordinate to the manuscript's terminology and the authorized style source.
+
+For an Introduction, run a throughline deletion test after the ordinary
+naturalness pass: mentally remove each generic purpose, gap, significance, or
+summary signpost. If the adjacent scientific content still motivates the next
+paragraph and preserves the reader's understanding, do not restore the signpost.
+If removing it breaks the handoff, replace it with the smallest concrete
+relation, condition, object, or operation that the reader needs—not with a
+more elaborate declaration of necessity.
 
 ## Review and delivery
 

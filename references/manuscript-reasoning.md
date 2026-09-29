@@ -52,6 +52,25 @@ question, judgment, observation, prior study, anomaly, or boundary. What matters
 is that each sentence performs work needed for the paragraph's scientific
 function and that the endpoint prepares the reader for what follows.
 
+## Throughline and surface realization
+
+Keep the paragraph map and reader endpoint as internal controls on drafting.
+Surface continuity should come from the scientific relation between adjacent
+claims: the later paragraph may narrow an object, qualify a prior result,
+expose a boundary, connect two evidence streams, or make a method newly
+necessary. It does not need to announce “this paragraph shows…” or restate the
+whole purpose to prove that the map was followed.
+
+When a missing handoff is found, first add the smallest content-bearing bridge
+the evidence supports. Do not use a generic “therefore”, “however”, “this is
+important”, or “the present study aims to” sentence as a substitute for that
+bridge. In Chinese, the same warning applies to “因此”, “基于此”, “为此”, and
+“本文旨在” when they only expose the drafting plan. Conversely, do not delete
+an explicit inference just because it is visible: retain it when the reader
+could not recover the relationship without it. The test is whether the sentence
+changes what the reader can understand, compare, or expect, not whether it
+names the section's internal goal.
+
 Before revising a passage in context, distinguish what the preceding text has
 already established, what this passage must add, and what the following text
 needs from it. Carry an established point forward as an input rather than
@@ -85,13 +104,13 @@ process, boundary, anomaly, or justified parallelism—to determine the order.
 
 During review, read the paragraphs together rather than checking them only one
 at a time. Look for abrupt topic changes, repeated premises, paragraphs that
-could be exchanged without changing the argument, and recurring
-"summary–elevation" endings. These are diagnostic signals, not automatic
-violations: parallel methods, results, or evidence streams may legitimately
-retain parallel structure. If the relationship is real, make the inherited
-premise and new inference explicit; if it is absent, regroup, separate, or
-flag the scope rather than adding ornamental transitions or an unsupported
-mechanism.
+could be exchanged without changing the argument, recurring
+"summary–elevation" endings, and purpose or gap announcements inserted only to
+complete a template. These are diagnostic signals, not automatic violations:
+parallel methods, results, and explicit inferences may legitimately retain
+parallel structure. If the relationship is real, make the inherited premise
+and new inference explicit; if it is absent, regroup, separate, or flag the
+scope rather than adding ornamental transitions or an unsupported mechanism.
 
 Use a cumulative-progress test: after each paragraph, what can the reader now
 understand, compare, rule out, or connect that was not available before it?
