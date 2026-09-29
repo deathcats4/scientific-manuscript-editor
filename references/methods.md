@@ -31,6 +31,19 @@ Use only the roles relevant to the study:
 
 These are diagnostic roles, not required headings.
 
+## Recover from the supplied record before asking
+
+A brief request does not mean the procedure must be re-elicited question by
+question. Before drafting, mine the supplied record: thesis, report, and
+laboratory materials; earlier method drafts; the figures, tables, and
+analyses the Results rely on; and decisions already accepted in the
+collaboration. Reconstruct the dependency chain as the record supports it
+and draft from that basis. Ask only for a load-bearing gap—a step,
+condition, or parameter whose absence changes validity, reproduction,
+comparison, or interpretation—and bundle such questions into one request.
+Section order and the level of procedural detail are editorial choices, not
+questions to escalate.
+
 ## Organize by scientific dependency
 
 Choose the organization that makes the procedure easiest to reconstruct. It may

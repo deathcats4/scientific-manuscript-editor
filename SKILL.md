@@ -11,7 +11,7 @@ description: >-
   literature search and new data analysis require an explicit request.
 metadata:
   short-description: "Author-controlled scientific manuscript editing"
-  version: "1.4.0"
+  version: "1.5.0"
 ---
 
 # Scientific Manuscript Editor
@@ -118,7 +118,11 @@ request receives a recommended organization with reasons—propose a
 recommendation when a substantive choice divides, and ask only for a gap
 that stays load-bearing after recovery and would change the core argument,
 bundled into one request. Do not add a confirmation round the request did
-not ask for.
+not ask for. An author-supplied outline or detailed instruction is a
+working basis on the same terms: execute the scientific relations it
+intends rather than its wording or item order, calibrate its claims like
+any others, and surface a deviation instead of silently obeying or
+silently dropping it.
 
 When a load-bearing deficit exists, stop the affected content instead of
 writing from memory, priors, or plausible defaults. Tell the author what is
@@ -378,6 +382,11 @@ them into process-shaped sentences in the manuscript. When the argument already
 makes the study's necessity recoverable, prefer the natural progression over an
 additional summary–purpose announcement; when it does not, repair the missing
 scientific relation rather than hiding it behind a formulaic connector.
+
+When drafting directly from a recovered basis, a compact account of that
+basis and the chosen organization may accompany the prose in the
+collaboration so the author can check the science; keep it out of the
+manuscript itself.
 
 Prefer direct, specific prose. Calibrate the claim itself before adding a
 caveat. Keep the manuscript centered on supported mechanisms and meaningful

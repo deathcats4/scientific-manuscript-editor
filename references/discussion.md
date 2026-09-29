@@ -14,6 +14,17 @@ the study.
 Results are ingredients, not a Discussion outline. Repeat a result only when it
 now performs interpretive work.
 
+## Recover the interpretation basis first
+
+Discussion depends most on author state. Before organizing, recover what the
+Results established, which interpretations the author has already accepted
+in the manuscript or collaboration, and what roles the supplied literature
+actually plays. Develop directly what this basis supports. Where a genuine
+interpretive choice remains open and would change the paper's conclusion,
+present the options with the evidence each relies on and a recommendation;
+ask only when that choice is load-bearing and cannot be resolved from the
+supplied materials, bundling questions into one request.
+
 ## Identify the central interpretive task
 
 Determine whether the section mainly needs to:

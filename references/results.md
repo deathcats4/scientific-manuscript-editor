@@ -14,6 +14,17 @@ Figures and tables are evidence containers, not an automatic outline. The order
 of experiments, analyses, or figure numbers is useful only when it also matches
 the scientific logic.
 
+## Recover the findings from the supplied evidence
+
+Before drafting from a brief request, recover what the study established
+from what is supplied: figures, tables, datasets, captions, result
+summaries, and findings the author has already accepted in the
+collaboration. Reconstruct what each display shows, with what strength or
+uncertainty, and how the displays relate to one another; organize the
+section around those evidence relationships rather than figure number. Ask
+only when a load-bearing display cannot be read or is missing and the
+section's claims depend on it, bundling such questions into one request.
+
 ## Determine the evidence relationship
 
 Identify the anchor finding and the role of other results. They may provide a
