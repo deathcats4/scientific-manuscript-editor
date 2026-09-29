@@ -52,6 +52,12 @@ names the specific unresolved object of the study is content, not a template
 instance: if it is the only statement of that gap, removing it is a
 structural change outside a naturalness edit.
 
+A deletion verdict stays provisional until the edited passage is reread with
+the deletion applied: the paragraph must still complete its own movement,
+and the following paragraph must still inherit what it needs from this one.
+A deletion that passes at sentence level can fail at paragraph or manuscript
+level; when it does, restore the content and repair the form instead.
+
 ## English checks
 
 - Inspect ornamental framing such as `It is important to note that`, vague

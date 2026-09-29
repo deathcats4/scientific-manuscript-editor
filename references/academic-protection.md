@@ -56,6 +56,19 @@ content. When removing the span would change what the manuscript presents as
 unresolved or claimed, treat the removal as a structural or scientific
 choice under author control, not as a naturalness repair.
 
+Run this function check at both levels a sentence operates on. At paragraph
+level, name its role in the paragraph's movement—premise, evidence,
+inference, boundary, or handoff to the next paragraph—and confirm the
+paragraph still completes that movement without it. At manuscript level,
+check for functions that live in this one sentence and are consumed
+elsewhere: the gap that the Discussion answers and the Conclusion restates,
+a claim boundary later relied on, a term defined once and used throughout,
+the first mention of a sample or display. The requested scope authorizes
+changing this passage, not cutting a manuscript-level link: when the
+paragraph-level check passes but the sentence carries such a function, read
+the far end before deleting, and surface the removal to the author when the
+far end still depends on it.
+
 Check the local section and style basis using the existing style-source rules.
 Routine edits use the supplied manuscript context directly. When a convention is
 unfamiliar and the defect remains uncertain, retain it or flag the uncertainty
