@@ -11,7 +11,7 @@ description: >-
   literature search and new data analysis require an explicit request.
 metadata:
   short-description: "Author-controlled scientific manuscript editing"
-  version: "1.5.0"
+  version: "1.6.0"
 ---
 
 # Scientific Manuscript Editor
@@ -86,6 +86,14 @@ relation—such as the exact unresolved object and the analysis that addresses
 it—and when the surrounding prose calls for that orientation. Do not add a
 purpose, significance, or transition sentence merely to make an internal
 checklist visible.
+
+When the working environment provides an isolated drafting context—a
+sub-agent or a fresh conversation—and the task is section-scale or larger,
+split planning from drafting: recover, decide, and compile the handoff
+brief in the planning context; draft from the brief in the clean one; let
+a third clean context review. [handoff-drafting.md](references/handoff-drafting.md)
+defines the roles, the brief format, and the return channel. Local edits
+and single paragraphs do not split: the handoff cost exceeds the benefit.
 
 ### Manuscript-wide synthesis
 
@@ -307,6 +315,9 @@ Load a reference only when its branch is active:
   [scientific-integrity.md](references/scientific-integrity.md)
 - Paragraph or section reasoning and organization →
   [manuscript-reasoning.md](references/manuscript-reasoning.md)
+- Section-scale or larger drafting delegated to an isolated context, or a
+  handoff brief the author will inspect or forward →
+  [handoff-drafting.md](references/handoff-drafting.md)
 - AI-style diagnosis or academic naturalness revision →
   [academic-protection.md](references/academic-protection.md) and
   [academic-naturalness.md](references/academic-naturalness.md)
