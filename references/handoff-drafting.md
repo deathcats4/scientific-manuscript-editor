@@ -1,9 +1,13 @@
 # Handoff drafting
 
-Use when section-scale or larger drafting is delegated to an isolated
-context—a sub-agent or a fresh conversation—or when the author asks for a
-brief to inspect or forward to another agent. For work that stays in one
-context, the entrypoint's ordinary depth rules apply unchanged.
+Use when one of three signals is present: the planning context carries
+residue (a long conversation, rejected drafts, retrieval output); the task
+is genuinely large (multiple sections, submission-stage revision, drafting
+a full new section); or the author asks for the brief, the sub-agent, or
+the plan checkpoint. The split is never a default for size alone—a clean
+context with supplied materials drafts well in one pass, and the handoff
+costs two to three passes. For work that stays in one context, the
+entrypoint's ordinary depth rules apply unchanged.
 
 ## Why split
 
@@ -67,12 +71,14 @@ nothing else:
 
 ## When not to split
 
-Sentence-level and single-paragraph work, local edits, and translation of
-supplied text stay in one context: the handoff cost exceeds the benefit.
-When no isolation mechanism exists, the brief is still the artifact to
-show the author—it doubles as the instruction the author can inspect,
-correct, or forward to any agent—and the draft then follows it in the same
-context under the ordinary rules.
+The default for section work in a clean context is a single pass with the
+compact recovered-basis note attached; splitting earns its cost only under
+one of the three signals. Sentence-level and single-paragraph work, local
+edits, and translation of supplied text never split. When no isolation
+mechanism exists, the brief is still the artifact to show the author—it
+doubles as the instruction the author can inspect, correct, or forward to
+any agent—and the draft then follows it in the same context under the
+ordinary rules.
 
 ## Completion check
 

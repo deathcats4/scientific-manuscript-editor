@@ -11,7 +11,7 @@ description: >-
   literature search and new data analysis require an explicit request.
 metadata:
   short-description: "Author-controlled scientific manuscript editing"
-  version: "1.6.0"
+  version: "1.6.1"
 ---
 
 # Scientific Manuscript Editor
@@ -87,13 +87,18 @@ it—and when the surrounding prose calls for that orientation. Do not add a
 purpose, significance, or transition sentence merely to make an internal
 checklist visible.
 
-When the working environment provides an isolated drafting context—a
-sub-agent or a fresh conversation—and the task is section-scale or larger,
-split planning from drafting: recover, decide, and compile the handoff
-brief in the planning context; draft from the brief in the clean one; let
-a third clean context review. [handoff-drafting.md](references/handoff-drafting.md)
-defines the roles, the brief format, and the return channel. Local edits
-and single paragraphs do not split: the handoff cost exceeds the benefit.
+Splitting planning from drafting is conditional, not a default for size
+alone. Hand off when one of three signals is present: the planning context
+carries residue (long conversation, rejected drafts, retrieval output); the
+task is genuinely large (multiple sections, submission-stage revision, a
+full new section); or the author asks for the brief, the sub-agent, or the
+checkpoint. Otherwise draft in one context with the compact
+recovered-basis note. When splitting, recover, decide, and compile the
+handoff brief in the planning context; draft from the brief in a clean
+isolated context—a sub-agent or a fresh conversation—and let a third clean
+context review. [handoff-drafting.md](references/handoff-drafting.md)
+defines the roles, the brief format, and the return channel.
+Sentence-level work, single paragraphs, and local edits never split.
 
 ### Manuscript-wide synthesis
 
