@@ -31,6 +31,8 @@ argument within the author's supplied material.
 | Formulaic rhythm | Repeated openings, triads, fragments, or sentence shapes add padding or obscure emphasis | Let information and reasoning determine sentence boundaries. Keep necessary list items, including three findings when the parallel structure carries information. |
 | Empty transitions or restatement | A connective, heading echo, or summary repeats without advancing understanding | Remove the empty part while keeping the logical relation and any needed inferential step. |
 | Inflated or vague evaluation | Praise substitutes for a supported result, comparison, or contribution | Use specifics already supplied. When removal would change the author's claim, flag it or follow author-control rules; supporting detail comes from the supplied basis. |
+| Vague collective attribution | Citations stand in for content: `it has been widely reported`, `numerous studies have shown`, or a citation cluster attached to a claim that no specific study is cited for | Attribute the actual finding to the specific work, or state it from the supplied basis without the collective frame. Multi-reference support for one concrete claim remains legitimate. |
+| Narrative overreach | Dramatized framing—mystery or puzzle vocabulary, storytelling arcs—substitutes for the actual scientific tension | State the real anomaly, contrast, or open question in working terms. A genuine, content-bearing puzzle statement stays. |
 | Chat or editing residue | Text speaks to the user about drafting rather than to the manuscript reader about the subject | Remove only the process text. Protect quotations, research data, methodological explanations, and substantive clauses sharing the sentence. |
 
 Paragraph interchangeability, uniform length, and repeated closers are prompts
@@ -47,7 +49,10 @@ select an instance for deletion because its surface form is the most
 pattern-visible. Before deleting or compressing any span identified by a
 pattern finding, state the function it performs and locate where that
 function survives after the edit; when nothing absorbs it, repair the form
-(reword, merge, relocate) instead of deleting the content. A sentence that
+(reword, merge, relocate) instead of deleting the content. When instances
+are folded or merged, leave the surviving instance self-contained in its
+position: its references, demonstratives, and unstated presuppositions must
+not depend on a deleted neighbor. A sentence that
 names the specific unresolved object of the study is content, not a template
 instance: if it is the only statement of that gap, removing it is a
 structural change outside a naturalness edit.
@@ -57,6 +62,12 @@ the deletion applied: the paragraph must still complete its own movement,
 and the following paragraph must still inherit what it needs from this one.
 A deletion that passes at sentence level can fail at paragraph or manuscript
 level; when it does, restore the content and repair the form instead.
+Include local cohesion in that reread: a demonstrative or connective whose
+antecedent was removed with the span (a stranded `This process` or
+`However`), a surviving sentence that now presupposes deleted information,
+and a citation the span carried. When the deleted span held the only
+citation of a source, surface the reference-list consequence rather than
+leaving a silent orphan or silently removing evidence support.
 
 ## English checks
 
@@ -118,7 +129,12 @@ For integrated revision, use the entrypoint's combined workflow and proportional
 final check. This is the naturalness component of that check. Repair established
 problems, reread the affected passage in context, and check for template
 recurrence, preserved claims and reasoning, and qualifiers or connectives whose
-only role is academic decoration. Return the requested deliverable and share the
+only role is academic decoration. Compare the revision with the original, not
+only with itself: the repair must not install a uniformity of its own—merged-sentence
+sprawl, one house set of connectives, levelled rhythm—and must not leave the
+passage more patterned than it was found. Model replacement wording on the
+surrounding approved prose under the style-source rules rather than on a default
+revision register. Return the requested deliverable and share the
 inspection when an audit or explanation is requested.
 
 Use counts as descriptive aids. Let information and reasoning determine
