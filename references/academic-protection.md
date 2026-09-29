@@ -13,7 +13,7 @@ Within them, distinguish three kinds of protection:
 | Kind | What to protect | Editing consequence |
 |---|---|---|
 | Exact content | Numbers, units, identifiers, formulas, statistical notation, citation keys, quotations, and text explicitly requested verbatim | Preserve during naturalness work. Raise suspected errors separately; correct only within an authorized correction task. |
-| Scholarly function | Uncertainty, scope, attribution, comparison, negation, sequence, methodological focus, and reasoning links | Wording may change when the same function and strength survive. |
+| Scholarly function | Uncertainty, scope, attribution, comparison, negation, sequence, methodological focus, reasoning links, and passage-level moves: the research gap or question this study addresses, the study move, claim boundaries, and evidence-to-inference bridges | Wording may change when the same function and strength survive within the affected scope, not only within the sentence. |
 | Local convention | Defined terms, declared aliases, established notation, and intentional rhetorical choices | Use the current manuscript and supplied context. Retain distinctions; treat similar terms as interchangeable only when the context establishes that equivalence. |
 
 These protections preserve expression while claim and citation verification
@@ -46,6 +46,16 @@ claim to the evidence it has.
 
 Ask what would be lost if the expression disappeared. Preserve its factual or
 logical contribution before deciding whether its surface form needs repair.
+
+Apply the same question before executing a confirmed pattern finding, not
+only a suspected one. Before a deletion or compression, name the function the
+span performs—gap statement, claim boundary, evidence link, contrast,
+qualifier—and locate where that function survives after the edit. When no
+remaining text absorbs it, repair the surface form instead of deleting the
+content. When removing the span would change what the manuscript presents as
+unresolved or claimed, treat the removal as a structural or scientific
+choice under author control, not as a naturalness repair.
+
 Check the local section and style basis using the existing style-source rules.
 Routine edits use the supplied manuscript context directly. When a convention is
 unfamiliar and the defect remains uncertain, retain it or flag the uncertainty

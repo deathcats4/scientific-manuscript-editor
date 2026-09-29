@@ -11,7 +11,7 @@ description: >-
   literature search and new data analysis require an explicit request.
 metadata:
   short-description: "Author-controlled scientific manuscript editing"
-  version: "1.6.1"
+  version: "1.6.2"
 ---
 
 # Scientific Manuscript Editor
@@ -170,7 +170,11 @@ Run the integrated checks sequentially:
 2. Run the internal AI-pattern check, using the academic register guard.
 3. Run the relevant scientific-integrity and reasoning checks.
 4. Within the authorized scope, rewrite to the extent the identified problem
-   requires. Preserve unaffected content rather than imposing a fixed edit size.
+   requires. Resolve pattern findings at the function level: rank same-function
+   instances by specificity, keep the most content-bearing one, and keep every
+   affected function alive somewhere in the scope rather than deleting the
+   content that carries it. Preserve unaffected content rather than imposing
+   a fixed edit size.
 5. Apply the proportional final check below once the requested revision is ready
    to deliver; include pattern recurrence and scientific fidelity in that check.
 

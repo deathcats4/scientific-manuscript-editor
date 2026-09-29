@@ -38,6 +38,20 @@ to inspect function. Introductory framing, topic sentences, conclusions, and
 explicit inference can all be necessary; preserve reasoning while improving
 surface variety.
 
+Resolve recurrence at the function level, not the string level. A repeated
+form is actionable only when the function it performs is duplicated across
+instances; the same closer can be load-bearing in one paragraph and empty in
+another. Rank the instances by what they name—processes, objects, systems,
+conditions—and keep the most specific one as the surviving instance; do not
+select an instance for deletion because its surface form is the most
+pattern-visible. Before deleting or compressing any span identified by a
+pattern finding, state the function it performs and locate where that
+function survives after the edit; when nothing absorbs it, repair the form
+(reword, merge, relocate) instead of deleting the content. A sentence that
+names the specific unresolved object of the study is content, not a template
+instance: if it is the only statement of that gap, removing it is a
+structural change outside a naturalness edit.
+
 ## English checks
 
 - Inspect ornamental framing such as `It is important to note that`, vague
@@ -75,12 +89,17 @@ embedded terminology, formulas, and citations. These language notes remain
 subordinate to the manuscript's terminology and the authorized style source.
 
 For an Introduction, run a throughline deletion test after the ordinary
-naturalness pass: mentally remove each generic purpose, gap, significance, or
-summary signpost. If the adjacent scientific content still motivates the next
-paragraph and preserves the reader's understanding, do not restore the signpost.
-If removing it breaks the handoff, replace it with the smallest concrete
-relation, condition, object, or operation that the reader needs—not with a
-more elaborate declaration of necessity.
+naturalness pass: mentally remove each purpose, gap, significance, or summary
+signpost whose content is recoverable from the adjacent prose. The removal
+passes only when a reader who does not yet know the study can still recover
+the specific unresolved object and why this study addresses it from what
+remains; the editor already knows the study and is not that reader. When the
+test passes, do not restore the signpost. When it fails, replace the
+signpost with the smallest concrete relation, condition, object, or
+operation that the reader needs—not with a more elaborate declaration of
+necessity. A gap sentence that itself names the specific unresolved object,
+system, or condition is not a signpost: test it for duplication against
+other gap statements, never for silent deletion.
 
 ## Review and delivery
 
@@ -120,5 +139,6 @@ These constructed examples illustrate decisions, not reusable manuscript prose.
 | `此外，X 升高。相比之下，Y 降低。` | Keep the contrast. Whether the initial addition marker is useful depends on preceding context. |
 | `结果表明 X 升高。这一发现为理解 X 的升高提供了重要参考。` | Keep the result and its original strength; remove the empty second sentence. |
 | Three paragraphs report three distinct model comparisons with the same syntax | Retain necessary parallelism; flag only redundant framing, not the comparison structure itself. |
+| Three Introduction paragraphs each end in a gap statement; one names the specific processes, outcome, and system, two are generic | Keep the specific gap as the surviving instance and vary or fold the two generic endings. Do not delete the specific gap because its `remains poorly resolved` shape is the most pattern-visible. |
 | `We surveyed 120 participants. I have made this paragraph more concise.` | Keep the first sentence and its count; remove the editing narration. |
 | A prose-only draft supplies no magnitude for `a substantial improvement` | Preserve the magnitude claim and flag the evidential gap outside the draft when the supplied basis cannot resolve it. |
