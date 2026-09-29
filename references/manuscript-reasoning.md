@@ -107,7 +107,7 @@ at a time. Look for abrupt topic changes, repeated premises, paragraphs that
 could be exchanged without changing the argument, recurring
 "summary–elevation" endings, and purpose or gap announcements inserted only to
 complete a template. These are diagnostic signals, not automatic violations:
-parallel methods, results, and explicit inferences may legitimately retain
+parallel methods, results, evidence streams, and explicit inferences may legitimately retain
 parallel structure. If the relationship is real, make the inherited premise
 and new inference explicit; if it is absent, regroup, separate, or flag the
 scope rather than adding ornamental transitions or an unsupported mechanism.

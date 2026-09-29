@@ -109,6 +109,19 @@ For an important citation, check:
 - whether the citation supports the sentence's full strength rather than a
   related but narrower fact.
 
+When the author authorizes literature retrieval for a span, select sources
+by the argument's need rather than by convenience or recency alone: the
+foundational work that established the framework, recent studies that show
+the question is live, and work directly on the same object, scale, or
+method—including the leading groups in the subfield, whose absence the
+intended reader would notice. Suitability governs: not every span needs
+every role, no role is a quota, and prominence alone is not a reason to
+cite. Every newly added source still passes the verification rule above:
+confirm its main finding supports the specific sentence before insertion.
+When retrieval is not authorized, keep each claim within inspected support
+and name the unsupported span rather than weakening the claim to match the
+citations at hand.
+
 Do not add a plausible citation from memory, use citation count as argumentative
 weight, or let a citation substitute for explaining how the current study's
 evidence supports its own interpretation.

@@ -11,7 +11,7 @@ description: >-
   literature search and new data analysis require an explicit request.
 metadata:
   short-description: "Author-controlled scientific manuscript editing"
-  version: "1.3.0"
+  version: "1.4.0"
 ---
 
 # Scientific Manuscript Editor
@@ -104,6 +104,21 @@ work, check that everything its scientific function depends on exists in
 that basis. A deficit is load-bearing when silently filling it would change
 what the reader accepts as established. Ordinary language editing of the
 author's existing text is not gated: its claims are already the author's.
+
+Before treating missing logic as a deficit, recover it from the supplied
+basis. The author's argument often exists without being restated in the
+request: in other sections of the manuscript, the abstract, figures and
+tables, supplied drafts and notes, and decisions already accepted in the
+collaboration. Reconstruct the study's object, the current understanding,
+the unresolved obstacle, and what the study's materials add, keeping
+author-accepted positions distinct from what this recovery newly infers.
+Then act on what the recovery shows: proceed directly when the basis
+supports the requested work—a drafting request receives prose, a plan
+request receives a recommended organization with reasons—propose a
+recommendation when a substantive choice divides, and ask only for a gap
+that stays load-bearing after recovery and would change the core argument,
+bundled into one request. Do not add a confirmation round the request did
+not ask for.
 
 When a load-bearing deficit exists, stop the affected content instead of
 writing from memory, priors, or plausible defaults. Tell the author what is

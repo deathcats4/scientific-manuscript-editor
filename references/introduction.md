@@ -28,6 +28,24 @@ Then decide what the intended reader already knows, what must be established
 before the study move makes sense, and what the Introduction should leave the
 reader expecting from the paper.
 
+## Recover the argument before organizing
+
+A brief request does not mean an empty basis. Before organizing, recover the
+study's argument from what is supplied: other sections of the manuscript,
+the abstract, figures and tables, supplied drafts and notes, and decisions
+the author has already accepted in the collaboration. Reconstruct what the
+study investigates, what is established, the specific unresolved obstacle,
+and what the study's materials add, keeping author-accepted positions
+distinct from what this recovery newly infers; treat a newly inferred
+organizing framing as a proposal.
+
+Organize directly when the recovered basis supports the Introduction. Ask
+only for what stays load-bearing and unrecoverable after that
+recovery—typically the precise object, event, or condition the study
+constrains—and bundle such questions into one request. Paragraph order,
+length allocation, and transitions are editorial work to perform, not
+questions to escalate.
+
 ## Build the throughline without announcing it
 
 Treat the reader's final understanding of the problem and study move as an
