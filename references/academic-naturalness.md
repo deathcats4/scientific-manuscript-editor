@@ -43,10 +43,17 @@ surface variety.
 Resolve recurrence at the function level, not the string level. A repeated
 form is actionable only when the function it performs is duplicated across
 instances; the same closer can be load-bearing in one paragraph and empty in
-another. Rank the instances by what they name—processes, objects, systems,
-conditions—and keep the most specific one as the surviving instance; do not
-select an instance for deletion because its surface form is the most
-pattern-visible. Before deleting or compressing any span identified by a
+another. Rank same-function instances in this order: the author's latest
+accepted scientific state; correctness of evidence, conditions, scope, and
+modality; terminology and cross-section continuity; and only when those
+tie, the instance that names the more specific processes, objects, systems,
+or conditions. Never select an instance for deletion because its surface
+form is the most pattern-visible, and never let specificity overrule state
+or evidence—the most concrete wording of a superseded or weaker-supported
+claim is still the one to retire. When two instances cannot be ranked on
+current state or evidence, keep both and report the conflict to the author
+instead of deleting by specificity. Before deleting or compressing any span
+identified by a
 pattern finding, state the function it performs and locate where that
 function survives after the edit; when nothing absorbs it, repair the form
 (reword, merge, relocate) instead of deleting the content. When instances
@@ -176,5 +183,6 @@ These constructed examples illustrate decisions, not reusable manuscript prose.
 | `结果表明 X 升高。这一发现为理解 X 的升高提供了重要参考。` | Keep the result and its original strength; remove the empty second sentence. |
 | Three paragraphs report three distinct model comparisons with the same syntax | Retain necessary parallelism; flag only redundant framing, not the comparison structure itself. |
 | Three Introduction paragraphs each end in a gap statement; one names the specific processes, outcome, and system, two are generic | Keep the specific gap as the surviving instance and vary or fold the two generic endings. Do not delete the specific gap because its `remains poorly resolved` shape is the most pattern-visible. |
+| Two duplicate gap statements: one matches the author's latest accepted position, the other is more specific but reflects a superseded or weaker-supported reading | Keep the current-state, correctly supported instance regardless of specificity; retire the superseded wording, and when the two cannot be ranked keep both and report the conflict. |
 | `We surveyed 120 participants. I have made this paragraph more concise.` | Keep the first sentence and its count; remove the editing narration. |
 | A prose-only draft supplies no magnitude for `a substantial improvement` | Preserve the magnitude claim and flag the evidential gap outside the draft when the supplied basis cannot resolve it. |

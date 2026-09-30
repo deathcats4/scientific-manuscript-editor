@@ -11,7 +11,7 @@ description: >-
   literature search and new data analysis require an explicit request.
 metadata:
   short-description: "Author-controlled scientific manuscript editing"
-  version: "1.6.7"
+  version: "1.6.8"
 ---
 
 # Scientific Manuscript Editor
