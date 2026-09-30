@@ -63,11 +63,16 @@ paragraph still completes that movement without it. At manuscript level,
 check for functions that live in this one sentence and are consumed
 elsewhere: the gap that the Discussion answers and the Conclusion restates,
 a claim boundary later relied on, a term defined once and used throughout,
-the first mention of a sample or display. The requested scope authorizes
+the first mention of a sample or display, and the sentence that introduces
+a figure, table, equation, or supplementary item as its only route into
+the manuscript. The requested scope authorizes
 changing this passage, not cutting a manuscript-level link: when the
 paragraph-level check passes but the sentence carries such a function, read
 the far end before deleting, and surface the removal to the author when the
-far end still depends on it.
+far end still depends on it. Widen the read only for a concrete dependency
+of this kind—a display, equation, supplement, label or caption element, or
+a cross-section consumer; a deletion or merge with no such dependency stays
+a local check.
 
 Check the local section and style basis using the existing style-source rules.
 Routine edits use the supplied manuscript context directly. When a convention is

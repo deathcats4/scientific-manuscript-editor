@@ -69,6 +69,20 @@ and a citation the span carried. When the deleted span held the only
 citation of a source, surface the reference-list consequence rather than
 leaving a silent orphan or silently removing evidence support.
 
+After a deletion or a merge, the same reread checks the manuscript's
+apparatus dependencies: every `Fig.`, `Table`, `Eq.`, supplementary
+figure or table, footnote, and appendix reference in the edited scope
+still has its target; the deleted sentence was not the only place a
+display, equation, or supplement entered the manuscript;
+demonstratives such as `this figure`, `上述结果`, or `该过程` still have
+recoverable antecedents; citation keys, the reference list, labels, and
+captions still agree; and a merged sentence keeps the conditions, scope,
+modality, and evidence role its sources carried, not just their gist.
+Expand reading beyond the edited passage only when one of these checks
+finds a display, equation, supplementary, or cross-section dependency;
+otherwise the reread stays paragraph-local and never becomes a
+full-text scan by default.
+
 ## English checks
 
 - Inspect ornamental framing such as `It is important to note that`, vague
