@@ -41,3 +41,4 @@
 2026-09-30 — meta: make save rollback transactional — prevent invalid paths and staged overlap from corrupting changelog
 2026-09-30 — skill: add conditional author-intent routing and Grill-style clarification — help users choose the right manuscript task while preserving direct local edits and author control
 2026-09-30 — skill: narrow intent routing and add route discovery — preserve direct execution while exposing user choices
+2026-09-30 — readme: sync user guidance with current routing and review behavior — keep documentation aligned with the skill
