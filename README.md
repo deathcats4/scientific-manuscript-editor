@@ -106,6 +106,12 @@
 如果你希望对一个方案进行连续、尖锐的压力测试，请明确说“请像 Grill Me 一样挑战这个方案”。
 普通论文任务不会自动进入完整 Grill。
 
+## 仓库说明
+
+`SKILL.md`、`references/` 和 `agents/` 是技能本体。`AGENTS.md`、`scripts/`、
+`.githooks/` 和 `CHANGELOG.md` 是仓库自身的维护协议（变更记录、提交规范、
+部署脚本），与技能的使用无关。
+
 ## 安装
 
 ### Codex

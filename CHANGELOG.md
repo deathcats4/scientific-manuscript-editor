@@ -1,45 +1,81 @@
-# Changelog (oldest first)
+# Changelog
 
-2026-09-22 — skill: add integrated naturalness/protection review and style-source contract; record the deployed skill state (3 new reference files + integrated SKILL.md/README) that was missing from git history.
-2026-09-22 — meta: agent change-recording protocol — repo AGENTS.md, save.sh (changelog+commit+deploy), commit-msg hook
-2026-09-22 — skill: clarify current-manuscript style routing and positive guardrails — reduce iteration residue and preserve evidence boundaries
-2026-09-22 — skill: restore hard-prohibition register where boundaries need it — methods plausible-default ban, integrity hard boundaries and memory citations, synthesis minimality and conclusion check, continuity term normalization; fix author-state caveat, list indent, discussion duplication
-2026-09-22 — skill: deduplicate cross-file rules — older-draft question and reference-count range live only in style-source-contract, section-scale procedure owned by manuscript-reasoning, author-control restatements defer to entrypoint
-2026-09-22 — style-source: align disclosure with manuscript-only output — explain provenance only when material or requested
-2026-09-22 — reasoning: narrow section-scale review trigger — keep sentence polishing local
-2026-09-22 — skill: remove workflow and developer residue — keep runtime instructions focused on manuscript decisions
-2026-09-22 — meta: tighten scoped review and continuity wording — preserve scientific routing without project-management residue
-2026-09-22 — style-source: remove reference-count heuristic — choose sources by task need
-2026-09-22 — skill: normalize Markdown continuation indentation — keep lists and paragraphs readable
-2026-09-23 — integrity: add material sufficiency gate — stop substantive writing on load-bearing evidence deficits (uninspected literature or comparisons, memory citations, unsupplied figures/tables/data, author-only rationale) and request material or a marked provisional draft; section references defer to the gate — fluent prose must not substitute for missing basis
-2026-09-23 — readme: restore motivation and defensive-writing scenario sections — keep the public-facing rationale visible in README after the index-style rewrite
-2026-09-23 — skill: add format-carrier preservation — keep LaTeX/Word/Markdown markup, citation commands, tracked changes, and author comments intact through prose edits; format conversion and comment cleanup run only when requested
-2026-09-23 — section-refs: add rebuttal reference for reviewer responses and cover letters — point-by-point structure with verbatim quoting, concessions reserved to the author, sufficiency gate on requested analyses, and letter claims checked against the revised manuscript; routed from the entrypoint description, routing list, and README
-2026-09-23 — section-refs: add figure and table caption rules to results — captions make a display self-contained and must agree with the display, Results text, and Methods record; caption writing follows the material sufficiency gate when the display is unsupplied
-2026-09-23 — integrity: add material-sufficiency non-trigger examples — contrast gate triggers with supplied-record rewrites, accepted constraints, and local edits near uninspected citations so the gate does not expand local work into material requests
-2026-09-23 — style-source: fix duplicated verb in the meaning check — collapse "preserve … are preserved" into one predicate so the acceptance gate reads as intended
-2026-09-23 — meta: stamp skill version 1.1.0 — make deployed-copy drift visible in the loaded frontmatter; the pre-change state is the implicit 1.0.0 baseline and this batch adds the carrier, rebuttal, caption, and gate-calibration rules
-2026-09-23 — readme: add ZCode install section and name all deploy targets — save.sh syncs committed state to ~/.agents, ~/.codex, and ~/.zcode skill directories, so installation docs now match the deploy script
-2026-09-23 — meta: harden save.sh — drop the always-true basename guard around deploy and roll back the appended changelog line when the commit hook rejects, so a failed save leaves the tree as it was found
-2026-09-23 — skill: remove rebuttal reference and caption rules — author scoped both genres out; revert entrypoint description, routing, README entries, and the results caption section; carrier preservation and gate calibration stay
-2026-09-29 — section-refs: re-add discipline-neutral figure/table caption rules to results — captions are instruction sheets for displays (descriptive title, per-panel and quantitative definitions, no findings narration or interpretation), routed via a new caption trigger in the entrypoint; counter AI mini-essay captions observed in real use; version 1.2.0
-2026-09-29 — skill: make introduction throughlines implicit and content-bearing — prevent checklist-style purpose announcements while preserving necessary scientific handoffs
-2026-09-29 — skill: recover the argument basis before asking and select authorized-retrieval citations by role — brief writing requests reconstruct the author's logic from supplied materials, draft directly when the basis suffices, and ask only unrecoverable load-bearing gaps; retrieval-authorized spans cover foundational, recent, and directly relevant sources with per-sentence verification, prominence never a citation reason alone; restore evidence-streams in parallel-structure protection; version 1.4.0
-2026-09-29 — section-refs: extend recovery-first defaults to methods, results, and discussion; treat author outlines as working bases — each section reference recovers its basis from supplied materials (procedure records, displays and data, accepted interpretations) before asking; a detailed author instruction is executed by its scientific relations with calibrated claims and surfaced deviations, never item-by-item obedience; a compact recovered-basis account may accompany delivered prose; version 1.5.0
-2026-09-29 — handoff: add planner-writer-reviewer handoff drafting protocol — section-scale or larger drafting may split planning from writing across an isolated context (sub-agent or fresh conversation); the handoff brief carries a claim-chain argument plan (brief genre becomes draft genre), verbatim locked facts, minimal attachments, boundaries, and a return channel, with an author checkpoint at the brief that 直接写 skips; local edits stay single-context; new references/handoff-drafting.md with entrypoint routing; version 1.6.0
-2026-09-29 — handoff: tighten split trigger to three signals — split only when the planning context carries residue, the task is genuinely large (multi-section, submission-stage, full new section), or the author asks; clean-context section work defaults to one pass with the compact recovered-basis note; sentence and single-paragraph work never splits; version 1.6.1
-2026-09-29 — naturalness: resolve pattern recurrence at the function level — keep the most specific same-function instance and require each deleted span's function to survive somewhere in scope, else repair its form instead of deleting content; extend scholarly-function protection to passage-level moves (gap, study move, claim boundary) and restrict the introduction deletion test to signposts recoverable by a study-naive reader; counters deletion of the manuscript's specific gap sentence during AI-style revision; version 1.6.2
-2026-09-29 — protection: run the deletion gate at paragraph and manuscript level — a deletion verdict is provisional until the paragraph is reread after the edit and the next paragraph still inherits what it needs; a paragraph-scope edit may not cut a manuscript-level link (gap answered in Discussion and restated in Conclusion, boundary relied on later, term defined once, first mention) without reading the far end and surfacing the removal; version 1.6.3
-2026-09-29 — naturalness: harden revision artifacts and extend the pattern catalogue — consolidation must leave the surviving instance self-contained; the post-deletion reread covers dangling demonstratives, stranded connectives, presuppositions from deleted spans, and only-citation reference-list consequences; revisions are compared against the original so the repair installs no new uniformity and borrows the surrounding approved voice; catalogue vague collective attribution and narrative overreach; version 1.6.4
-2026-09-30 — meta: scope save.sh to named paths — a save records only the named files plus CHANGELOG.md, never sweeps pre-existing dirty, staged, or untracked changes into a commit (git add -A replaced by add+commit --only), refuses to run when CHANGELOG.md already carries uncommitted edits so hook rollback restores only the appended line, and leaves unhandled user modifications visible in git status; AGENTS.md documents the explicit-path protocol and adds scripts/ to the mandatory-save list
-2026-09-30 — handoff: unify checkpoint, reviewer, and recheck rules — the brief checkpoint pauses only on author request, an unresolved scientific choice, or an unsafe brief instead of blocking every dispatch; the reviewer is a required step that receives the writer's same evidence package and returns missing evidence as a blocking item rather than no-finding, running in a third clean context only when the planning context carries residue; any post-review modification by planner, redispatched writer, or another agent reruns the proportional final check, and the completion check records whether the reviewer ran, how findings were dispositioned, and that the rerun happened; removes the SKILL/README-vs-reference conflict on reviewer optionality; version 1.6.5
-2026-09-30 — handoff: require evidence closure in the brief — each paragraph claim lists the facts, displays, method conditions, limits, and citations it depends on, which attachments are must-read originals versus background, and which dependencies are unprovided; an unprovided dependency is a stop condition the writer returns as a gap, the reviewer checks against the same package rather than the brief's restatement, and a worked Discussion case shows a result summary that hides a load-bearing boundary condition or negative result
-2026-09-30 — integrity: search contrary evidence and check record status in authorized retrieval — a contested mechanism's search plan includes at least one path that could weaken or qualify the claim (contrary or negative results, alternative mechanisms, applicability boundaries) and reports an explicit not-found when none turns up; sources pass comparability (object, sample, scale, region, method conditions) and status checks (retraction, correction, preprint versus published, duplicates) before becoming support; leading groups and citation counts steer the search but never stand as citation reasons; non-systematic retrieval states its coverage and blind spots; README retrieval paragraph synced; version 1.6.6
-2026-09-30 — naturalness: check apparatus dependencies after deletion or merge — the post-deletion reread verifies Fig./Table/Eq./supplementary/footnote/appendix references still resolve, that the deleted span was not the only introduction of a display, equation, or supplement, that demonstratives keep recoverable antecedents, that citation keys, reference list, labels, and captions still agree, and that a merged sentence keeps its sources' conditions, scope, modality, and evidence role; protection adds display, equation, supplement, label, and caption links to the manuscript-level function list; reading widens beyond the passage only when such a dependency is detected, never by default; version 1.6.7
-2026-09-30 — naturalness: rank consolidation by author state and evidence before specificity — same-function instances are now ordered by the author's latest accepted state, then evidence, conditions, scope, and modality, then terminology and cross-section continuity, with specificity deciding only ties, so the most concrete wording of a superseded or weaker-supported claim is retired instead of surviving; unrankable instances keep both and report the conflict rather than deleting by specificity; contrastive example added; version 1.6.8
-2026-09-30 — handoff: scale the translation split rule by scope — the absolute translation-never-splits rule is replaced by tiers: sentence, paragraph, and local translation stay single-context; multi-section or full-manuscript translation may draft unsplit (the three signals decide) but must pass the continuity check on terminology and modality, Title–Abstract–Conclusion agreement, and resolving cross-references before delivery; author-requested passage-by-passage confirmation runs as progressive review; entrypoint and README synced; closes the 1.6 review-remediation loop; version 1.7.0
-2026-09-30 — meta: make save rollback transactional — prevent invalid paths and staged overlap from corrupting changelog
-2026-09-30 — skill: add conditional author-intent routing and Grill-style clarification — help users choose the right manuscript task while preserving direct local edits and author control
-2026-09-30 — skill: narrow intent routing and add route discovery — preserve direct execution while exposing user choices
-2026-09-30 — readme: sync user guidance with current routing and review behavior — keep documentation aligned with the skill
-2026-09-30 — readme: simplify user guide and remove stale process prose — make the skill entrypoint concise and natural
+Notable user-facing changes, newest first. Entries summarize what a skill user
+would notice; full scope, behavior detail, and reasoning live in the commit
+log.
+
+## 1.9.0 — 2026-09-30
+
+- Routing narrowed to run directly when the task is clear; when the user is unsure how to frame a request, the skill proposes relevant routes with what each delivers and a copyable next request.
+- README rewritten as a concise user guide synced with current routing and review behavior.
+
+## 1.8.0 — 2026-09-30
+
+- Conditional author-intent routing with Grill-style clarification: when a request is ambiguous between manuscript tasks, the skill asks one focused question or presents route choices instead of guessing, while direct local edits still run without any interview. Adds `references/author-intent-interview.md`.
+
+## 1.7.0 — 2026-09-30
+
+- Translation split rule scaled by scope: sentence, paragraph, and local translation stay single-context; multi-section or full-manuscript translation may draft unsplit but must pass continuity checks (terminology and modality, Title–Abstract–Conclusion agreement, cross-references) before delivery. Author-requested passage-by-passage confirmation runs as progressive review.
+
+## 1.6.8 — 2026-09-30
+
+- Consolidating repeated statements now ranks instances by the author's latest accepted position and evidence before specificity, so the most concrete wording of a superseded claim is retired instead of surviving; unrankable pairs keep both instances and report the conflict.
+
+## 1.6.7 — 2026-09-30
+
+- After a deletion or merge, apparatus dependencies are checked: figure, table, equation, and supplement references still resolve; the deleted span was not the only introduction of a display or supplement; demonstratives keep recoverable antecedents; citation keys, reference list, labels, and captions still agree.
+
+## 1.6.6 — 2026-09-30
+
+- Authorized citation retrieval searches contrary evidence (negative results, alternative mechanisms, applicability boundaries) and reports an explicit not-found; sources pass status checks (retraction, correction, preprint versus published, duplicates) and comparability before supporting a claim.
+
+## 1.6.5 — 2026-09-30
+
+- Planner–writer–reviewer handoffs: the reviewer is a required step receiving the writer's evidence package; the brief checkpoint pauses only on author request, unresolved scientific choices, or unsafe briefs; any post-review modification reruns the proportional final check.
+- Handoff briefs require evidence closure: each paragraph claim lists its facts, displays, conditions, and citations; an unprovided dependency is a stop condition returned as a gap.
+
+## 1.6.4 — 2026-09-29
+
+- Revision-artifact checks hardened: consolidation leaves the surviving instance self-contained; the post-deletion reread covers dangling demonstratives, stranded connectives, and reference-list consequences; revisions are compared against the original so no new uniformity is installed. The AI-style catalogue adds vague collective attribution and narrative overreach.
+
+## 1.6.3 — 2026-09-29
+
+- The deletion gate runs at paragraph and manuscript level: a paragraph-scope edit may not cut a manuscript-level link (gap answered later, boundary relied on later, term defined once, first mention) without reading the far end and surfacing the removal.
+
+## 1.6.2 — 2026-09-29
+
+- Recurring patterns are resolved at the function level: the most specific same-function instance survives, each deleted span's function must survive somewhere in scope, and the manuscript's specific gap sentence is protected during AI-style revision.
+
+## 1.6.1 — 2026-09-29
+
+- Handoff splitting tightened to three signals (residue in the planning context, genuinely large task, author request); clean-context section work defaults to one pass; sentence and single-paragraph work never splits.
+
+## 1.6.0 — 2026-09-29
+
+- Planner–writer–reviewer handoff drafting for section-scale and larger tasks: the brief carries a claim-chain argument plan, verbatim locked facts, boundaries, and a return channel, with an author checkpoint at the brief. Local edits stay single-context. Adds `references/handoff-drafting.md`.
+
+## 1.5.0 — 2026-09-29
+
+- Recovery-first defaults extended to Methods, Results, and Discussion: each section reconstructs its basis from supplied materials before asking, and author outlines are executed as working bases by their scientific relations, not item-by-item.
+
+## 1.4.0 — 2026-09-29
+
+- Writing requests recover the author's argument basis from supplied materials before asking questions and draft directly when the basis suffices; authorized citation selection covers foundational, recent, and directly relevant sources with per-sentence verification, and prominence alone is never a citation reason.
+
+## 1.3.0 — 2026-09-29
+
+- Introductions keep their throughlines implicit and content-bearing: checklist-style purpose announcements are prevented while necessary scientific handoffs survive.
+
+## 1.2.0 — 2026-09-29
+
+- Figure and table caption rules for Results: captions work as instruction sheets for displays (descriptive title, per-panel and quantitative definitions, no findings narration), countering AI mini-essay captions.
+
+## 1.1.0 — 2026-09-23
+
+- Material sufficiency gate: substantive writing stops on load-bearing evidence deficits (uninspected literature, memory citations, unsupplied figures, tables, or data) and requests material or a marked provisional draft instead of substituting fluent prose.
+- Format-carrier preservation: LaTeX, Word, and Markdown markup, citation commands, tracked changes, and author comments stay intact through prose edits; conversion and cleanup run only when requested.
+- ZCode installation documented.
+
+## 1.0.0 — 2026-09-22
+
+- Initial integrated skill: combined naturalness and protection review with the style-source contract, shipping `SKILL.md`, `README.md`, and the first reference set.

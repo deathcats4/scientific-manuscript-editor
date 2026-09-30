@@ -13,12 +13,23 @@ touched:
 
     bash scripts/save.sh "<area>: <what changed> — <why>" <changed-file>...
 
-Works from any shell that has git's `bash` on PATH. The script appends a dated
-CHANGELOG entry and commits only the named files plus CHANGELOG.md;
-pre-existing dirty, staged, or untracked files are left untouched and stay
-visible in `git status` for the caller to handle. It then redeploys the
-committed state to the installed skill directories. Do not leave this repo
-dirty at the end of a task.
+Works from any shell that has git's `bash` on PATH. The script commits only
+the named files; pre-existing dirty, staged, or untracked files are left
+untouched and stay visible in `git status` for the caller to handle. It then
+redeploys the committed state to the installed skill directories. Do not leave
+this repo dirty at the end of a task.
+
+CHANGELOG.md is a newest-first, version-grouped summary of user-facing
+changes; full detail stays in the commit log. A save reaches the changelog
+only when the change alters behavior a skill user would notice:
+
+    bash scripts/save.sh "<area>: <what changed> — <why>" --note "<one-line user-facing summary>" <changed-file>...
+
+The note lands under `## Unreleased`. When SKILL.md's version stamp changes,
+rename `## Unreleased` to `## <version> — <date>` in its own save naming
+CHANGELOG.md (and SKILL.md if the stamp edit is not yet committed), without
+`--note`. Housekeeping changes (save.sh, hooks, wording-only fixes) get no
+changelog note.
 
 If the working tree is already dirty when a session starts, report that to the
 user before making further edits.
