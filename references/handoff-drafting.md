@@ -36,7 +36,9 @@ mediocrity.
   terms: execute the scientific relations it intends rather than its
   wording or item order, calibrate its claims, and surface a deviation
   instead of silently obeying or silently dropping it. Marks unsupported
-  spans and returns load-bearing gaps instead of filling them.
+  spans and returns load-bearing gaps instead of filling them; a claim
+  whose dependency the evidence closure marks unprovided is returned as a
+  gap, not drafted around.
 - **Reviewer (required, never silently skipped).** Receives the original
   task, the brief, the draft, and the same evidence package the writer
   drafted from—attachments or their explicit summary—never only the
@@ -71,15 +73,37 @@ nothing else:
    surrounding approved prose as the style source, the display or data
    content, inspected-source excerpts. Excess attachment defeats the
    isolation.
-5. **Boundaries.** What the draft may not do: no facts, claims, or
+5. **Evidence closure.** For each paragraph claim in the argument plan:
+   the facts, displays, method conditions, limits, and citations it
+   depends on; which attachments are must-read originals for those claims
+   and which are background orientation only; and which dependencies are
+   not provided. An unprovided dependency is a stop condition—the writer
+   marks the claim and returns a gap instead of filling it. A result
+   summary is not closure: when an interpretation leans on a boundary
+   condition, a negative result, or a comparison that the summary does
+   not carry, the brief either attaches that material or names its
+   absence as a missing dependency. The reviewer checks against this same
+   package, never against the brief's restatement of it.
+6. **Boundaries.** What the draft may not do: no facts, claims, or
    citations beyond the brief and attachments; no retrieval unless the
    brief authorizes it, and then under the citation-selection rules;
    unsettled choices marked provisional; calibration in force wherever
    the brief's claims outrun their evidence.
-6. **Return channel.** How the writer reports brief defects: missing
+7. **Return channel.** How the writer reports brief defects: missing
    load-bearing material, unreadable attachments, contradictory locked
    facts. The planner fixes the brief or asks the author; the writer never
    resolves a return by inventing.
+
+A Discussion case closure exists to catch: the argument plan asks for a
+paragraph interpreting an observed enrichment, and the attached result
+summary states the values and the trend, which looks sufficient. The
+interpretation, however, rests on a boundary condition the summary does
+not carry—a measured horizon that anchors the comparison, a negative
+result from the control setting that rules out the simpler explanation,
+or a method limit that bounds the inference. Evidence closure forces the
+choice into the open: attach the condition, or mark the interpretation
+as missing its dependency, so the writer returns a gap rather than a
+fluent explanation built on an unstated condition.
 
 ## When not to split
 
