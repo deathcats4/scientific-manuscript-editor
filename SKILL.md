@@ -5,15 +5,17 @@ description: >-
   Chinese or English. Use for manuscript passages, sections, titles, abstracts,
   conclusions, scientific logic, evidence-to-claim reasoning, citation fit,
   reference-informed writing, academic naturalness and AI-style review, and
-  cross-manuscript consistency. When the request is ambiguous or a scientific
-  choice is unsettled, clarify the author's intended task and current position
-  before substantive editing. Preserve the
+  cross-manuscript consistency. When the user is unsure how to frame a
+  manuscript task, expose a compact route and a copyable next request. After
+  recovering the supplied basis, clarify the author's intended task and current
+  position only when an unresolved choice would change substantive content.
+  Preserve the
   author's scientific position and evidence boundaries; stop for missing
   material when the supplied basis cannot carry the requested content;
   literature search and new data analysis require an explicit request.
 metadata:
   short-description: "Author-controlled scientific manuscript editing"
-  version: "1.8.0"
+  version: "1.9.0"
 ---
 
 # Scientific Manuscript Editor
@@ -122,15 +124,15 @@ does not determine the review depth; the requested deliverable does.
 
 ## Clarify the author's intent before substantive work
 
-Use the lightest route that makes the request safe to execute. If the request
-already fixes the operation, scope, scientific position, evidence basis, and
-delivery form, proceed directly. Do not interview the author for a sentence
-edit, a local translation, a terminology correction, or another explicitly
-bounded change.
+Use the lightest route that makes the request safe to execute. First recover the
+supplied manuscript, figures, methods, notes, accepted decisions, and inspected
+sources. If that recovery fixes the operation, scope, scientific position,
+evidence basis, and delivery form, proceed directly. A substantive task's mere
+possibility of changing scientific meaning is not a trigger for an interview.
 
-When the task is ambiguous, could change scientific meaning, or leaves the
-author's current position unresolved, run an **author-intent interview** before
-substantive drafting or restructuring. This is a short decision-tree interview,
+After recovery, run an **author-intent interview** only when an unresolved
+operation, scope, scientific position, source authorization, or delivery choice
+would change the requested content. This is a short decision-tree interview,
 not a generic questionnaire. Load
 [author-intent-interview.md](references/author-intent-interview.md) for its
 round structure and decision branches.
@@ -141,16 +143,29 @@ The interview separates three things that are often mixed together:
 2. the scientific decisions the author has accepted, rejected, or left open;
 3. the facts, figures, methods, limits, and sources that can support the work.
 
-Recover facts from the supplied manuscript and inspectable materials yourself.
 Ask the author only for choices or missing author state that cannot be recovered
 and would change the result. Each round may contain the currently answerable
-questions and gives a recommended answer for each. Recompute the next frontier
-after the author responds; do not ask downstream questions whose prerequisites
-are still unsettled.
+questions and gives a recommended route. Recompute the next frontier after the
+author responds; do not ask downstream questions whose prerequisites are still
+unsettled.
+
+When the user asks what this skill can do, says they do not know how to frame the
+request, or gives a broad situation without a clear deliverable, expose a
+compact route in the collaboration: name up to three relevant task modes, say
+what each would deliver, and give one copyable next request. For a broad
+situation with no clearly implied mode, stop after the recommendation and let
+the author choose; do not begin substantive work from a route list alone. When
+the supplied task clearly implies one mode but does not name it, state the
+selected mode in one sentence before proceeding. Skip that route note when the
+user asks for manuscript-only output or an explicitly bounded local edit.
+
+Keep the interview separate from a full **Grill**. Start an adversarial,
+repeated challenge only when the author explicitly asks to be grilled,
+challenged, or stress-tested; ordinary ambiguity receives the shorter interview.
 
 When the load-bearing decisions are settled, record a compact working basis in
 the collaboration and continue with the selected task depth. Pause for an
-explicit author confirmation only when the author requested a grill or
+explicit author confirmation only when the author requested a Grill or
 checkpoint, a scientific choice remains genuinely open, or the recovered basis
 still cannot safely support the requested content. A clarified route does not
 authorize new literature retrieval, new analysis, or a stronger scientific

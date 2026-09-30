@@ -1,7 +1,7 @@
 interface:
   display_name: "Scientific Manuscript Editor"
   short_description: "Author-controlled scientific manuscript editing"
-  default_prompt: "Use $scientific-manuscript-editor to help with this manuscript while preserving the author's scientific position, evidence boundaries, and requested scope. If the task could change scientific meaning or the intended operation is unclear, clarify the author's intent before substantive editing."
+  default_prompt: "Use $scientific-manuscript-editor to help with this manuscript while preserving the author's scientific position, evidence boundaries, and requested scope. Recover the supplied basis first; clarify the author's intent only when an unresolved choice would change substantive content, and expose a compact route with a copyable next request when the user is unsure how to frame the task."
 
 policy:
   allow_implicit_invocation: true

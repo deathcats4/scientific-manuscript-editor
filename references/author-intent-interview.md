@@ -1,8 +1,9 @@
 # Author-intent interview
 
-Use this reference when a manuscript request is unclear, substantive, or could
-change the author's scientific position. The goal is shared understanding of
-the work to perform, not permission for ordinary editorial choices.
+Use this reference after recovering the supplied basis when a manuscript
+request still has an unresolved choice that would change the requested content.
+The goal is shared understanding of the work to perform, not permission for
+ordinary editorial choices or a full adversarial Grill.
 
 ## Decision tree
 
@@ -35,8 +36,8 @@ answer, defer it to the next round.
 
 ## Round format
 
-Use a compact format with a recommended answer. Recommendations are proposals,
-not author commitments:
+Use a compact format with a recommended route. Route recommendations are
+proposals, not author commitments:
 
 ```text
 ❓ Q1 — 处理目标：你希望我只改语言，还是同时检查这段解释是否被结果支持？
@@ -47,6 +48,12 @@ not author commitments:
 After the author answers, update the working state and ask only the new
 frontier. Do not repeat settled decisions or turn the interview into a list of
 questions whose answers are already present in the manuscript.
+
+When a question would choose a mechanism, causal relation, or conclusion
+strength, present the supported options and their consequences. Treat a
+recommended scientific position as provisional only when the supplied evidence
+and the author's accepted state already support it; the interview must not
+anchor the author to a new scientific claim.
 
 ## Facts versus decisions
 
@@ -61,6 +68,17 @@ If a load-bearing fact or source is missing, report the concrete gap and why it
 changes the requested result. Do not use a plausible default to close it. The
 author may supply the material, authorize retrieval or analysis, or accept a
 visibly provisional draft with the gap marked.
+
+## Route discovery and Grill boundary
+
+If the user does not know what to ask, return up to three relevant task modes,
+what each mode would deliver, and one copyable next request. This route note is
+an orientation aid; it does not start a full Grill or authorize retrieval.
+
+A full Grill is a separate, user-requested pressure test. Start it only when
+the author explicitly asks to be grilled, challenged, or stress-tested. The
+ordinary interview resolves the smallest open choice needed to execute the
+manuscript task.
 
 ## Completion
 
