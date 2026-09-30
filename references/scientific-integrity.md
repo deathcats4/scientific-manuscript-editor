@@ -122,6 +122,21 @@ When retrieval is not authorized, keep each claim within inspected support
 and name the unsupported span rather than weakening the claim to match the
 citations at hand.
 
+Authorized retrieval searches both directions. For a contested mechanism
+or interpretation, the search plan includes at least one candidate path
+that could weaken or qualify the claim—contrary or negative results,
+alternative mechanisms, and stated applicability boundaries of the
+supporting work—and when the search ran and found no such source, report
+that explicitly as not found rather than implying contrary evidence does
+not exist. Before a source becomes support, check comparability—object,
+population or sample, spatial and temporal scale, region, and method
+conditions—and the record's status: retraction or correction notices,
+whether a preprint has a peer-reviewed version, and duplicate or
+overlapping records. Leading groups and citation counts are visibility
+signals that steer the search, never standalone citation reasons or
+proxies for importance. Retrieval that is not a systematic review states
+the coverage it actually achieved and the space it may have missed.
+
 Do not add a plausible citation from memory, use citation count as argumentative
 weight, or let a citation substitute for explaining how the current study's
 evidence supports its own interpretation.
