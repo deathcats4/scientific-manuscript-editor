@@ -5,13 +5,15 @@ description: >-
   Chinese or English. Use for manuscript passages, sections, titles, abstracts,
   conclusions, scientific logic, evidence-to-claim reasoning, citation fit,
   reference-informed writing, academic naturalness and AI-style review, and
-  cross-manuscript consistency. Preserve the
+  cross-manuscript consistency. When the request is ambiguous or a scientific
+  choice is unsettled, clarify the author's intended task and current position
+  before substantive editing. Preserve the
   author's scientific position and evidence boundaries; stop for missing
   material when the supplied basis cannot carry the requested content;
   literature search and new data analysis require an explicit request.
 metadata:
   short-description: "Author-controlled scientific manuscript editing"
-  version: "1.7.0"
+  version: "1.8.0"
 ---
 
 # Scientific Manuscript Editor
@@ -117,6 +119,42 @@ consistency, or coordinated Title–Abstract–Conclusion work. Load
 [continuity-and-consistency.md](references/continuity-and-consistency.md) and
 [synthesis.md](references/synthesis.md) when relevant. A long conversation alone
 does not determine the review depth; the requested deliverable does.
+
+## Clarify the author's intent before substantive work
+
+Use the lightest route that makes the request safe to execute. If the request
+already fixes the operation, scope, scientific position, evidence basis, and
+delivery form, proceed directly. Do not interview the author for a sentence
+edit, a local translation, a terminology correction, or another explicitly
+bounded change.
+
+When the task is ambiguous, could change scientific meaning, or leaves the
+author's current position unresolved, run an **author-intent interview** before
+substantive drafting or restructuring. This is a short decision-tree interview,
+not a generic questionnaire. Load
+[author-intent-interview.md](references/author-intent-interview.md) for its
+round structure and decision branches.
+
+The interview separates three things that are often mixed together:
+
+1. the operation the author wants (edit, review, draft, translate, or compare);
+2. the scientific decisions the author has accepted, rejected, or left open;
+3. the facts, figures, methods, limits, and sources that can support the work.
+
+Recover facts from the supplied manuscript and inspectable materials yourself.
+Ask the author only for choices or missing author state that cannot be recovered
+and would change the result. Each round may contain the currently answerable
+questions and gives a recommended answer for each. Recompute the next frontier
+after the author responds; do not ask downstream questions whose prerequisites
+are still unsettled.
+
+When the load-bearing decisions are settled, record a compact working basis in
+the collaboration and continue with the selected task depth. Pause for an
+explicit author confirmation only when the author requested a grill or
+checkpoint, a scientific choice remains genuinely open, or the recovered basis
+still cannot safely support the requested content. A clarified route does not
+authorize new literature retrieval, new analysis, or a stronger scientific
+claim; those remain separately authorized decisions.
 
 ## Material sufficiency gate
 
