@@ -7,14 +7,18 @@ an installed copy directly — edit here, then deploy.
 
 ## Mandatory after any content edit
 
-After editing SKILL.md, README.md, CHANGELOG.md, anything under `references/`
-or `agents/`, run in the same task:
+After editing SKILL.md, README.md, CHANGELOG.md, anything under `references/`,
+`agents/`, or `scripts/`, run in the same task, naming every file the change
+touched:
 
-    bash scripts/save.sh "<area>: <what changed> — <why>"
+    bash scripts/save.sh "<area>: <what changed> — <why>" <changed-file>...
 
 Works from any shell that has git's `bash` on PATH. The script appends a dated
-CHANGELOG entry, commits everything, and redeploys the committed state to the
-installed skill directories. Do not leave this repo dirty at the end of a task.
+CHANGELOG entry and commits only the named files plus CHANGELOG.md;
+pre-existing dirty, staged, or untracked files are left untouched and stay
+visible in `git status` for the caller to handle. It then redeploys the
+committed state to the installed skill directories. Do not leave this repo
+dirty at the end of a task.
 
 If the working tree is already dirty when a session starts, report that to the
 user before making further edits.
