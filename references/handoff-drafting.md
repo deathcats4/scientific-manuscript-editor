@@ -23,11 +23,13 @@ mediocrity.
 
 - **Planner (main context).** Runs the recovery and author-control rules,
   resolves or surfaces the scientific choices, compiles the brief, decides
-  what material attaches, and handles returns. Shows the author the brief
-  before dispatching by default—the author corrects the plan in seconds,
-  before prose exists to defend; an explicit "直接写" or equivalent
-  dispatches without the checkpoint. This checkpoint is plan inspection,
-  not a material-request round.
+  what material attaches, and handles returns. Dispatches once the brief is
+  safe to execute and lets the delivered record show the author the brief
+  that produced the prose; pauses at the brief only when the author asked to
+  inspect the plan, when an unresolved scientific choice would otherwise be
+  decided silently by the writer, or when the planner judges the brief not
+  safely executable—a load-bearing gap the writer would have to fill. This
+  checkpoint is plan inspection, not a material-request round.
 - **Writer (isolated context).** Loads this skill and drafts from the
   brief and its attachments only, with no access to the planning
   conversation. Treats the brief as a working basis on the entrypoint's
@@ -35,10 +37,20 @@ mediocrity.
   wording or item order, calibrate its claims, and surface a deviation
   instead of silently obeying or silently dropping it. Marks unsupported
   spans and returns load-bearing gaps instead of filling them.
-- **Reviewer (optional, also isolated).** Receives the original task, the
-  brief, and the draft—but not the drafting reasoning—and runs the
-  integrated checks. Findings return through the planner, who decides what
-  is a real defect and revises or redispatches.
+- **Reviewer (required, never silently skipped).** Receives the original
+  task, the brief, the draft, and the same evidence package the writer
+  drafted from—attachments or their explicit summary—never only the
+  brief's paraphrase, and runs the integrated checks with that evidence at
+  hand. A claim whose evidence the reviewer cannot inspect is returned as
+  a blocking item; missing evidence is never reported as the absence of
+  findings. The review runs in a third isolated context when the planning
+  context carries residue or must stay unchanged for later work; when the
+  split was triggered by task size or an author request and the planning
+  context is clean, the planner may run the same integrated check on the
+  returned draft. Findings return through the planner, who decides what
+  is a real defect and revises or redispatches—and anything modified after
+  the review, by the planner, a redispatched writer, or another agent,
+  passes a rerun of the proportional final check before delivery.
 
 ## The handoff brief
 
@@ -83,6 +95,10 @@ ordinary rules.
 ## Completion check
 
 The writer's draft is traceable to the brief's claims and locked facts
-with no unmarked invention; every deviation the writer surfaced is
-accounted for by the planner; and the author checkpoint, when used,
+with no unmarked invention, and every deviation the writer surfaced is
+accounted for by the planner. The record shows the review loop: whether
+the reviewer ran and where, how each finding was dispositioned—repaired,
+rejected with a reason, or deferred—and that content modified after the
+review passed a rerun of the proportional final check. An author
+checkpoint fired only on one of its three triggers, and when it fired it
 happened at the brief, before prose existed to defend.

@@ -11,7 +11,7 @@ description: >-
   literature search and new data analysis require an explicit request.
 metadata:
   short-description: "Author-controlled scientific manuscript editing"
-  version: "1.6.4"
+  version: "1.6.5"
 ---
 
 # Scientific Manuscript Editor
@@ -95,8 +95,14 @@ full new section); or the author asks for the brief, the sub-agent, or the
 checkpoint. Otherwise draft in one context with the compact
 recovered-basis note. When splitting, recover, decide, and compile the
 handoff brief in the planning context; draft from the brief in a clean
-isolated context—a sub-agent or a fresh conversation—and let a third clean
-context review. [handoff-drafting.md](references/handoff-drafting.md)
+isolated context—a sub-agent or a fresh conversation—and review the
+returned draft before delivery, in a third clean context when the
+planning context carries residue, otherwise in the planning context.
+Dispatch without pausing unless the author asked to inspect the brief, a
+scientific choice is still unresolved, or the planner judges the brief
+unsafe to execute; the reviewer receives the writer's evidence package,
+and anything modified after the review passes the proportional final
+check again. [handoff-drafting.md](references/handoff-drafting.md)
 defines the roles, the brief format, and the return channel.
 Sentence-level work, single paragraphs, and local edits never split.
 
