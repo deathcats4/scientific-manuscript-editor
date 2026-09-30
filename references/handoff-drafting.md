@@ -109,8 +109,15 @@ fluent explanation built on an unstated condition.
 
 The default for section work in a clean context is a single pass with the
 compact recovered-basis note attached; splitting earns its cost only under
-one of the three signals. Sentence-level and single-paragraph work, local
-edits, and translation of supplied text never split. When no isolation
+one of the three signals. Sentence-level and single-paragraph work and
+local edits never split. Translation scales by scope: a sentence, a
+paragraph, or a local passage stays in one context; a multi-section or
+full-manuscript translation may be drafted without splitting—the three
+signals decide whether it does—but its delivery requires the continuity
+check: unified terminology and modality, Title–Abstract–Conclusion
+agreement, and cross-references that still resolve, rather than the
+local-edit rule; when the author asks to confirm passage by passage, run
+progressive review instead. When no isolation
 mechanism exists, the brief is still the artifact to show the author—it
 doubles as the instruction the author can inspect, correct, or forward to
 any agent—and the draft then follows it in the same context under the

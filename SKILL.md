@@ -11,7 +11,7 @@ description: >-
   literature search and new data analysis require an explicit request.
 metadata:
   short-description: "Author-controlled scientific manuscript editing"
-  version: "1.6.8"
+  version: "1.7.0"
 ---
 
 # Scientific Manuscript Editor
@@ -105,6 +105,10 @@ and anything modified after the review passes the proportional final
 check again. [handoff-drafting.md](references/handoff-drafting.md)
 defines the roles, the brief format, and the return channel.
 Sentence-level work, single paragraphs, and local edits never split.
+Translation splits only under the same three signals; a multi-section or
+full-manuscript translation delivered without splitting still runs the
+continuity check before delivery—unified terminology and modality,
+Title–Abstract–Conclusion agreement, and cross-references that resolve.
 
 ### Manuscript-wide synthesis
 
