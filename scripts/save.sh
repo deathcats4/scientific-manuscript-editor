@@ -42,10 +42,33 @@ if [[ "$#" -eq 0 ]]; then
   exit 1
 fi
 
+# A path-level commit cannot distinguish this save's hunks from pre-existing
+# staged hunks in the same file. Refuse that ambiguous case rather than
+# silently committing the caller's earlier staged work.
+if ! git diff --cached --quiet -- "$@"; then
+  echo 'one or more named paths already have staged modifications; commit or unstage them before recording a change.' >&2
+  exit 1
+fi
+
+# Validate every path before changing CHANGELOG.md. The dry run does not alter
+# the index, but still catches a missing or invalid pathspec up front.
+if ! git add --dry-run -- CHANGELOG.md "$@" >/dev/null; then
+  echo 'one or more named paths are invalid; no files were changed.' >&2
+  exit 1
+fi
+
 if [[ ! -f CHANGELOG.md ]]; then
   printf '# Changelog (oldest first)\n' > CHANGELOG.md
 fi
 printf '%s — %s\n' "$(date +%F)" "$msg" >> CHANGELOG.md
+
+changelog_committed=0
+rollback_changelog() {
+  if [[ "$changelog_committed" -eq 0 ]]; then
+    git restore --source=HEAD --staged --worktree -- CHANGELOG.md 2>/dev/null || true
+  fi
+}
+trap rollback_changelog EXIT
 
 # stage only what this save records; --only keeps unrelated staged content out
 # of the commit even if some exists
@@ -54,10 +77,10 @@ if ! git commit -m "$msg" --only -- CHANGELOG.md "$@"; then
   # a hook-rejected commit must not leave the appended changelog line behind;
   # CHANGELOG.md was verified clean above, so this restore removes only our
   # line. The named paths stay staged for a corrected retry.
-  git restore --source=HEAD --staged --worktree -- CHANGELOG.md
   echo 'commit rejected; changelog entry rolled back, named edits left staged' >&2
   exit 1
 fi
+changelog_committed=1
 
 # deploy the committed state (never uncommitted work) to installed copies
 for dest in "$HOME/.agents/skills/scientific-manuscript-editor" \
