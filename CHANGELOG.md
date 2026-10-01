@@ -4,6 +4,10 @@ Notable user-facing changes, newest first. Entries summarize what a skill user
 would notice; full scope, behavior detail, and reasoning live in the commit
 log.
 
+## Unreleased
+
+- 2026-10-02 — Added a lightweight project-local MANUSCRIPT-CONTEXT.md for multi-section and cross-session work.
+
 ## 1.9.0 — 2026-09-30
 
 - Routing narrowed to run directly when the task is clear; when the user is unsure how to frame a request, the skill proposes relevant routes with what each delivers and a copyable next request.

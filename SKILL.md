@@ -6,7 +6,9 @@ description: >-
   conclusions, scientific logic, evidence-to-claim reasoning, citation fit,
   reference-informed writing, academic naturalness and AI-style review, and
   cross-manuscript consistency. When the user is unsure how to frame a
-  manuscript task, expose a compact route and a copyable next request. After
+  manuscript task, expose a compact route and a copyable next request. For
+  multi-section or cross-session work, use a lightweight persistent manuscript
+  context when one exists or is needed. After
   recovering the supplied basis, clarify the author's intended task and current
   position only when an unresolved choice would change substantive content.
   Preserve the
@@ -121,6 +123,20 @@ consistency, or coordinated Title–Abstract–Conclusion work. Load
 [continuity-and-consistency.md](references/continuity-and-consistency.md) and
 [synthesis.md](references/synthesis.md) when relevant. A long conversation alone
 does not determine the review depth; the requested deliverable does.
+
+## Use a persistent manuscript context
+
+For multi-section, manuscript-wide, repeated cross-session, or explicitly
+context-preserving work, create or update a project-local
+`MANUSCRIPT-CONTEXT.md` when it does not exist. If one exists, read it after
+recovering the supplied manuscript basis. Use it to retain only the current
+terminology, accepted or provisional author state, evidence roles, claim
+boundaries, open decisions, and regression-prevention notes. Do not use it as a
+replacement for the manuscript, source artifacts, or a process log. Local
+sentence and paragraph edits do not create or load it unless the target depends
+on a recorded project decision. Load
+[manuscript-context.md](references/manuscript-context.md) for the file's
+creation, precedence, update, and completion rules.
 
 ## Clarify the author's intent before substantive work
 
@@ -416,6 +432,9 @@ Load a reference only when its branch is active:
   more sections, long revision history, superseded positions, terminology
   continuity, or cross-manuscript consistency →
   [continuity-and-consistency.md](references/continuity-and-consistency.md)
+- A project-local `MANUSCRIPT-CONTEXT.md` exists, or the task is multi-section,
+  manuscript-wide, repeated across sessions, or explicitly context-preserving →
+  [manuscript-context.md](references/manuscript-context.md)
 
 Use one section reference for each section actually in scope. Add another
 reference only when a distinct active branch requires it, such as a supplied

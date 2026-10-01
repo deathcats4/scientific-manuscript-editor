@@ -61,6 +61,10 @@
 如果材料足够，直接完成任务。材料恢复后仍有会改变交付内容的科学选择，才会询问作者。
 问题会分轮提出，并说明每种选择的后果。
 
+对于多章节、全文、跨会话或作者明确要求保留上下文的任务，可以在论文项目中维护一个
+轻量的 `MANUSCRIPT-CONTEXT.md`。它只记录当前术语、作者已接受或暂定的科学状态、证据角色、
+论断边界和未决选择，不替代正文、图表、数据或文献，也不记录完整协作过程。
+
 作者决定机制、因果关系、证据角色、结论强度和贡献定位。技能负责整理论证和表达，
 不会把参考文献中的事实、机制或结构直接写成作者自己的内容。
 
@@ -101,6 +105,7 @@
 - [科学完整性](references/scientific-integrity.md)
 - [文献学习](references/reference-learning.md)
 - [交接式起草](references/handoff-drafting.md)
+- [持久化论文上下文](references/manuscript-context.md)
 - [自然度与 AI 风格检查](references/academic-naturalness.md)
 
 如果你希望对一个方案进行连续、尖锐的压力测试，请明确说“请像 Grill Me 一样挑战这个方案”。
