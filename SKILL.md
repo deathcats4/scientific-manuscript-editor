@@ -5,7 +5,9 @@ description: >-
   Chinese or English. Use for manuscript passages, sections, titles, abstracts,
   conclusions, scientific logic, evidence-to-claim reasoning, citation fit,
   reference-informed writing, academic naturalness and AI-style review, and
-  cross-manuscript consistency. When the user is unsure how to frame a
+  cross-manuscript consistency, including linked scientific-fidelity and
+  argument-and-genre review when the task requires it. When the user is unsure
+  how to frame a
   manuscript task, expose a compact route and a copyable next request. For
   multi-section or cross-session work, use a lightweight persistent manuscript
   context when one exists or is needed. After
@@ -228,13 +230,24 @@ silently substitute a plausible completion. For the deficit catalogue and
 request handling, see the material sufficiency section of
 [scientific-integrity.md](references/scientific-integrity.md).
 
-## Integrated review and internal checks
+## Integrated review and two-axis checks
 
 The user-facing default is one integrated review. For substantive drafting,
 substantive rewriting, or an explicit request for naturalness or AI-style
 review, run the naturalness, AI-pattern, and scientific-quality checks together.
 Ordinary sentence-level polishing stays a local edit unless the user asks for
 broader improvement. Select the internal check automatically from the request.
+
+For substantive work, use the scientific-paper review model: first pass the
+evidence gate, then check the **scientific fidelity** axis and the **argument
+and genre quality** axis, then run one integration pass. Load
+[scientific-review-axes.md](references/scientific-review-axes.md) when the task
+is mechanism- or causality-sensitive, changes the Abstract or Conclusion,
+spans sections, prepares a submission, deletes or merges text with scientific
+dependencies, or explicitly asks for a two-axis review. This is a linked review
+model, not two independent scores; it does not require two agents. The full
+model is internal by default for those higher-risk branches, while the user
+still receives one integrated result unless separate findings were requested.
 
 For the internal AI-pattern check, load
 [academic-protection.md](references/academic-protection.md) and
@@ -244,10 +257,15 @@ Diagnose observable writing defects, not the presumed origin of a text.
 
 Run the integrated checks sequentially:
 
-1. Lock facts, numbers, citations, terminology, modality, causal force, scope,
-   and paragraph-level scientific relations.
-2. Run the internal AI-pattern check, using the academic register guard.
-3. Run the relevant scientific-integrity and reasoning checks.
+1. Pass the evidence gate and lock facts, numbers, citations, terminology,
+   modality, causal force, scope, and paragraph-level scientific relations.
+2. Run the scientific-fidelity checks: relevant scientific-integrity and
+   reasoning checks, including evidence roles and claim boundaries.
+3. Check argument and genre quality after the scientific basis is locked. Run
+   the internal AI-pattern check using the academic register guard, then repair
+   reader endpoint, paragraph progression, evidence-to-inference visibility,
+   section fit, and expression without using prose to resolve an open
+   scientific choice.
 4. Within the authorized scope, rewrite to the extent the identified problem
    requires. Resolve pattern findings at the function level: rank same-function
    instances by specificity, keep the most content-bearing one, and keep every
@@ -277,6 +295,10 @@ weakening or changing the science.
   evidence about authorship or scientific validity.
 - For a request limited to scientific logic, evidence, terminology, or claim
   strength, run only the corresponding scientific checks.
+- For “双轴审查”, “分别检查科学忠实度和表达质量”, or equivalent, report
+  separate **Scientific fidelity** and **Argument and genre quality** findings,
+  followed by the disposition and any evidence gap. Keep the linked order: the
+  scientific axis sets the boundary that the expression axis must respect.
 
 In ordinary requests, use the integrated review. A narrow grammar, terminology,
 translation, or figure-reference edit with no naturalness request remains a
@@ -432,6 +454,10 @@ Load a reference only when its branch is active:
   more sections, long revision history, superseded positions, terminology
   continuity, or cross-manuscript consistency →
   [continuity-and-consistency.md](references/continuity-and-consistency.md)
+- Substantive review, mechanism or causal interpretation, Abstract or
+  Conclusion revision, submission-stage work, deletion or merge with scientific
+  dependencies, or an explicit two-axis request →
+  [scientific-review-axes.md](references/scientific-review-axes.md)
 - A project-local `MANUSCRIPT-CONTEXT.md` exists, or the task is multi-section,
   manuscript-wide, repeated across sessions, or explicitly context-preserving →
   [manuscript-context.md](references/manuscript-context.md)

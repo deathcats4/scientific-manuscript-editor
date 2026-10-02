@@ -6,6 +6,7 @@ log.
 
 ## Unreleased
 
+- 2026-10-02 — Added a linked evidence-gate, scientific-fidelity, and argument-and-genre review mode for higher-risk manuscript work.
 - 2026-10-02 — Added a lightweight project-local MANUSCRIPT-CONTEXT.md for multi-section and cross-session work.
 
 ## 1.9.0 — 2026-09-30
