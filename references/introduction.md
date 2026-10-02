@@ -46,6 +46,30 @@ constrains—and bundle such questions into one request. Paragraph order,
 length allocation, and transitions are editorial work to perform, not
 questions to escalate.
 
+## Choose a primary movement
+
+Treat the named structures as internal planning tools. After recovering the
+argument, choose the movement that best exposes the study's actual obstacle:
+
+- broad field relevance or a reader who needs orientation → broad-to-specific
+  (funnel);
+- a specific research space whose unresolved move must be established →
+  CARS-like gap-and-response;
+- competing explanations or a contradiction → tension-driven,
+  problem–solution, or hypothesis-driven;
+- a missing measurement, method, or access route → barrier-to-capability;
+- an unexpected observation that reorganizes the question → anomaly-first;
+- a narrowly defined result or framework that can be stated directly →
+  contribution-first or a direct specialist opening.
+
+Use one primary movement as an internal hypothesis and combine movements only
+when each part performs a distinct job. Hold the working map as
+`reader prerequisite → established relation → unresolved obstacle → study
+response → earned contribution`. If two movements remain plausible, prefer the
+one that makes the unresolved object and the study response clearest with the
+least unsupported background; keep the alternative as a planning note rather
+than blending both into a formula.
+
 ## Build the throughline without announcing it
 
 Treat the reader's final understanding of the problem and study move as an
