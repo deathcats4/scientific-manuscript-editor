@@ -111,6 +111,7 @@ agent 或重复流程。
 - [文献学习](references/reference-learning.md)
 - [交接式起草](references/handoff-drafting.md)
 - [持久化论文上下文](references/manuscript-context.md)
+- [论文跨会话交接](references/manuscript-session-handoff.md)
 - [科学审查双轴](references/scientific-review-axes.md)
 - [自然度与 AI 风格检查](references/academic-naturalness.md)
 

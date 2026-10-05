@@ -7,7 +7,10 @@ a full new section); or the author asks for the brief, the sub-agent, or
 the plan checkpoint. The split is never a default for size alone—a clean
 context with supplied materials drafts well in one pass, and the handoff
 costs two to three passes. For work that stays in one context, the
-entrypoint's ordinary depth rules apply unchanged.
+entrypoint's ordinary depth rules apply unchanged. This is an intra-task
+planner–writer–reviewer split; use
+[manuscript-session-handoff.md](manuscript-session-handoff.md) when the work
+must continue in a later session or fresh conversation.
 
 ## Why split
 

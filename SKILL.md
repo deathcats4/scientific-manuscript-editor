@@ -140,6 +140,18 @@ on a recorded project decision. Load
 [manuscript-context.md](references/manuscript-context.md) for the file's
 creation, precedence, update, and completion rules.
 
+## Continue across sessions
+
+When manuscript work will continue in a new session, fresh conversation, or
+agent, create or update a project-local `MANUSCRIPT-SESSION-HANDOFF.md` after
+recovering the manuscript basis and the durable context. Keep it as a compact
+next-session workset: destination, first action, current author state, evidence
+links and gaps, completed checks, open decisions, and the next validation. It
+is not a transcript, a second manuscript context, or a place to promote an AI
+proposal to accepted science. For the distinction between durable context,
+cross-session continuation, and the intra-task planner–writer–reviewer split,
+load [manuscript-session-handoff.md](references/manuscript-session-handoff.md).
+
 ## Clarify the author's intent before substantive work
 
 Use the lightest route that makes the request safe to execute. First recover the
@@ -428,6 +440,9 @@ Load a reference only when its branch is active:
 - Section-scale or larger drafting delegated to an isolated context, or a
   handoff brief the author will inspect or forward →
   [handoff-drafting.md](references/handoff-drafting.md)
+- Cross-session continuation, a fresh agent, or an explicit request to save a
+  manuscript continuation point →
+  [manuscript-session-handoff.md](references/manuscript-session-handoff.md)
 - AI-style diagnosis or academic naturalness revision →
   [academic-protection.md](references/academic-protection.md) and
   [academic-naturalness.md](references/academic-naturalness.md)

@@ -6,6 +6,7 @@ log.
 
 ## Unreleased
 
+- 2026-10-05 — Added a manuscript-specific cross-session handoff with explicit evidence, decision, and context-to-prose boundaries.
 - 2026-10-03 — Introduction now maps common scientific problems to candidate movements before drafting while keeping the structure flexible.
 - 2026-10-02 — Added a linked evidence-gate, scientific-fidelity, and argument-and-genre review mode for higher-risk manuscript work.
 - 2026-10-02 — Added a lightweight project-local MANUSCRIPT-CONTEXT.md for multi-section and cross-session work.
