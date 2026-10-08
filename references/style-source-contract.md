@@ -33,8 +33,8 @@ Establish these fields internally:
 7. **Disclosure** — the plain-language sentence that tells the author what
    shaped the prose and what an older draft was used for.
 8. **Acceptance checks** — semantic fidelity, manuscript continuity, genre fit,
-   source contamination, and whether the passage performs its needed scientific
-   and reader-orientation functions.
+   source contamination, and whether each paragraph advances the reader's
+   understanding of the section's scientific question.
 
 ## Style-source priority by task
 
@@ -71,22 +71,22 @@ the anchor for the document.
 Write the internal profile as abstract, corpus-supported tendencies, for
 example:
 
-- the evidence behind an interpretation is easy to identify;
+- the paragraph reaches the observation before interpreting it;
 - evidence and interpretation are adjacent when the inference is non-obvious;
 - the central term is repeated rather than replaced with decorative synonyms;
 - transitions are sparse when the relationship is recoverable from the science;
 - uncertainty appears at the claim boundary rather than in a repeated disclaimer;
-- a supported open question connects interpretations when that relationship
-  serves the argument.
+- a Discussion paragraph closes by advancing the next question rather than by
+  restating its own conclusion.
 
 Represent tendencies at an abstract level: information density, inferential
 granularity, paragraph movement, and claim calibration. Keep distinctive
 phrases, exact templates, recognizable skeletons, and source-specific facts
 with the source. Treat each tendency as a soft preference supported by
 convergence across the selected corpus.
-An observed order, opening, ending, rhythm, or connective density is a possible
-style tendency, not a placement rule or a quantitative target. Adapt it to the
-author's scientific relationships and preserve an effective existing passage.
+Use these observations as adaptable preferences, not sentence-position rules
+or quotas. The author's scientific relationships and effective existing prose
+remain the basis for applying them.
 
 ## Disclosure to the author
 
@@ -115,9 +115,10 @@ Before delivery, check in this order:
 4. **Source separation** — keep distinctive source wording, source-specific
    facts, mechanisms, limitations, novelty claims, and recognizable structures
    with their source unless the author authorizes transfer.
-5. **Scientific function** — the passage supplies needed evidence, inference,
-   comparison, boundaries, synthesis, or orientation through real relationships,
-   without forcing a prescribed paragraph pattern.
+5. **Scientific progress** — each paragraph develops the section's question
+   through needed evidence, inference, comparison, boundaries, or synthesis.
+   Orientation and recaps must help the reader follow that argument; a new
+   scientific finding or a uniform paragraph pattern is not required.
 6. **Naturalness** — repair mechanical repetition, empty framing, and generic
    elevation while preserving fluent academic expression and scientific meaning.
 

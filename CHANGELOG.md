@@ -6,6 +6,7 @@ log.
 
 ## Unreleased
 
+- 2026-10-08 — 恢复原版图注规范和研究理由、核心发现、逐段推进及内部规划检查；取消正文机械套用的段落位置要求，保留有作用的过渡和总结。
 - 2026-10-08 — 取消固定开头、展开链、逐段交接、摘要收尾和图注顺序，允许有作用的总结与过渡；精简入口、统一重复内容取舍、区分观察与作者状态、按实际依赖决定访谈和交接，并在保存前校验技能包，避免模板干扰科学表达及规则失配。
 - 2026-10-05 — Added a manuscript-specific cross-session handoff with explicit evidence, decision, and context-to-prose boundaries.
 - 2026-10-03 — Introduction now maps common scientific problems to candidate movements before drafting while keeping the structure flexible.

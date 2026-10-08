@@ -6,8 +6,8 @@ local language edit, preserve a sound existing architecture.
 ## Scientific function
 
 An Introduction should bring the intended reader from the relevant knowledge
-state to an accurate understanding of the study's question or contribution.
-Determine which of the following the reader needs:
+state to the precise scientific reason this study is needed. It should make
+clear:
 
 - what scientific issue matters here;
 - what is established;
@@ -15,11 +15,12 @@ Determine which of the following the reader needs:
 - why a relevant obstacle persists, when that is established;
 - what question, test, capability, or contribution this study supplies.
 
-These are information needs, not a sequence or a required set of sentences.
-A study may extend or test existing understanding, characterize a system, or
-supply a resource without claiming a gap in the field. When a gap matters,
-identify the supported unresolved issue rather than manufacturing a necessity
-statement.
+These are scientific information needs, not a required sequence of sentences.
+The research reason must be grounded in the study and the available knowledge
+basis. A gap, when relevant, is a concrete unresolved obstacle, not a ceremonial
+sentence. Characterization and resource work still need a clear scientific
+motivation and an account of what they add to existing knowledge; do not
+manufacture a field-wide gap or an unsupported necessity claim.
 
 ## Diagnose before organizing
 
@@ -51,31 +52,46 @@ constrains—and bundle such questions into one request. Paragraph order,
 length allocation, and transitions are editorial work to perform, not
 questions to escalate.
 
-## Organize from the recovered science
+## Choose a working movement
 
-Choose the opening and order from the study's actual relationships and the
-reader's prerequisites. Orientation may precede a specialist question; a
-contribution or observation may introduce the relevant context; several
-parallel issues may together motivate the work. Preserve an effective existing
+Treat the named structures as internal planning tools. After recovering the
+argument, choose the movement that makes the study's actual research reason
+and response clearest to the intended reader. Preserve an effective existing
 organization within the requested scope.
 
-Familiar structures can suggest an approach when organization needs repair;
-there is no requirement to select one primary movement or complete a fixed
-chain of background, gap, response, and contribution. Test an organization by
-whether the reader can follow the supported question or contribution with the
-necessary context. A missing slot in a planning model is not a missing
-scientific claim.
+- broad field relevance or a reader who needs orientation → broad-to-specific
+  (funnel);
+- a specific research space whose unresolved move must be established →
+  CARS-like gap-and-response;
+- competing explanations or a contradiction → tension-driven,
+  problem–solution, or hypothesis-driven;
+- a missing measurement, method, or access route → barrier-to-capability;
+- an unexpected observation that reorganizes the question → anomaly-first;
+- a narrowly defined result or framework that can be stated directly →
+  contribution-first or a direct specialist opening.
+
+Use the main movement as an internal hypothesis, not a required prose pattern.
+Combine movements when each part performs a distinct scientific job. For a
+study addressing an unresolved obstacle, the working map
+`reader prerequisite → established relation → unresolved obstacle → study
+response → earned contribution` helps check that the argument is complete.
+Adapt that map for characterization, resource work, or parallel questions while
+keeping the actual research reason and contribution clear. The map records
+scientific relationships; it does not assign one paragraph or sentence to each
+role. When several organizations fit, prefer the one that makes those
+relationships clearest with the least unsupported background.
 
 ## Build the throughline without announcing it
 
 Treat the reader's final understanding of the problem and study move as an
 internal design target, not a sentence-by-sentence reporting requirement. The
 Introduction should let the reader follow the study's question or contribution
-through the relevant evidence and relationships. Make consequential connections
-recoverable where the reader needs them. Paragraphs may develop
-one question, compare parallel issues, provide shared context, or synthesize
-earlier points; they need not each narrow the previous paragraph or hand an
-unresolved condition to the next one.
+through the relevant evidence and relationships. Build the order so that each
+paragraph develops an aspect the reader needs to understand the research reason
+and study response. Make consequential connections recoverable where needed.
+Parallel issues, shared context, and synthesis must contribute to that
+throughline, but each paragraph need not narrow its immediate predecessor or
+hand an unresolved condition to the next one.
 
 Do not force every paragraph to state its function, repeat the research gap, or
 end with a purpose marker. In Chinese, phrases such as “因此，有必要……”,
@@ -124,8 +140,8 @@ logic.
 
 ## Completion check
 
-The reader should be able to reconstruct the study's question or contribution,
-its relation to established knowledge and any supported unresolved issue, and
+The reader should be able to reconstruct why the study is needed, its question
+and relation to established knowledge and any supported unresolved issue, and
 the level of contribution the paper can legitimately claim. This
 understanding need not come from repeated explicit labels such as “gap”,
 “purpose”, or “significance”. Check that the throughline is carried by real

@@ -20,13 +20,13 @@ Infer terminology and conventions from the supplied manuscript and discipline.
 Keep the working model internal; deliver the prose, findings, and decisions the
 author requested.
 
-Let the scientific content, intended reader, and explicit author or venue
-requirements determine openings, order, paragraph boundaries, and endings.
-Structures and checklists in this skill are diagnostic tools, not prose slots.
-A sound passage need not be reorganized to match them. Assess supported claims,
-necessary reasoning, coherence, and readability without prescribing a sentence
-position, paragraph count, or repeated rhetorical move. Honor an author-requested
-structure or a journal's required format within the scientific boundaries.
+Use section-specific guidance to make the research motivation, evidence,
+reasoning, and contribution clear and to meet the component's genre requirements.
+Planning maps and prose examples guide organization; they do not require every
+paragraph to use the same opening, sequence, or ending. Preserve a sound passage
+and honor author or journal requirements within the scientific boundaries.
+Figure and table captions follow the dedicated guidance in
+[Results](references/results.md).
 
 ## Recover the basis and choose the depth
 
@@ -52,13 +52,14 @@ correction does not trigger a manuscript-wide or full AI-pattern review.
 
 For paragraph and section work, establish what the reader should understand,
 which evidence supports it, which non-obvious inference must be recoverable,
-and how the relevant parts relate. Progression, parallel comparisons, shared
-context, and synthesis can each provide coherence; every paragraph need not
-inherit from its immediate predecessor or prepare a successor. Necessary
-inference belongs in the prose. Keep planning notes and editing history outside
-the manuscript, and use orientation or synthesis when it helps the reader.
-Judge a unit by its scientific function rather than a prescribed opening,
-internal sequence, or closing form. The detailed procedure and examples live
+and how the relevant parts relate. Plan a scientifically coherent order and
+check what each paragraph adds to the reader's understanding. Progression,
+parallel comparisons, shared context, and synthesis can support that order;
+their relationship to the section's question must be clear. Necessary inference
+belongs in the prose. Keep useful topic sentences, transitions, and summaries;
+their form and placement follow the argument rather than a uniform paragraph
+pattern. Keep planning notes and editing history outside the manuscript.
+The detailed procedure and examples live
 in [manuscript-reasoning.md](references/manuscript-reasoning.md).
 
 ## Clarify only a consequential unresolved choice

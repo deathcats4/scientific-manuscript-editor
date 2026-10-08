@@ -59,10 +59,11 @@ Check the following after the scientific basis is locked:
 
 - **Reader endpoint:** the passage gives the intended reader the understanding
   or decision the section is meant to deliver.
-- **Paragraph function and coherence:** the relevant parts serve the section's
-  scientific task, with necessary context and relationships recoverable.
-  Progression, parallel comparisons, orientation, and synthesis are legitimate;
-  neither a linear handoff nor a new claim is required in every paragraph.
+- **Paragraph progress and coherence:** each paragraph helps the reader
+  understand, compare, rule out, or connect something needed for the section's
+  question, with necessary context and relationships recoverable. Parallel
+  comparisons, orientation, and synthesis need a clear role in that argument;
+  they need not form a linear handoff or add a new scientific finding.
 - **Evidence-to-inference visibility:** the prose makes non-obvious reasoning
   recoverable without adding a generic purpose, gap, or significance sentence.
 - **Section and discipline fit:** Introduction, Methods, Results, Discussion,

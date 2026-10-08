@@ -132,11 +132,14 @@ reader could not reliably recover it; if a supposed relationship is absent,
 regroup, separate, or flag the
 scope rather than adding ornamental transitions or an unsupported mechanism.
 
-Use a reader-function test: does the passage supply evidence, reasoning,
-comparison, synthesis, a defining boundary, or useful orientation the section
-needs? A recap can help the reader without adding a new claim. Combine or
-remove repeated material when it supplies neither needed understanding nor
-navigation; do not demand a new finding or forward link from every paragraph.
+Use a cumulative-progress test: after each paragraph, what can the reader now
+understand, compare, rule out, or connect that was not available before it?
+Orientation and synthesis earn their place by clarifying the accumulated
+evidence, its relationships, or the issue to be addressed; they need not add a
+new scientific finding. When a paragraph only restates its context without
+such a function, give it a different job, combine it with a related paragraph,
+or remove it. Keep a recap or transition when it helps the reader follow the
+argument rather than merely repeating it.
 When the supplied material cannot support a consequential relation or claim,
 pause the affected drafting, ask
 one concrete question, or label the proposed structure provisional. Keep an
@@ -163,7 +166,8 @@ Check within the requested scope:
 - Can the central claim be traced to supplied support?
 - Is every necessary non-obvious inference recoverable?
 - Is the claim bounded at the level the evidence earns?
-- Does the passage perform its needed function, with any repetition serving
-  synthesis, comparison, or orientation rather than duplicating work?
+- Does each paragraph advance the reader's understanding of the section's
+  question, with any repetition supplying useful synthesis, comparison, or
+  orientation rather than duplicating work?
 - Does the prose express the current author position rather than revision
   history or the editor's private reasoning?

@@ -70,12 +70,14 @@ nothing else:
 
 1. **Task.** What to draft or revise, language, section, requested depth,
    delivery form, and any venue or length constraints.
-2. **Argument plan, written as claims.** The supported claims and scientific
-   relationships the requested passage needs: relevant context, evidence,
-   comparisons, dependencies, or synthesis. Include an unresolved issue and
-   study response when they are part of the actual argument. Paragraph
-   allocation and order remain editorial choices unless the author fixes them;
-   a proposed map is revisable rather than a set of required slots.
+2. **Argument plan, written as claims.** A compact proposed paragraph or
+   subsection map, with the main supported claims, each unit's contribution to
+   the section's question, and the context or evidence it needs. Record the
+   comparisons, dependencies, or synthesis that justify the proposed order;
+   include the unresolved issue and study response when they are part of the
+   actual argument. The writer may revise paragraph allocation and order within
+   the settled scientific boundaries unless the author fixes them. The map is
+   a working argument, not a set of required opening or closing sentences.
    Keep observations distinct from interpretations; carry each consequential
    position's origin and working, accepted, or provisional status under
    [manuscript-context.md](manuscript-context.md).
