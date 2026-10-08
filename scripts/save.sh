@@ -85,6 +85,26 @@ if ! git add --dry-run -- "${targets[@]}" >/dev/null; then
   exit 1
 fi
 
+# Validate the exact package this save would commit, including deletions.
+# The validator uses a temporary index; unrelated staged or working edits do
+# not hide a broken candidate. Run before changing the changelog or real index.
+validator_python=""
+for candidate_python in python python3; do
+  if command -v "$candidate_python" >/dev/null 2>&1 && \
+     "$candidate_python" -c 'import sys; sys.exit(sys.version_info < (3, 9))' >/dev/null 2>&1; then
+    validator_python="$candidate_python"
+    break
+  fi
+done
+if [[ -z "$validator_python" ]]; then
+  echo 'validation requires Python 3.9 or newer and PyYAML; no content was staged or committed.' >&2
+  exit 1
+fi
+if ! "$validator_python" -B -X utf8 scripts/validate.py --candidate "${targets[@]}"; then
+  echo 'skill validation failed; changelog, staged content, and installed copies were not changed.' >&2
+  exit 1
+fi
+
 changelog_touched=0
 rollback_changelog() {
   if [[ "$changelog_touched" -eq 1 ]]; then

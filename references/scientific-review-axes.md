@@ -11,7 +11,7 @@ independent scores and it does not require two agents.
 Run the review as three linked stages:
 
 1. **Evidence gate** — recover the supplied facts, displays, methods,
-   conditions, limitations, inspected sources, and the author's accepted state.
+   conditions, limitations, inspected sources, and the current author state.
    If a load-bearing dependency is missing, report the gap before committing a
    stronger claim. A fluent sentence cannot pass an evidence deficit.
 2. **Scientific fidelity axis** — check whether the requested prose preserves
@@ -42,9 +42,12 @@ Check the following in the supplied scope:
 - **Force and scope:** association remains distinct from causation; modality,
   spatial and temporal scope, comparison class, and conclusion strength do not
   become stronger or broader through editing.
-- **Author state:** accepted, provisional, and rejected interpretations remain
-  distinct. A recommendation or a source's interpretation is not written as
-  the author's accepted position without authorization.
+- **Author state:** working, accepted, provisional, and rejected interpretations
+  remain distinct, with observations and interpretations separately sourced.
+  The current manuscript is an editing baseline, not proof of explicit
+  acceptance or verified evidence. A recommendation or source interpretation
+  does not become an accepted position without authorization. Use the status
+  definitions in [manuscript-context.md](manuscript-context.md) when recording it.
 
 Classify a finding as a **scientific conflict**, **unsupported dependency**,
 **editorial inconsistency**, or **no finding**. A missing dependency is a gap,
@@ -56,9 +59,10 @@ Check the following after the scientific basis is locked:
 
 - **Reader endpoint:** the passage gives the intended reader the understanding
   or decision the section is meant to deliver.
-- **Paragraph function and progression:** each paragraph inherits a live
-  condition, adds a distinct claim or relation, and hands forward what the next
-  paragraph needs; it does not merely restate the preceding paragraph.
+- **Paragraph function and coherence:** the relevant parts serve the section's
+  scientific task, with necessary context and relationships recoverable.
+  Progression, parallel comparisons, orientation, and synthesis are legitimate;
+  neither a linear handoff nor a new claim is required in every paragraph.
 - **Evidence-to-inference visibility:** the prose makes non-obvious reasoning
   recoverable without adding a generic purpose, gap, or significance sentence.
 - **Section and discipline fit:** Introduction, Methods, Results, Discussion,
@@ -108,8 +112,9 @@ or equivalent, report two clearly separated sections:
 Then report the disposition: revised safely, retained as provisional, left
 unchanged because it is supported, or blocked pending author material or a
 scientific decision. Do not create two independent conclusions from different
-evidence packages. Independent agents are optional and reserved for genuinely
-large or residue-heavy work under the handoff rules.
+evidence packages. Independent agents are optional under the handoff rules for
+interdependent evidence, interfering planning residue, or an explicit isolation
+request; length alone does not require them.
 
 ## Completion check
 

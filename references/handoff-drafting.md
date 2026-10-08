@@ -1,12 +1,18 @@
 # Handoff drafting
 
-Use when one of three signals is present: the planning context carries
-residue (a long conversation, rejected drafts, retrieval output); the task
-is genuinely large (multiple sections, submission-stage revision, drafting
-a full new section); or the author asks for the brief, the sub-agent, or
-the plan checkpoint. The split is never a default for size alone—a clean
-context with supplied materials drafts well in one pass, and the handoff
-costs two to three passes. For work that stays in one context, the
+Use when one of three signals is present:
+
+- planning residue, such as rejected drafts or conflicting process notes,
+  would interfere with drafting from the current scientific position;
+- interdependent evidence or cross-section decisions need a separate planning
+  and review stage; or
+- the author explicitly requests isolated drafting or review.
+
+A full new section, multiple sections, submission-stage work, or a long
+translation does not trigger splitting by length or label alone. A clean
+context with complete supplied materials can complete that work in one context.
+A request for a brief or plan checkpoint delivers that artifact; it does not
+itself dispatch a writer. For work that stays in one context, the
 entrypoint's ordinary depth rules apply unchanged. This is an intra-task
 planner–writer–reviewer split; use
 [manuscript-session-handoff.md](manuscript-session-handoff.md) when the work
@@ -14,10 +20,10 @@ must continue in a later session or fresh conversation.
 
 ## Why split
 
-A long planning context carries residue—rejected drafts, back-and-forth,
-retrieval output, process checks—that contaminates generation and pushes
-the drafting model to perform task completion rather than write. An
-isolated drafting context removes that residue. Isolation does not move
+A long planning context can carry residue—rejected drafts, back-and-forth,
+retrieval output, process checks—that competes with the current argument.
+An isolated drafting context excludes that residue and supplies the current
+basis directly. Isolation does not move
 the scientific work: recovery, calibration, and author choices happen in
 the planning context. A weak brief in a clean context produces fluent
 mediocrity.
@@ -50,8 +56,8 @@ mediocrity.
   a blocking item; missing evidence is never reported as the absence of
   findings. The review runs in a third isolated context when the planning
   context carries residue or must stay unchanged for later work; when the
-  split was triggered by task size or an author request and the planning
-  context is clean, the planner may run the same integrated check on the
+  split was triggered by evidence coordination or an author request and the
+  planning context is clean, the planner may run the same integrated check on the
   returned draft. Findings return through the planner, who decides what
   is a real defect and revises or redispatches—and anything modified after
   the review, by the planner, a redispatched writer, or another agent,
@@ -64,11 +70,17 @@ nothing else:
 
 1. **Task.** What to draft or revise, language, section, requested depth,
    delivery form, and any venue or length constraints.
-2. **Argument plan, written as claims.** The sequence of paragraph claims:
-   what each paragraph asserts, what it inherits from the previous one,
-   and what it hands forward; the unresolved obstacle and the study move.
-   Write connected scientific statements, never task items such as
-   "mention X here"—the brief's genre becomes the draft's genre.
+2. **Argument plan, written as claims.** The supported claims and scientific
+   relationships the requested passage needs: relevant context, evidence,
+   comparisons, dependencies, or synthesis. Include an unresolved issue and
+   study response when they are part of the actual argument. Paragraph
+   allocation and order remain editorial choices unless the author fixes them;
+   a proposed map is revisable rather than a set of required slots.
+   Keep observations distinct from interpretations; carry each consequential
+   position's origin and working, accepted, or provisional status under
+   [manuscript-context.md](manuscript-context.md).
+   Describe the science and its evidence relationships rather than prescribing
+   one sentence or rhetorical move for each plan item.
 3. **Locked facts.** Verbatim numbers, units, sample and site identifiers,
    citations with their support status, terminology, and figure or table
    references that the draft must reproduce exactly.
@@ -76,7 +88,7 @@ nothing else:
    surrounding approved prose as the style source, the display or data
    content, inspected-source excerpts. Excess attachment defeats the
    isolation.
-5. **Evidence closure.** For each paragraph claim in the argument plan:
+5. **Evidence closure.** For each load-bearing claim in the argument plan:
    the facts, displays, method conditions, limits, and citations it
    depends on; which attachments are must-read originals for those claims
    and which are background orientation only; and which dependencies are
@@ -110,10 +122,9 @@ fluent explanation built on an unstated condition.
 
 ## When not to split
 
-The default for section work in a clean context is a single pass with the
-compact recovered-basis note attached; splitting earns its cost only under
-one of the three signals. Sentence-level and single-paragraph work and
-local edits never split. Translation scales by scope: a sentence, a
+The default is one context with the recovered scientific basis; splitting
+earns its cost only under one of the three signals. Sentence-level work, single
+paragraphs, and local edits never split. Translation scales by scope: a sentence, a
 paragraph, or a local passage stays in one context; a multi-section or
 full-manuscript translation may be drafted without splitting—the three
 signals decide whether it does—but its delivery requires the continuity

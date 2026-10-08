@@ -33,8 +33,8 @@ Establish these fields internally:
 7. **Disclosure** — the plain-language sentence that tells the author what
    shaped the prose and what an older draft was used for.
 8. **Acceptance checks** — semantic fidelity, manuscript continuity, genre fit,
-   source contamination, and whether each paragraph advances the scientific
-   endpoint.
+   source contamination, and whether the passage performs its needed scientific
+   and reader-orientation functions.
 
 ## Style-source priority by task
 
@@ -42,7 +42,7 @@ Establish these fields internally:
 |---|---|---|---|
 | Local edit | Approved prose immediately around the target | Calibrate a term or expression when needed | Context and continuity; expression only after explicit request |
 | New paragraph or section | Surrounding approved manuscript; an author-designated reference set when requested | Benchmark for the requested section and venue | Continuity and content; expression only after explicit request |
-| Substantive rewrite | Current manuscript's accepted organization and surrounding voice; selected references when requested | Benchmark for the requested section and venue | Continuity and content; expression only after explicit request |
+| Substantive rewrite | Current manuscript's organization and surrounding voice; selected references when requested | Benchmark for the requested section and venue | Continuity and content; expression only after explicit request |
 | Manuscript-wide coordination | Current manuscript continuity, with section-specific reference sets | Reconcile section-appropriate tendencies; keep each section's rhetorical work distinct | Current accepted wording and terminology; expression only after explicit request |
 | No style source supplied | Neutral, direct, field-appropriate prose | Use no reference corpus | Treat an untrusted draft as content and context, not a voice sample |
 
@@ -71,19 +71,22 @@ the anchor for the document.
 Write the internal profile as abstract, corpus-supported tendencies, for
 example:
 
-- the paragraph reaches the observation before interpreting it;
+- the evidence behind an interpretation is easy to identify;
 - evidence and interpretation are adjacent when the inference is non-obvious;
 - the central term is repeated rather than replaced with decorative synonyms;
 - transitions are sparse when the relationship is recoverable from the science;
 - uncertainty appears at the claim boundary rather than in a repeated disclaimer;
-- a Discussion paragraph closes by advancing the next question rather than by
-  restating its own conclusion.
+- a supported open question connects interpretations when that relationship
+  serves the argument.
 
 Represent tendencies at an abstract level: information density, inferential
 granularity, paragraph movement, and claim calibration. Keep distinctive
 phrases, exact templates, recognizable skeletons, and source-specific facts
 with the source. Treat each tendency as a soft preference supported by
 convergence across the selected corpus.
+An observed order, opening, ending, rhythm, or connective density is a possible
+style tendency, not a placement rule or a quantitative target. Adapt it to the
+author's scientific relationships and preserve an effective existing passage.
 
 ## Disclosure to the author
 
@@ -112,8 +115,9 @@ Before delivery, check in this order:
 4. **Source separation** — keep distinctive source wording, source-specific
    facts, mechanisms, limitations, novelty claims, and recognizable structures
    with their source unless the author authorizes transfer.
-5. **Scientific movement** — each paragraph adds evidence, inference,
-   comparison, boundary, or handoff grounded in a real relationship.
+5. **Scientific function** — the passage supplies needed evidence, inference,
+   comparison, boundaries, synthesis, or orientation through real relationships,
+   without forcing a prescribed paragraph pattern.
 6. **Naturalness** — repair mechanical repetition, empty framing, and generic
    elevation while preserving fluent academic expression and scientific meaning.
 

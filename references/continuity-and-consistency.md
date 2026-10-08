@@ -9,8 +9,9 @@ the scope.
 
 Classify relevant history internally:
 
-- **Current author state:** accepted interpretation, terminology, scope, claim
-  strength, and writing direction.
+- **Current author state:** the current manuscript's working position, explicit
+  accepted decisions, and clearly marked provisional interpretations,
+  terminology, scope, claim strength, and writing direction.
 - **Evidence:** primary data, figures, tables, source text, and verified
   literature that can support the current state.
 - **Open scientific choice:** an unresolved decision that could change the
@@ -28,6 +29,12 @@ For interpretation, terminology preference, and writing direction, the
 author's latest explicit accepted decision controls. For numbers, conditions,
 methods, and what a source actually reports, primary artifacts and inspected
 sources control. Recency or repeated mention does not override factual evidence.
+
+Record observations, interpretations, and explicit author decisions separately.
+Use the current manuscript as the working baseline for ordinary edits without
+promoting it to explicitly accepted or independently verified state. The status
+definitions and recording format live in
+[manuscript-context.md](manuscript-context.md).
 
 ## Terminology continuity
 
@@ -77,5 +84,5 @@ surface only decisions or conflicts that affect the requested text.
 No superseded mechanism or term has silently returned; repeated findings and
 identifiers agree across the supplied scope without unnecessary argumentative
 replay; every unresolved discrepancy is clearly located; and the current
-manuscript reflects the author's accepted scientific position rather than the
+manuscript reflects the reconciled current scientific position rather than the
 history of reaching it.

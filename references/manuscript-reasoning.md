@@ -21,7 +21,9 @@ Determine:
    and which choice remains open?
 
 Use the elements the task needs. A paper may have one central claim or several
-connected contributions; let the material determine its unity.
+connected contributions; let the material determine its unity. These questions
+guide diagnosis and do not assign sentences, paragraph positions, or an order
+to the manuscript.
 
 ## Diagnose the real writing problem
 
@@ -49,17 +51,26 @@ adapt, reverse, or ignore them when the science calls for another movement.
 
 Structure is not a fixed sentence sequence. A paragraph may begin with a
 question, judgment, observation, prior study, anomaly, or boundary. What matters
-is that each sentence performs work needed for the paragraph's scientific
-function and that the endpoint prepares the reader for what follows.
+is whether the reader can follow the science with the necessary evidence,
+reasoning, and context. These possible openings are examples, not an exhaustive
+set or a request to vary them for surface diversity.
+
+A paragraph or subsection completes a scientific function, not a fixed ending
+form. Choose its ending from the scientific content and reader's needs. There
+need not be a handoff to a next unit, and an earlier sentence may already carry
+the paragraph's conclusion. Use a closing inference or synthesis when it helps
+the reader interpret or connect the science. Avoid a repeated takeaway added
+solely to make every paragraph look complete.
 
 ## Throughline and surface realization
 
 Keep the paragraph map and reader endpoint as internal controls on drafting.
-Surface continuity should come from the scientific relation between adjacent
-claims: the later paragraph may narrow an object, qualify a prior result,
-expose a boundary, connect two evidence streams, or make a method newly
-necessary. It does not need to announce “this paragraph shows…” or restate the
-whole purpose to prove that the map was followed.
+Surface continuity can follow a shared question, parallel comparisons,
+dependencies between claims, or a synthesis of earlier material. A later
+paragraph may narrow an object, qualify a result, expose a boundary, connect
+evidence streams, or make a method relevant. Paragraphs need not form one linear
+chain. Keep a topic sentence, recap, or explicit transition when it helps the
+reader locate the point or follow a necessary relation.
 
 When a missing handoff is found, first add the smallest content-bearing bridge
 the evidence supports. Do not use a generic “therefore”, “however”, “this is
@@ -71,11 +82,11 @@ could not recover the relationship without it. The test is whether the sentence
 changes what the reader can understand, compare, or expect, not whether it
 names the section's internal goal.
 
-Before revising a passage in context, distinguish what the preceding text has
-already established, what this passage must add, and what the following text
-needs from it. Carry an established point forward as an input rather than
-proving it again. This is contextual reasoning, not a required paragraph
-sequence.
+Before revising a passage in context, recover the knowledge it relies on, its
+function, and any later argument that depends on it. Carry an established point
+forward as an input; revisit it when synthesis, comparison, or useful
+orientation requires it. This is contextual reasoning, not a requirement that
+every paragraph inherit from its predecessor and pass a new claim forward.
 
 ## Reasoning density
 
@@ -88,6 +99,14 @@ When several evidence streams matter jointly, explain what their convergence
 adds and what each stream can establish. When they answer parallel questions,
 allow parallel contributions rather than inventing one linear mechanism.
 
+These constructed cases illustrate the decision rather than reusable prose:
+
+| Situation | Repair that preserves scientific function |
+|---|---|
+| A Results subsection ends with the measurement condition; the next subsection tests whether the finding extends beyond it. | Keep the condition as the ending when the finding and its support are already clear. An added summary that repeats the finding does not improve the handoff. |
+| Two observations jointly support an interpretation, but their joint role is not apparent from the observations alone. | Explain the supported relation between them and the interpretation. Removing that bridge for brevity would make the reader supply a needed inference. |
+| Several Introduction paragraphs end by restating the same general need for the study. | Keep any uniquely supplied unresolved object or inference; fold duplicated announcements into the concrete relationship that lets the next paragraph follow. Do not replace them with a new uniform ending. |
+
 ## Section-scale drafting and review
 
 This check applies when generating, substantially rewriting, or reviewing a
@@ -96,9 +115,9 @@ paragraph into an existing section; it is not a language-polishing step added
 only at the end. Before writing multiple
 paragraphs, or a paragraph whose placement changes the surrounding argument,
 hold a compact internal model of the section's question, endpoint, and
-paragraph movement. For each paragraph, know what the
-preceding context has established, what new work the paragraph performs, and
-why the next paragraph can follow from it. Use a real relationship present in
+relevant scientific relationships. Identify the context a passage needs and
+the work it performs within the section, including orientation or synthesis.
+Use a real relationship present in
 the science—progression, comparison, convergence, discrimination, scale,
 process, boundary, anomaly, or justified parallelism—to determine the order.
 
@@ -108,15 +127,18 @@ could be exchanged without changing the argument, recurring
 "summary–elevation" endings, and purpose or gap announcements inserted only to
 complete a template. These are diagnostic signals, not automatic violations:
 parallel methods, results, evidence streams, and explicit inferences may legitimately retain
-parallel structure. If the relationship is real, make the inherited premise
-and new inference explicit; if it is absent, regroup, separate, or flag the
+parallel structure. Make a premise or inference explicit when the intended
+reader could not reliably recover it; if a supposed relationship is absent,
+regroup, separate, or flag the
 scope rather than adding ornamental transitions or an unsupported mechanism.
 
-Use a cumulative-progress test: after each paragraph, what can the reader now
-understand, compare, rule out, or connect that was not available before it?
-When a paragraph only restates its context, give it a different function,
-combine it with a related paragraph, or remove it. When the supplied material
-cannot support the intended handoff or endpoint, pause connective drafting, ask
+Use a reader-function test: does the passage supply evidence, reasoning,
+comparison, synthesis, a defining boundary, or useful orientation the section
+needs? A recap can help the reader without adding a new claim. Combine or
+remove repeated material when it supplies neither needed understanding nor
+navigation; do not demand a new finding or forward link from every paragraph.
+When the supplied material cannot support a consequential relation or claim,
+pause the affected drafting, ask
 one concrete question, or label the proposed structure provisional. Keep an
 unresolved scientific relationship visible rather than smoothing it into prose.
 
@@ -135,13 +157,13 @@ recommendation until the author accepts it.
 
 ## Final reasoning check
 
-Ask only:
+Check within the requested scope:
 
 - Is the reader endpoint clear?
 - Can the central claim be traced to supplied support?
 - Is every necessary non-obvious inference recoverable?
 - Is the claim bounded at the level the evidence earns?
-- Does the passage add or hand off the needed work without re-proving what the
-  context already established?
+- Does the passage perform its needed function, with any repetition serving
+  synthesis, comparison, or orientation rather than duplicating work?
 - Does the prose express the current author position rather than revision
   history or the editor's private reasoning?

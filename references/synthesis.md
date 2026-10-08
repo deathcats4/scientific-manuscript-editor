@@ -16,6 +16,10 @@ contribution accurately:
 - the main supported understanding;
 - any condition or boundary that changes its meaning.
 
+These are diagnostic roles to select for the component, not five required
+slots or a prescribed order. A title, abstract, and conclusion have different
+information needs; honor any author-requested or journal-required structure.
+
 Compression may remove secondary detail, repeated context, and procedures that
 do not affect interpretation. It must not remove a qualifier that carries
 scientific meaning or strengthen `supports` into `demonstrates`, association
@@ -30,7 +34,8 @@ scientific content unspecified; state the concrete change directly.
 
 An Abstract should let a reader who has not seen the paper form a correct
 minimal model of the study: why the question matters, what was done, what was
-found, and why the result changes understanding.
+found, and what the work establishes or enables. Keep the contribution at its
+supported scale rather than requiring a claim of wider significance.
 
 Choose emphasis from the actual contribution. A discovery-centred Abstract may
 move from problem to key observation and its meaning; a mechanism-centred one
@@ -38,9 +43,11 @@ may move from unresolved process to decisive evidence and explanation; a
 method- or resource-centred one may show the previous limitation, new
 capability, and science it enables. Hybrids are valid.
 
-Select results rather than listing them. Include method detail only when it is
-needed to understand credibility or the contribution. End with a concrete
-implication, not an empty importance formula.
+Select results rather than listing them. Include method detail when it is
+needed to understand credibility or the contribution. Express a supported
+implication where it helps the reader understand the work; the abstract can
+also end on its decisive finding or a defining condition when that completes
+the account. Do not append an importance sentence solely to fill an ending slot.
 
 ## Conclusion
 

@@ -24,7 +24,7 @@ argument within the author's supplied material.
 | Candidate | Actual problem to establish | Repair and false-positive boundary |
 |---|---|---|
 | Generic opening or significance ending | The sentence could attach to unrelated studies without adding a relevant claim | State existing substantive content directly. Keep a supported contribution, scope statement, or section orientation. |
-| Forced teleology or purpose announcement | The prose inserts a gap, objective, or “therefore” sentence only to satisfy an editorial plan, repeats what the preceding content already implies, or jumps from background to study without a content-bearing bridge | Remove or recast the announcement and repair the actual handoff. Keep an explicit study move when it names a concrete unresolved object and the response; do not infer a defect solely from `因此`、`基于此`、`this study`, or similar wording. |
+| Forced teleology or purpose announcement | The prose inserts a gap, objective, or “therefore” sentence only to satisfy an editorial plan, repeats information without useful orientation, or jumps from background to study without a content-bearing bridge | Remove or recast the empty announcement and repair a missing scientific relation. Keep an explicit study move when it supplies needed content or navigation; do not infer a defect solely from `因此`、`基于此`、`this study`, or similar wording. |
 | Repeated mini-essay structure | Each paragraph restarts the same premise and ends with the same abstract takeaway | Remove duplicated work or reorganize around real relationships. Parallel studies and procedures may legitimately remain parallel. |
 | Artificial opposition | A negative half invents a position solely to make the positive claim sound stronger | Retain supported claims and state the real relation. A genuine exclusion, comparison, or additive `not only X but also Y` carries content. |
 | Defensive repetition | Several caveats repeat one already calibrated boundary or rebut an unclaimed stronger proposition | State the existing boundary at its proper location. Preserve limitations that change interpretation. |
@@ -38,14 +38,17 @@ argument within the author's supplied material.
 Paragraph interchangeability, uniform length, and repeated closers are prompts
 to inspect function. Introductory framing, topic sentences, conclusions, and
 explicit inference can all be necessary; preserve reasoning while improving
-surface variety.
+observable defects. Similar form is acceptable when it fits the scientific
+content; variation is not a repair goal by itself.
 
 Resolve recurrence at the function level, not the string level. A repeated
 form is actionable only when the function it performs is duplicated across
 instances; the same closer can be load-bearing in one paragraph and empty in
 another. Rank same-function instances in this order: the author's latest
-accepted scientific state; correctness of evidence, conditions, scope, and
-modality; terminology and cross-section continuity; and only when those
+explicit accepted scientific decision, or the current manuscript's working
+position when no such decision is recovered; correctness of evidence,
+conditions, scope, and modality; terminology and cross-section continuity;
+and only when those
 tie, the instance that names the more specific processes, objects, systems,
 or conditions. Never select an instance for deletion because its surface
 form is the most pattern-visible, and never let specificity overrule state
@@ -65,8 +68,8 @@ instance: if it is the only statement of that gap, removing it is a
 structural change outside a naturalness edit.
 
 A deletion verdict stays provisional until the edited passage is reread with
-the deletion applied: the paragraph must still complete its own movement,
-and the following paragraph must still inherit what it needs from this one.
+the deletion applied: the passage must still perform its needed function,
+and any dependent text must still have the context or support it needs.
 A deletion that passes at sentence level can fail at paragraph or manuscript
 level; when it does, restore the content and repair the form instead.
 Include local cohesion in that reread: a demonstrative or connective whose
@@ -117,7 +120,8 @@ full-text scan by default.
 - In introductions, inspect purpose and gap markers such as `因此，有必要……`,
   `这为本研究提供了依据`, and `基于此，本研究……` for actual content. Do not
   add or remove them by rule: retain a marker that expresses a necessary
-  inference, but remove or fold in one that merely exposes the drafting plan.
+  inference or useful orientation, but remove or fold in one that merely
+  exposes the drafting plan.
 - Keep established scholarly terms and morphology. Shorten `进行分析` to `分析`
   when it improves the sentence; retain `形成`, `构建`, `性`, and `化` when
   they carry the intended scholarly relation and keep formal prose formal.
@@ -126,18 +130,15 @@ For mixed-language prose, apply each check to its local language and protect
 embedded terminology, formulas, and citations. These language notes remain
 subordinate to the manuscript's terminology and the authorized style source.
 
-For an Introduction, run a throughline deletion test after the ordinary
-naturalness pass: mentally remove each purpose, gap, significance, or summary
-signpost whose content is recoverable from the adjacent prose. The removal
-passes only when a reader who does not yet know the study can still recover
-the specific unresolved object and why this study addresses it from what
-remains; the editor already knows the study and is not that reader. When the
-test passes, do not restore the signpost. When it fails, replace the
-signpost with the smallest concrete relation, condition, object, or
-operation that the reader needs—not with a more elaborate declaration of
-necessity. A gap sentence that itself names the specific unresolved object,
-system, or condition is not a signpost: test it for duplication against
-other gap statements, never for silent deletion.
+For an Introduction, test suspected redundant framing from the intended
+reader's position. Consider removing it only when the remaining prose preserves
+the scientific relationship, emphasis, and useful orientation it supplies.
+Recoverability of a fact from adjacent prose alone is not enough: a topic
+sentence or recap may still help a reader who does not yet know the study.
+Repair established redundancy without automatically deleting purpose, gap,
+significance, or summary sentences. Keep the needed relation, object,
+condition, or operation explicit when the reader could not recover it. Do not
+require every Introduction to state a gap or every paragraph to announce one.
 
 ## Review and delivery
 
@@ -182,7 +183,7 @@ These constructed examples illustrate decisions, not reusable manuscript prose.
 | `此外，X 升高。相比之下，Y 降低。` | Keep the contrast. Whether the initial addition marker is useful depends on preceding context. |
 | `结果表明 X 升高。这一发现为理解 X 的升高提供了重要参考。` | Keep the result and its original strength; remove the empty second sentence. |
 | Three paragraphs report three distinct model comparisons with the same syntax | Retain necessary parallelism; flag only redundant framing, not the comparison structure itself. |
-| Three Introduction paragraphs each end in a gap statement; one names the specific processes, outcome, and system, two are generic | Keep the specific gap as the surviving instance and vary or fold the two generic endings. Do not delete the specific gap because its `remains poorly resolved` shape is the most pattern-visible. |
+| Three Introduction paragraphs repeat the same gap; their status and support agree, one identifies the relevant processes, outcome, and system, two supply neither distinct content nor useful orientation | Keep the content-bearing gap and remove or fold the redundant announcements. Do not replace them with another uniform closing pattern or delete the specific gap because its form is the most pattern-visible. |
 | Two duplicate gap statements: one matches the author's latest accepted position, the other is more specific but reflects a superseded or weaker-supported reading | Keep the current-state, correctly supported instance regardless of specificity; retire the superseded wording, and when the two cannot be ranked keep both and report the conflict. |
 | `We surveyed 120 participants. I have made this paragraph more concise.` | Keep the first sentence and its count; remove the editing narration. |
 | A prose-only draft supplies no magnitude for `a substantial improvement` | Preserve the magnitude claim and flag the evidential gap outside the draft when the supplied basis cannot resolve it. |

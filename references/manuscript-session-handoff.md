@@ -9,8 +9,8 @@ prose, not a session transcript, and not a replacement for
 Keep the three artifacts distinct:
 
 - **`MANUSCRIPT-CONTEXT.md`** is the durable project state: terminology,
-  accepted or provisional author state, evidence roles, claim boundaries, and
-  regression guards.
+  working, accepted, or provisional author state, evidence roles, claim
+  boundaries, and regression guards.
 - **`MANUSCRIPT-SESSION-HANDOFF.md`** is the next-session workset: the current
   task, the exact next action, attached evidence, open decisions, and material
   gaps. It may point to the context file instead of repeating it.
@@ -52,8 +52,10 @@ Keep the packet short and actionable. Use this order:
 1. **Destination.** The next session's goal and the first concrete action.
 2. **Current task.** Manuscript, section, language, requested operation,
    scope, venue or length constraint, and delivery form.
-3. **Current author state.** Only decisions that affect the next action;
-   label each `accepted`, `provisional`, or `open`.
+3. **Current author state.** Only positions that affect the next action;
+   carry their origins and `working`, `accepted`, or `provisional` status under
+   [manuscript-context.md](manuscript-context.md). Keep observations and
+   interpretations separate; list unanswered choices under open decisions.
 4. **Evidence package.** Links or paths to the relevant manuscript spans,
    displays, methods, and inspected sources; identify missing load-bearing
    material and its consequence.
@@ -83,9 +85,9 @@ Use this starting shape and omit empty sections:
 - Delivery:
 
 ## Current author state
-- [accepted] ... (basis: ...)
-- [provisional] ... (consequence: ...)
-- [open] ... (decision needed: ...)
+- [working] ... (origin: current manuscript; location: ...)
+- [accepted] ... (origin: explicit author decision; basis: ...)
+- [provisional] ... (origin: ...; consequence: ...)
 
 ## Evidence package
 - Claim or task dependency: ...
@@ -121,7 +123,7 @@ claim. Reopen the linked primary material when the next action depends on it.
 ## Completion check
 
 The next session can begin with the stated first action without rereading the
-full transcript; every accepted or provisional entry has a recoverable basis;
+full transcript; each scientific position has a recoverable origin and status;
 missing evidence and unresolved decisions are visible; superseded material is
 kept only as a regression guard; and no process record has been turned into
 manuscript content.

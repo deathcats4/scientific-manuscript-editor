@@ -27,10 +27,11 @@ section's claims depend on it, bundling such questions into one request.
 
 ## Determine the evidence relationship
 
-Identify the anchor finding and the role of other results. They may provide a
-comparison, control, discriminating test, convergent evidence, validation,
-robustness, boundary, null result, scale transition, component analysis, or a
-parallel answer to another question.
+Recover the findings and their relationships. Results may provide a comparison,
+control, discriminating test, convergent evidence, validation, robustness,
+boundary, null result, scale transition, component analysis, or parallel answers
+to different questions. Use an anchor finding when the evidence supports that
+organization; several findings need not be subordinated to one headline.
 
 Then organize around the relationship actually present—for example:
 
@@ -63,24 +64,26 @@ actual function.
 A caption makes a display independently readable: a reader who sees only
 the figure or table can identify what is shown, understand the notation,
 and decode the quantitative conventions without the Results text. It is
-an instruction sheet for the display, not a miniature Results section.
+a guide to the display whose organization follows its informational needs and
+the journal's or manuscript's established style; explicit journal requirements
+take precedence.
 
-Build the caption in this order:
+Check that the display and caption together provide the information needed to
+read it:
 
-1. One descriptive sentence stating what the display contains—object,
-   setting, comparison, display type—showing what is depicted, not what
-   it establishes. Default to a descriptive title unless the journal or
-   manuscript consistently uses declarative ones.
-2. Definitions in reading order. For figures, define every panel shown,
-   usually one clause each: subject, condition or comparison, and the
-   quantity or image represented. For tables, state the dataset,
-   principal variables or comparisons, and any units or conventions not
-   already clear from column headings and footnotes. Define the
-   non-obvious symbols, colors, line styles, abbreviations, arrows,
-   annotations, and scale bars; do not repeat labels that are already
-   unambiguous.
-3. Only the methodological or data-source information required to
-   interpret the display; procedures stay in Methods.
+- the object, setting, comparison, and quantities or images represented;
+- enough explanation to identify each panel or table variable and the relevant
+  conditions, units, and conventions;
+- definitions of non-obvious symbols, colors, line styles, abbreviations,
+  arrows, annotations, and scale bars;
+- methodological or data-source information required to interpret the display,
+  leaving unrelated procedures in Methods.
+
+These are completeness checks, not an order or a sentence allocation. Group
+panels when a shared explanation is clearer, and avoid repeating information
+already unambiguous in headings, labels, or footnotes. A descriptive or
+declarative title is appropriate when it fits the display, supplied support,
+and active caption style.
 
 For quantitative displays, define what the numbers need, following the
 journal's or manuscript's convention for placement: the summary measure
@@ -92,19 +95,16 @@ For a representative example (image, trace, spectrum, map, specimen),
 state the population of experiments or samples it represents when that
 is known.
 
-Keep the caption descriptive rather than argumentative:
+Include a finding or relationship when it helps identify or understand the
+display and the active caption style permits it. Keep such claims within the
+supplied evidence; broader mechanistic arguments belong in the relevant body
+section. Remove repeated Results narration and empty emphasis when they serve
+no caption function. Use connectives when they clarify a real relationship.
 
-- Do not narrate findings or repeat the Results text.
-- No conclusions, mechanisms, or claims of importance beyond what a
-  definition needs.
-- No rhetorical connectives or emphasis (notably, remarkably,
-  "consistent with"); definitions need no transitions.
-
-Length follows informational need: the fewest sentences that define the
-display completely, often one clause or sentence per panel. A
-journal-specified limit overrides. When a caption keeps growing, remove
-interpretation and procedural detail first, never the definitions the
-display needs to be read.
+Length and sentence boundaries follow readability, informational need, and
+applicable limits. A panel may need several clauses; several panels may share
+one explanation. When shortening, preserve the information needed to decode
+and evaluate the display.
 
 Keep the title and caption in the manuscript text, not baked into the
 artwork, unless the journal specifies otherwise.
@@ -115,9 +115,6 @@ never invent display details. When the display or its source is not
 supplied, apply the entrypoint's material sufficiency gate before
 writing.
 
-Follow the journal's or the manuscript's established caption style when
-either is available; explicit journal requirements take precedence.
-
 ## Guardrails
 
 - Give each result the weight its evidence and role require.
@@ -125,8 +122,9 @@ either is available; explicit journal requirements take precedence.
   depends on figures, tables, or data not supplied, apply the entrypoint's
   material sufficiency gate before writing it.
 - Link every important observation to a scientific role.
-- End each subsection with a claim whose supporting observation or comparison is
-  visible.
+- Make the subsection's finding and supporting observation or comparison
+  recoverable. Their placement follows the evidence relationship and reader's
+  needs; a closing claim is optional when the finding is already clear.
 - Interpret p-values, model scores, and threshold crossings through the full
   evidence rather than treating them as importance or mechanism by themselves.
 - Report null and non-significant results with the sensitivity and uncertainty of

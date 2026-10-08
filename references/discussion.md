@@ -17,9 +17,9 @@ now performs interpretive work.
 ## Recover the interpretation basis first
 
 Discussion depends most on author state. Before organizing, recover what the
-Results established, which interpretations the author has already accepted
-in the manuscript or collaboration, and what roles the supplied literature
-actually plays. Develop directly what this basis supports. Where a genuine
+Results established, the current manuscript's working interpretations, any
+explicit author decisions, and the roles the supplied literature actually
+plays. Keep those origins distinct and develop directly what this basis supports. Where a genuine
 interpretive choice remains open and would change the paper's conclusion,
 present the options with the evidence each relies on and a recommendation;
 ask only when that choice is load-bearing and cannot be resolved from the
@@ -59,8 +59,8 @@ explains another.
 ## Synthesize without replay
 
 Before drafting a closing synthesis, mechanistic model, or conceptual model,
-recover the current author-accepted conclusions that the preceding Discussion
-supports. At this stage, treat their completed evidence-to-interpretation chains
+recover the current working conclusions and explicit author decisions that
+the preceding Discussion supports. At this stage, treat their completed evidence-to-interpretation chains
 as inputs to the synthesis. Restate each input only as fully as the new
 relationship requires.
 
@@ -118,8 +118,10 @@ before extending a local result to a field-wide claim.
   interpretation or defines a real next test.
 - Keep a possible explanation at its stated level; place a necessary proof claim
   only where the evidence earns it.
-- Close each paragraph on the interpretation, boundary, implication, or
-  unresolved test it establishes.
+- Make the interpretation and its necessary support and boundaries recoverable
+  across the relevant passage. Let paragraph openings, order, and endings serve
+  that reasoning; a closing inference or summary is useful when the reader
+  needs it, without requiring the same move in every paragraph.
 
 ## Completion check
 

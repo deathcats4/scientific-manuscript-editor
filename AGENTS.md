@@ -34,6 +34,23 @@ changelog note.
 If the working tree is already dirty when a session starts, report that to the
 user before making further edits.
 
+## Package validation
+
+`scripts/save.sh` requires Python 3.9+ and PyYAML. Before changing the changelog,
+real index, or installed copies, it checks a temporary snapshot of HEAD plus
+only the named paths for valid skill metadata and existing local Markdown
+links. An unrelated working-tree file must not mask a missing committed link.
+
+For a direct check of the current working tree, run:
+
+    python -B -X utf8 scripts/validate.py
+
+When changing the validator or its save integration, run its focused checks:
+
+    python -B -X utf8 -m unittest discover -s scripts/tests -v
+
+These are package checks, not a manuscript-quality or writing-behavior benchmark.
+
 ## Commit message convention
 
 Format: `<area>: <what> — <why>`. Areas: `skill`, `readme`, `reasoning`,

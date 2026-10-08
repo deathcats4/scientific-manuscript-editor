@@ -35,10 +35,40 @@ Use this order when sources disagree:
 4. older drafts, process notes, or an earlier context entry.
 
 Surface a conflict that changes the requested content. Do not silently restore
-a superseded mechanism or wording from the context file. Update the context
-only after the author accepts the decision, or when the author explicitly asks
-to record a provisional state. A factual entry may be added from an inspected
-primary artifact, but its source and status must remain visible.
+a superseded mechanism or wording from the context file. A current manuscript
+claim may be recorded as `working`, and an inspected observation may be recorded
+with its source. Change a scientific decision to `accepted` only after explicit
+author acceptance. Record a provisional proposal when needed for the ongoing
+task or requested by the author, keeping its unresolved consequence visible.
+
+## Separate observation, interpretation, and acceptance
+
+Each entry carries one proposition, its origin, and a single decision status
+where applicable. Split a measured observation from the interpretation it may
+support; an accepted value does not confer acceptance on its interpretation.
+Distinguish the current manuscript, an explicit author decision, an inspected
+primary artifact, and an editor's recovery or proposal as origins.
+
+For scientific positions, use these statuses:
+
+| Status | Meaning and editing consequence |
+|---|---|
+| `working` | A position present in the manuscript supplied for editing, with no separate explicit acceptance recovered. Use it as the editing baseline unless reopened or contradicted; ordinary edits need no new confirmation. |
+| `accepted` | The author explicitly accepted this particular interpretation or decision. Cite the recoverable decision, not only the draft in which the wording appears. |
+| `provisional` | An exploratory interpretation or editor proposal not accepted as the manuscript's position. Keep its open choice and consequence visible. |
+| `rejected` | The author rejected the position; retain it only to prevent a likely regression. |
+
+Decision status and evidence verification answer different questions. Author
+acceptance does not verify a source or prove a mechanism. Record inspected
+observations and verification limits under evidence roles; list unanswered
+choices under open decisions rather than mixing statuses in one claim.
+
+For example, a constructed record separates: the reported mean is higher in
+group A than B (observation; source location); prior accumulation is a possible
+explanation (interpretation; `working` or `provisional` with its origin); and an
+author decision to retain that explanation (if explicitly made, `accepted`).
+Do not combine the comparison and explanation into one accepted entry with an
+open qualification appended.
 
 ## Keep the file small
 
@@ -54,8 +84,9 @@ The context has seven parts:
    scope, sample/site naming, and the intended audience when it affects claims.
 2. **Canonical terminology** — preferred terms, allowed variants,
    non-interchangeable terms, abbreviations, symbols, and units.
-3. **Current author state** — accepted interpretations and contribution
-   framing; mark each as `accepted`, `provisional`, or `rejected`.
+3. **Current author state** — individual interpretations and contribution
+   decisions with their origins; mark each as `working`, `accepted`,
+   `provisional`, or `rejected` using the definitions above.
 4. **Evidence roles** — the result, display, method condition, limitation, or
    inspected source that supports each load-bearing claim; link to the source
    or manuscript location rather than copying it.
@@ -82,11 +113,13 @@ The context has seven parts:
 | --- | --- | --- | --- | --- |
 
 ## Current author state
-- [accepted] ... (basis: ...)
-- [provisional] ... (open consequence: ...)
-- [rejected] ... (replacement: ...)
+- [working] ... (origin: current manuscript; location: ...)
+- [accepted] ... (origin: explicit author decision; basis: ...)
+- [provisional] ... (origin: ...; open consequence: ...)
+- [rejected] ... (origin: explicit author decision; replacement: ...)
 
 ## Evidence roles
+- Observation: ... (source/location; inspected or uninspected)
 - Claim or interpretation: ...
   - Supports: ... (location/source)
   - Limits: ... (location/source)
@@ -114,5 +147,7 @@ project.
 
 Before delivery, confirm that every context entry changed by the task is either
 still supported, explicitly updated, or marked as an open or superseded state;
-no AI-proposed decision has been recorded as accepted; and the delivered prose
-follows the reconciled current state rather than the context file alone.
+observations and interpretations have separate recoverable origins; every
+accepted decision has an explicit author basis rather than inferred approval;
+and the delivered prose follows the reconciled current state rather than the
+context file alone.
